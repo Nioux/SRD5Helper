@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="beric" xml:space="preserve">
+    <value>beric</value>
+  </data>
+  <data name="beric-description" xml:space="preserve">
+    <value>Beric est un jeune fils de forgeron, fort comme un taureau et adroit de ses mains.
+
+Il avait tout pour reprendre le métier de son père mais, au final, l’appel de l’aventure a été le plus fort. Foncièrement honnête, il ne laissera jamais un malandrin embêter les faibles.</value>
+  </data>
+  <data name="beric-name" xml:space="preserve">
+    <value>Beric</value>
+  </data>
+  <data name="beric-picture" xml:space="preserve">
+    <value>beric.png</value>
+  </data>
+  <data name="beric-small-picture" xml:space="preserve">
+    <value>beric_face.png</value>
+  </data>
+  <data name="darkna" xml:space="preserve">
+    <value>darkna</value>
+  </data>
+  <data name="darkna-description" xml:space="preserve">
+    <value>L’histoire personnelle de Darkna est un profond mystère. Quel est le secret de ses origines ? Nul ne le sait. La demi-orc elle-même n’en parle jamais. Qui est son père ? Qui est sa mère ? D’où vient son ascendance peau-verte ? Ce qu’on sait, c’est qu’à la mort de son dernier parent, la jeune-femme trouva un réconfort solitaire au coeur de la nature. Elle étudia alors la magie des druides, au contact de toutes les créatures, y compris les plus terribles.</value>
+  </data>
+  <data name="darkna-name" xml:space="preserve">
+    <value>Darkna</value>
+  </data>
+  <data name="darkna-picture" xml:space="preserve">
+    <value>darkna.png</value>
+  </data>
+  <data name="darkna-small-picture" xml:space="preserve">
+    <value>darkna_face.png</value>
+  </data>
+  <data name="galefrin" xml:space="preserve">
+    <value>galefrin</value>
+  </data>
+  <data name="galefrin-description" xml:space="preserve">
+    <value>Galefrin est le fils d’un couple de halfelins de maison engagés au service d’une noble du royaume elfe. Pris sous l’aile de sa protectrice, le petit fut éduqué comme l’aurait été un enfant de haute naissance. Mais son inextinguible curiosité poussa Galefrin à partir explorer le monde afin d’en découvrir les merveilles. Et aucune de ses mésaventures n’altère jamais sa légendaire bonne humeur.</value>
+  </data>
+  <data name="galefrin-name" xml:space="preserve">
+    <value>Galefrin</value>
+  </data>
+  <data name="galefrin-picture" xml:space="preserve">
+    <value>galefrin.png</value>
+  </data>
+  <data name="galefrin-small-picture" xml:space="preserve">
+    <value>galefrin_face.png</value>
+  </data>
+  <data name="ilzaach" xml:space="preserve">
+    <value>ilzaach</value>
+  </data>
+  <data name="ilzaach-description" xml:space="preserve">
+    <value>Né loin de l’Ancien Royaume et des tribus drakh, Ilzaach a vécu une enfance normale, appris son métier avec son père et grandit aux côtés de sa mère. Rien n’était plus cher à ses yeux que sa famille, et particulièrement sa petite soeur. Malheureusement, après la mort de son père, Ilzaach fut dévasté, après une nuit funeste, de découvrir la disparition du reste de sa famille. Il n’a jamais découvert ce qui leur était arrivé. Il se retira dans les Neuf, au monastère d’Elmir, où il apprit, à la dure, la puissance de l’esprit et de la conviction, devenant un paladin, prêt à protéger la veuve et l’orphelin.</value>
+  </data>
+  <data name="ilzaach-name" xml:space="preserve">
+    <value>Ilzaach</value>
+  </data>
+  <data name="ilzaach-picture" xml:space="preserve">
+    <value>ilzaach.png</value>
+  </data>
+  <data name="ilzaach-small-picture" xml:space="preserve">
+    <value>ilzaach_face.png</value>
+  </data>
+  <data name="leowen" xml:space="preserve">
+    <value>leowen</value>
+  </data>
+  <data name="leowen-description" xml:space="preserve">
+    <value>Née d’une union entre un humain et une elfe, Leowen Anamcaïl fut la seule fille d’une fratrie qui accueillait également deux garçons. Sa vie fut marquée de drames terribles : la disparition d’un frère et la mort de ses parents. Elle trouva refuge chez la conseillère de la Reine Éternelle de la terre des Elfes, mais décida de quitter le royaume après la disparition de son second frère. De nature solitaire, elle apprécie parfois la compagnie des autres, tant qu’ils la laissent agir comme elle l’entend.</value>
+  </data>
+  <data name="leowen-name" xml:space="preserve">
+    <value>Leowen</value>
+  </data>
+  <data name="leowen-picture" xml:space="preserve">
+    <value>leowen.png</value>
+  </data>
+  <data name="leowen-small-picture" xml:space="preserve">
+    <value>leowen_face.png</value>
+  </data>
+  <data name="malathor" xml:space="preserve">
+    <value>malathor</value>
+  </data>
+  <data name="malathor-description" xml:space="preserve">
+    <value>Malathor est né et a grandi au sein du culte de Justicaar. Fervent croyant, ancien pupille du culte, il y a été formé à la guerre et à la magie. Se révélant particulièrement doué, il en est devenu l’un des piliers, un chevalier questeur, chercheur de vérité et pourfendeur du mal. Il y a aussi trouvé l’amour auprès d’une prêtresse du culte. Ils se marièrent et eurent un enfant, Valkin. Son amour périt lors d’une mission, alors qu’ils affrontaient un monstre qu’ils voulaient renvoyer dans les tréfonds infernaux. Désormais, il continue d’accomplir sa mission, sans jamais perdre de vue son fils.</value>
+  </data>
+  <data name="malathor-name" xml:space="preserve">
+    <value>Malathor</value>
+  </data>
+  <data name="malathor-picture" xml:space="preserve">
+    <value>malathor.png</value>
+  </data>
+  <data name="malathor-small-picture" xml:space="preserve">
+    <value>malathor_face.png</value>
+  </data>
+  <data name="ozyias" xml:space="preserve">
+    <value>ozyias</value>
+  </data>
+  <data name="ozyias-description" xml:space="preserve">
+    <value>Né dans une famille de marchands, Ozyias a vécu une enfance paisible jusqu’à la perte tragique de ses parents. Recueilli par Akmar, ce dernier fut pour lui un véritable grand-père, mais aussi un maître et un mentor. C’est avec lui qu’il découvrit que son sang recelait un héritage puissant, et qu’il apprit comment contrôler la magie d’un ancêtre si particulier. Il finit par quitter sa famille, à la recherche d’aventures et des secrets de son don magique.</value>
+  </data>
+  <data name="ozyias-name" xml:space="preserve">
+    <value>Ozyias</value>
+  </data>
+  <data name="ozyias-picture" xml:space="preserve">
+    <value>ozyias.png</value>
+  </data>
+  <data name="ozyias-small-picture" xml:space="preserve">
+    <value>ozyias_face.png</value>
+  </data>
+  <data name="rhingann" xml:space="preserve">
+    <value>rhingann</value>
+  </data>
+  <data name="rhingann-description" xml:space="preserve">
+    <value>Rhingann est une robuste clerc naine de Père Eté, divinité de l'abondance et de la fertilité. Habituée à vivre à la dure, elle n’a pas froid aux yeux et saura se battre pour défendre les siens. Son but est d’apporter soin et réconfort à tous ceux qui en ont besoin, frappés par les hasards de la vie ou par les malheurs.</value>
+  </data>
+  <data name="rhingann-name" xml:space="preserve">
+    <value>Rhingann</value>
+  </data>
+  <data name="rhingann-picture" xml:space="preserve">
+    <value>rhingann.png</value>
+  </data>
+  <data name="rhingann-small-picture" xml:space="preserve">
+    <value>rhingann_face.png</value>
+  </data>
+  <data name="selmays" xml:space="preserve">
+    <value>selmays</value>
+  </data>
+  <data name="selmays-description" xml:space="preserve">
+    <value>Les parents de Selmays la destinaient à une vie calme d’études et de sagesse. Au final, elle a préféré tout quitter et partir à l’aventure pour découvrir le monde et toutes les forces magiques qui le soutiennent et le font vivre. Selmays est toujours distante et réservée mais, quand elle a décidé d’accorder son amitié, alors cette personne devient pour elle comme un membre de sa propre famille.</value>
+  </data>
+  <data name="selmays-name" xml:space="preserve">
+    <value>Selmays</value>
+  </data>
+  <data name="selmays-picture" xml:space="preserve">
+    <value>selmays.png</value>
+  </data>
+  <data name="selmays-small-picture" xml:space="preserve">
+    <value>selmays_face.png</value>
+  </data>
+  <data name="siam" xml:space="preserve">
+    <value>siam</value>
+  </data>
+  <data name="siam-description" xml:space="preserve">
+    <value>Siam a grandi dans les rues de Haute-Bannière, qu’il connaît comme sa poche. Il sait se mouvoir furtivement et aime surprendre adversaires comme amis en surgissant de nulle part. Dans la société des félys rigide faite de castes, il fait partie des Apprentis, la caste intermédiaire. Il avait commencé une formation pour devenir assassin mais doté d’un coeur et d’une morale, il a préféré quitter la ville. Il s’est lié d’amitié à des compagnons qui lui proposent le souffle de l’aventure où ses qualités font merveille.</value>
+  </data>
+  <data name="siam-name" xml:space="preserve">
+    <value>Siam</value>
+  </data>
+  <data name="siam-picture" xml:space="preserve">
+    <value>siam.png</value>
+  </data>
+  <data name="siam-small-picture" xml:space="preserve">
+    <value>siam_face.png</value>
+  </data>
+</root>

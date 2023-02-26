@@ -1,0 +1,921 @@
+﻿paddedarmor:
+  name: Armure matelassée
+  type: LightArmor
+  description: Comme un jaque, cette armure est constituée d’épaisses couches de tissu presque impossibles à trancher.
+  weight: 4000
+  cost: &o4
+    gP: 5
+  heaviness: Light
+  armorClass: 11
+  stealthDisadvantage: true
+leatherarmor:
+  name: Armure de cuir
+  type: LightArmor
+  description: Cette armure est faite en plusieurs pièces de cuir. La cuirasse et les spalières sont faites de cuir durci, tandis que les autres parties de l’armure sont plus flexibles pour permettre plus de liberté de mouvement.
+  weight: 5000
+  cost: &o1
+    gP: 10
+  heaviness: Light
+  armorClass: 11
+studdedleatherarmor:
+  name: Armure de cuir clouté
+  type: LightArmor
+  weight: 6500
+  cost:
+    gP: 45
+  heaviness: Light
+  armorClass: 12
+hidearmor:
+  name: Armure de peau
+  type: MediumArmor
+  weight: 6000
+  cost: *o1
+  armorClass: 12
+  maxDexterityModifier: 2
+chainshirt:
+  name: Chemise de mailles
+  type: MediumArmor
+  weight: 10000
+  cost: &o2
+    gP: 50
+  armorClass: 13
+  maxDexterityModifier: 2
+scalemail:
+  name: Armure d’écailles
+  type: MediumArmor
+  weight: 22500
+  cost: *o2
+  armorClass: 14
+  maxDexterityModifier: 2
+  stealthDisadvantage: true
+breastplate:
+  name: Cuirasse
+  type: MediumArmor
+  weight: 10000
+  cost:
+    gP: 400
+  armorClass: 14
+  maxDexterityModifier: 2
+halfplate:
+  name: Demi-plate
+  type: MediumArmor
+  weight: 20000
+  cost:
+    gP: 750
+  armorClass: 15
+  maxDexterityModifier: 2
+  stealthDisadvantage: true
+ringmail:
+  name: Broigne
+  type: HeavyArmor
+  weight: 20000
+  cost: &o14
+    gP: 30
+  heaviness: Heavy
+  armorClass: 14
+  stealthDisadvantage: true
+chainmail:
+  name: Cotte de mailles
+  type: HeavyArmor
+  weight: 27500
+  cost: &o21
+    gP: 75
+  heaviness: Heavy
+  armorClass: 16
+  strength: 13
+  stealthDisadvantage: true
+splint:
+  name: Clibanion
+  type: HeavyArmor
+  weight: 30000
+  cost:
+    gP: 200
+  heaviness: Heavy
+  armorClass: 17
+  strength: 15
+  stealthDisadvantage: true
+plate:
+  name: Harnois
+  type: HeavyArmor
+  weight: 32500
+  cost: &o22
+    gP: 1500
+  heaviness: Heavy
+  armorClass: 18
+  strength: 15
+  stealthDisadvantage: true
+shield:
+  name: Bouclier
+  type: Shield
+  description: >-
+    Les boucliers augmentent la Classe d'armure de 2.
+
+    Ils peuvent être constitués de différentes matières, mais cela ne change pas la nature de la protection offerte. Un seul bouclier peut être porté à la fois.
+  weight: 3000
+  cost: *o1
+  armorClassModifier: 2
+quarterstaff:
+  name: Bâton
+  type: SimpleMeleeWeapon
+  weight: 2000
+  cost: &o3
+    gP: 2
+  meleeDamage: &o7
+    dice: 6
+  versatileDamage: &o8
+    dice: 8
+  handCount: Versatile
+dagger:
+  name: Dague
+  type: SimpleMeleeWeapon
+  weight: 500
+  cost: *o3
+  meleeDamage:
+    dice: 4
+    type: Piercing
+  throwingDamage: &o11
+    dice: 4
+    type: Piercing
+    normalRange: 6
+    longRange: 18
+  weaponAbility: Dexterity
+  heaviness: Light
+club:
+  name: Gourdin
+  type: SimpleMeleeWeapon
+  weight: 1000
+  cost: &o12
+    sP: 1
+  meleeDamage: &o6
+    dice: 4
+  heaviness: Light
+handaxe:
+  name: Hachette
+  type: SimpleMeleeWeapon
+  weight: 1000
+  cost: *o4
+  meleeDamage: &o13
+    dice: 6
+    type: Slashing
+  throwingDamage:
+    dice: 6
+    type: Slashing
+    normalRange: 6
+    longRange: 18
+  heaviness: Light
+javelin:
+  name: Javeline
+  type: SimpleMeleeWeapon
+  weight: 1000
+  cost: &o23
+    sP: 5
+  meleeDamage: &o5
+    dice: 6
+    type: Piercing
+  throwingDamage:
+    dice: 6
+    type: Piercing
+    normalRange: 9
+    longRange: 36
+spear:
+  name: Lance
+  type: SimpleMeleeWeapon
+  weight: 1500
+  cost: &o9
+    gP: 1
+  meleeDamage: *o5
+  throwingDamage: &o20
+    dice: 6
+    type: Piercing
+    normalRange: 6
+    longRange: 18
+lighthammer:
+  name: Marteau léger
+  type: SimpleMeleeWeapon
+  weight: 1000
+  cost: *o3
+  meleeDamage: *o6
+  throwingDamage:
+    dice: 4
+    normalRange: 6
+    longRange: 18
+  heaviness: Light
+mace:
+  name: Masse d’armes
+  type: SimpleMeleeWeapon
+  weight: 2000
+  cost: *o4
+  meleeDamage: *o7
+greatclub:
+  name: Massue
+  type: SimpleMeleeWeapon
+  weight: 5000
+  cost: &o26
+    sP: 2
+  meleeDamage: *o8
+  handCount: TwoHanded
+sickle:
+  name: Serpe
+  type: SimpleMeleeWeapon
+  weight: 1000
+  cost: *o9
+  meleeDamage:
+    dice: 4
+    type: Slashing
+  heaviness: Light
+lightcrossbow:
+  name: Arbalète légère
+  type: SimpleRangedWeapon
+  weight: 2500
+  cost: &o10
+    gP: 25
+  rangeDamage:
+    dice: 8
+    type: Piercing
+    normalRange: 24
+    longRange: 96
+    ammunition: true
+    loading: true
+  handCount: TwoHanded
+shortbow:
+  name: Arc court
+  type: SimpleRangedWeapon
+  weight: 1000
+  cost: *o10
+  rangeDamage:
+    dice: 6
+    type: Piercing
+    normalRange: 24
+    longRange: 96
+    ammunition: true
+  handCount: TwoHanded
+dart:
+  name: Fléchette
+  type: SimpleRangedWeapon
+  weight: 100
+  cost: &o27
+    cP: 5
+  rangeDamage: *o11
+  weaponAbility: Dexterity
+sling:
+  name: Fronde
+  type: SimpleRangedWeapon
+  cost: *o12
+  rangeDamage:
+    dice: 4
+    normalRange: 9
+    longRange: 36
+    ammunition: true
+scimitar:
+  name: Cimeterre
+  type: MartialMeleeWeapon
+  weight: 1500
+  cost: *o10
+  meleeDamage: *o13
+  weaponAbility: Dexterity
+  heaviness: Light
+glaive:
+  name: Coutille
+  type: MartialMeleeWeapon
+  weight: 3000
+  cost: &o16
+    gP: 20
+  meleeDamage: &o17
+    dice: 10
+    type: Slashing
+    reach: true
+  handCount: TwoHanded
+  heaviness: Heavy
+greatsword:
+  name: Épée à deux mains
+  type: MartialMeleeWeapon
+  weight: 3000
+  cost: *o2
+  meleeDamage:
+    dice: 6
+    diceCount: 2
+    type: Slashing
+  handCount: TwoHanded
+  heaviness: Heavy
+shortsword:
+  name: Épée courte
+  type: MartialMeleeWeapon
+  weight: 1000
+  cost: *o1
+  meleeDamage: *o5
+  weaponAbility: Dexterity
+  heaviness: Light
+longsword:
+  name: Épée longue
+  type: MartialMeleeWeapon
+  weight: 5000
+  cost: &o18
+    gP: 15
+  meleeDamage: &o15
+    dice: 8
+    type: Slashing
+flail:
+  name: Fléau
+  type: MartialMeleeWeapon
+  weight: 1000
+  cost: *o1
+  meleeDamage: *o8
+whip:
+  name: Fouet
+  type: MartialMeleeWeapon
+  weight: 1500
+  cost: *o3
+  meleeDamage:
+    dice: 4
+    type: Slashing
+    reach: true
+  weaponAbility: Dexterity
+greataxe:
+  name: Hache à deux mains
+  type: MartialMeleeWeapon
+  weight: 3500
+  cost: *o14
+  meleeDamage:
+    dice: 12
+    type: Slashing
+  handCount: TwoHanded
+  heaviness: Heavy
+battleaxe:
+  name: Hache d’armes
+  type: MartialMeleeWeapon
+  weight: 2000
+  cost: *o1
+  meleeDamage: *o15
+  versatileDamage:
+    dice: 10
+    type: Slashing
+  handCount: Versatile
+halberd:
+  name: Hallebarde
+  type: MartialMeleeWeapon
+  weight: 3000
+  cost: *o16
+  meleeDamage: *o17
+  handCount: TwoHanded
+  heaviness: Heavy
+warpick:
+  name: Pic de guerre
+  type: MartialMeleeWeapon
+  weight: 1000
+  cost: *o4
+  meleeDamage: &o19
+    dice: 8
+    type: Piercing
+warhammer:
+  name: Marteau de guerre
+  type: MartialMeleeWeapon
+  weight: 1000
+  cost: *o18
+  meleeDamage: *o8
+  versatileDamage:
+    dice: 10
+  handCount: Versatile
+maul:
+  name: Merlin
+  type: MartialMeleeWeapon
+  weight: 5000
+  cost: *o1
+  meleeDamage:
+    dice: 6
+    diceCount: 2
+  handCount: TwoHanded
+  heaviness: Heavy
+morningstar:
+  name: Morgenstern
+  type: MartialMeleeWeapon
+  weight: 2000
+  cost: *o18
+  meleeDamage: *o19
+pike:
+  name: Pique
+  type: MartialMeleeWeapon
+  weight: 9000
+  cost: *o4
+  meleeDamage:
+    dice: 10
+    type: Piercing
+    reach: true
+  handCount: TwoHanded
+  heaviness: Heavy
+rapier:
+  name: Rapière
+  type: MartialMeleeWeapon
+  weight: 1000
+  cost: *o10
+  meleeDamage: *o19
+  weaponAbility: Dexterity
+trident:
+  name: Trident
+  type: MartialMeleeWeapon
+  weight: 2000
+  cost: *o4
+  meleeDamage: *o5
+  versatileDamage: *o19
+  throwingDamage: *o20
+  handCount: Versatile
+handcrossbow:
+  name: Arbalète de poing
+  type: MartialRangedWeapon
+  weight: 1500
+  cost: *o21
+  rangeDamage:
+    dice: 6
+    type: Piercing
+    normalRange: 9
+    longRange: 36
+    ammunition: true
+    loading: true
+  heaviness: Light
+heavycrossbow:
+  name: Arbalète lourde
+  type: MartialRangedWeapon
+  weight: 9000
+  cost: *o2
+  rangeDamage:
+    dice: 10
+    type: Piercing
+    normalRange: 30
+    longRange: 120
+    ammunition: true
+    loading: true
+  handCount: TwoHanded
+  heaviness: Heavy
+longbow:
+  name: Arc long
+  type: MartialRangedWeapon
+  weight: 1000
+  cost: *o2
+  rangeDamage:
+    dice: 8
+    type: Piercing
+    normalRange: 45
+    longRange: 180
+    ammunition: true
+  handCount: TwoHanded
+  heaviness: Heavy
+blowgun:
+  name: Sarbacane
+  type: MartialRangedWeapon
+  weight: 500
+  cost: *o1
+  rangeDamage:
+    dice: 1
+    type: Piercing
+    normalRange: 7
+    longRange: 30
+    ammunition: true
+    loading: true
+dwarfplate:
+  name: Harnois nain
+  type: Armor
+  weight: 32500
+  cost: *o22
+  heaviness: Heavy
+  armorClass: 19
+  strength: 15
+  stealthDisadvantage: true
+fierysword:
+  name: Épée ardente +1
+  type: MartialMeleeWeapon
+  meleeDamage: *o15
+fiole-acide:
+  name: Acide (fiole)
+  type: Item
+  weight: 500
+  cost: *o10
+balance-de-marchand:
+  name: Balance de marchand
+  type: Item
+  weight: 1500
+  cost: *o4
+belier-portatif:
+  name: Bélier portatif
+  type: Item
+  weight: 17500
+  cost:
+    gP: 4
+sac-de-1000-billes:
+  name: Billes (sac de 1 000)
+  type: Item
+  weight: 1000
+  cost: *o9
+bougie:
+  name: Bougie
+  type: Item
+  weight: 0
+  cost: &o24
+    cP: 1
+boulier:
+  name: Boulier
+  type: Item
+  weight: 1000
+  cost: *o3
+bouteille-en-verre:
+  name: Bouteille en verre
+  type: Item
+  weight: 1000
+  cost: *o3
+briquet-a-amadou:
+  name: Briquet à amadou
+  type: Item
+  weight: 500
+  cost: *o23
+cadenas:
+  name: Cadenas
+  type: Item
+  weight: 500
+  cost: *o1
+carquois:
+  name: Carquois
+  type: Item
+  weight: 500
+  cost: *o9
+chaine(3 mètres):
+  name: Chaîne (3 mètres)
+  type: Item
+  weight: 5000
+  cost: *o4
+chausse-trappes:
+  name: Chausse-trappes (sac de 20)
+  type: Item
+  weight: 1000
+  cost: *o9
+  quantity: 20
+chevaliere:
+  name: Chevalière
+  type: Item
+  weight: 0
+  cost: *o4
+cire-a-cacheter:
+  name: Cire à cacheter
+  type: Item
+  weight: 0
+  cost: *o23
+cloche:
+  name: Cloche
+  type: Item
+  weight: 0
+  cost: *o9
+coffre:
+  name: Coffre
+  type: Item
+  weight: 12500
+  cost: *o4
+corde-en-chanvre:
+  name: Corde en chanvre (15 mètres)
+  type: Item
+  weight: 5000
+  cost: *o9
+corde-en-soie:
+  name: Corde en soie (15 mètres)
+  type: Item
+  weight: 2500
+  cost: *o1
+couverture:
+  name: Couverture
+  type: Item
+  weight: 1500
+  cost: *o23
+craie(1 morceau):
+  name: Craie (1 morceau)
+  type: Item
+  weight: 0
+  cost: *o24
+cruche-ou-pichet:
+  name: Cruche ou pichet
+  type: Item
+  weight: 2000
+  cost: &o25
+    cP: 2
+eau-benite(flasque):
+  name: Eau bénite (flasque)
+  type: Item
+  weight: 500
+  cost: *o10
+echelle (3 mètres):
+  name: Échelle (3 mètres)
+  type: Item
+  weight: 12500
+  cost: *o12
+encre(bouteille de 30 grammes):
+  name: Encre (bouteille de 30 grammes)
+  type: Item
+  weight: 0
+  cost: *o1
+equipement-d-escalade:
+  name: Équipement d’escalade
+  type: Item
+  weight: 6000
+  cost: *o10
+etui-pour-carreaux:
+  name: Étui pour carreaux
+  type: Item
+  weight: 500
+  cost: *o9
+etui-a-cartes-ou-parchemins:
+  name: Étui à cartes ou parchemins
+  type: Item
+  weight: 500
+  cost: *o9
+fiole:
+  name: Fiole
+  type: Item
+  weight: 0
+  cost: *o9
+flasque ou chope:
+  name: Flasque ou chope
+  type: Item
+  weight: 500
+  cost: *o25
+grappin:
+  name: Grappin
+  type: Item
+  weight: 2000
+  cost: *o3
+grimoire:
+  name: Grimoire
+  type: Item
+  weight: 1500
+  cost: *o2
+huile(flasque):
+  name: Huile (flasque)
+  type: Item
+  weight: 500
+  cost: *o12
+lampe:
+  name: Lampe
+  type: Item
+  weight: 500
+  cost: *o23
+lanterne-a-capote:
+  name: Lanterne à capote
+  type: Item
+  weight: 1000
+  cost: *o4
+lanterne-sourde:
+  name: Lanterne sourde
+  type: Item
+  weight: 1000
+  cost: *o1
+livre:
+  name: Livre
+  type: Item
+  weight: 2500
+  cost: *o10
+longue-vue:
+  name: Longue-vue
+  type: Item
+  weight: 500
+  cost:
+    gP: 1000
+loupe:
+  name: Loupe
+  type: Item
+  weight: 0
+  cost:
+    gP: 100
+marteau:
+  name: Marteau
+  type: Item
+  weight: 1500
+  cost: *o9
+masse:
+  name: Masse
+  type: Item
+  weight: 5000
+  cost: *o3
+materiel-de-peche:
+  name: Matériel de pêche
+  type: Item
+  weight: 2000
+  cost: *o9
+menottes:
+  name: Menottes
+  type: Item
+  weight: 3000
+  cost: *o3
+miroir-en-acier:
+  name: Miroir en acier
+  type: Item
+  weight: 250
+  cost: *o4
+flèches:
+  name: Flèches (20)
+  type: Item
+  weight: 500
+  cost: *o9
+  quantity: 20
+dards-de-sarbacane:
+  name: Dards de sarbacane (50)
+  type: Item
+  weight: 500
+  cost: *o9
+  quantity: 50
+carreaux-d-arbalète(20):
+  name: Carreaux d’arbalète (20)
+  type: Item
+  weight: 750
+  cost: *o9
+  quantity: 20
+billes-de-fronde(20):
+  name: Billes de fronde (20)
+  type: Item
+  weight: 750
+  cost:
+    cP: 4
+outre:
+  name: Outre
+  type: Item
+  weight: 2500
+  cost: *o26
+palan:
+  name: Palan
+  type: Item
+  weight: 2500
+  cost: *o9
+panier:
+  name: Panier
+  type: Item
+  weight: 1000
+  cost:
+    sP: 4
+papier(1 feuille):
+  name: Papier (1 feuille)
+  type: Item
+  weight: 0
+  cost: *o26
+parchemin(1 feuille):
+  name: Parchemin (1 feuille)
+  type: Item
+  weight: 0
+  cost: *o12
+parfum(fiole):
+  name: Parfum (fiole)
+  type: Item
+  weight: 0
+  cost: *o4
+pelle:
+  name: Pelle
+  type: Item
+  weight: 2500
+  cost: *o3
+perche(3 mètres):
+  name: Perche (3 mètres)
+  type: Item
+  weight: 3500
+  cost: *o27
+pics-en-fer(10):
+  name: Pics en fer (10)
+  type: Item
+  weight: 2500
+  cost: *o9
+pied-de-biche:
+  name: Pied-de-biche
+  type: Item
+  weight: 2500
+  cost: *o3
+piege-a-machoires:
+  name: Piège à mâchoires
+  type: Item
+  weight: 12500
+  cost: *o4
+pierre-a-affuter:
+  name: Pierre à affûter
+  type: Item
+  weight: 500
+  cost: *o24
+pioche-de-mineur:
+  name: Pioche de mineur
+  type: Item
+  weight: 5000
+  cost: *o3
+piton:
+  name: Piton
+  type: Item
+  weight: 125
+  cost: *o27
+porte-plume:
+  name: Porte - plume
+  type: Item
+  weight: 0
+  cost: *o25
+pot-en-fer:
+  name: Pot en fer
+  type: Item
+  weight: 5000
+  cost: *o3
+potion-de-soins:
+  name: Potion de soins
+  type: Item
+  weight: 250
+  cost: *o2
+rations:
+  name: Rations (1 jour)
+  type: Item
+  weight: 1000
+  cost: *o23
+sablier:
+  name: Sablier
+  type: Item
+  weight: 500
+  cost: *o10
+sac:
+  name: Sac
+  type: Item
+  weight: 250
+  cost: *o24
+sac-a-dos:
+  name: Sac à dos
+  type: Item
+  weight: 2500
+  cost: *o3
+sac-de-couchage:
+  name: Sac de couchage
+  type: Item
+  weight: 3500
+  cost: *o9
+sacoche:
+  name: Sacoche
+  type: Item
+  weight: 500
+  cost: *o23
+savon:
+  name: Savon
+  type: Item
+  weight: 0
+  cost: *o25
+seau:
+  name: Seau
+  type: Item
+  weight: 1000
+  cost: *o27
+sifflet:
+  name: Sifflet
+  type: Item
+  weight: 0
+  cost: *o27
+amulette:
+  name: Amulette
+  type: Item
+  weight: 500
+  cost: *o4
+embleme:
+  name: Emblème
+  type: Item
+  weight: 0
+  cost: *o4
+reliquaire:
+  name: Reliquaire
+  type: Item
+  weight: 1000
+  cost: *o4
+tente-deux-personnes:
+  name: Tente, deux personnes
+  type: Item
+  weight: 10000
+  cost: *o3
+tonneau:
+  name: Tonneau
+  type: Item
+  weight: 35000
+  cost: *o3
+torche:
+  name: Torche
+  type: Item
+  weight: 500
+  cost: *o24
+trousse-de-soins:
+  name: Trousse de soins
+  type: Item
+  weight: 1500
+  cost: *o4
+costume:
+  name: Costume
+  type: Item
+  weight: 2000
+  cost: *o4
+habits-courants:
+  name: Habits courants
+  type: Item
+  weight: 1500
+  cost: *o23
+habits-de-bonne-qualite:
+  name: Habits de bonne qualité
+  type: Item
+  weight: 3000
+  cost: *o18
+robes:
+  name: Robes
+  type: Item
+  weight: 2000
+  cost: *o9
+tenue-de-voyageur:
+  name: Tenue de voyageur
+  type: Item
+  weight: 2000
+  cost: *o3

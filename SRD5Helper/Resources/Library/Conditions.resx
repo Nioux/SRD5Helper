@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="blinded" xml:space="preserve">
+    <value>blinded</value>
+  </data>
+  <data name="blinded-description" xml:space="preserve">
+    <value>* Si une créature est aveuglée, elle ne peut plus réussir de tests de caractéristiques qui demandent d’utiliser ses capacités visuelles. On ne lance même pas le dé.
+* Une créature aveuglée subit un désavantage sur ses jets d’attaque.
+* Les attaques qui ciblent une créature aveuglée bénéficient d’un avantage.</value>
+  </data>
+  <data name="blinded-name" xml:space="preserve">
+    <value>Aveuglé</value>
+  </data>
+  <data name="charmed" xml:space="preserve">
+    <value>charmed</value>
+  </data>
+  <data name="charmed-description" xml:space="preserve">
+    <value>* Si une créature est charmée par une autre, elle ne peut plus l’attaquer ni la cibler avec un quelconque effet néfaste.
+* Si une créature en a charmé une autre, elle bénéficie d’un avantage pour toutes ses interactions sociales avec elle.</value>
+  </data>
+  <data name="charmed-name" xml:space="preserve">
+    <value>Charmé</value>
+  </data>
+  <data name="deafened" xml:space="preserve">
+    <value>deafened</value>
+  </data>
+  <data name="deafened-description" xml:space="preserve">
+    <value>* Si une créature est assourdie, elle ne peut plus réussir de tests de caractéristiques qui demandent d’utiliser ses capacités auditives. On ne lance même pas le dé.</value>
+  </data>
+  <data name="deafened-name" xml:space="preserve">
+    <value>Assourdi</value>
+  </data>
+  <data name="frightened" xml:space="preserve">
+    <value>frightened</value>
+  </data>
+  <data name="frightened-description" xml:space="preserve">
+    <value>* Si une créature est terrorisée et que la source de sa terreur se trouve dans son champ de vision, elle subit un désavantage sur ses tests de caractéristiques et ses jets d’attaque.
+* Une créature terrorisée ne peut pas décider d’approcher la source de sa terreur.</value>
+  </data>
+  <data name="frightened-name" xml:space="preserve">
+    <value>Terrorisé</value>
+  </data>
+  <data name="grappled" xml:space="preserve">
+    <value>grappled</value>
+  </data>
+  <data name="grappled-description" xml:space="preserve">
+    <value>* Si une créature est empoignée, sa vitesse passe à 0. Tout bonus ou malus est ignoré. Pour s’en défaire, elle doit parvenir à infliger l’état neutralisé à l’empoigneur.
+* Il est possible pour d’autres combattants de sortir une créature de cet état. En effet, si une créature empoignée sort de la portée de l’empoigneur ou de l’effet d’empoignade (celui-ci pouvant être d’origine magique), cet état prend fin.</value>
+  </data>
+  <data name="grappled-name" xml:space="preserve">
+    <value>Empoigné</value>
+  </data>
+  <data name="incapacitated" xml:space="preserve">
+    <value>incapacitated</value>
+  </data>
+  <data name="incapacitated-description" xml:space="preserve">
+    <value>* Si une créature est neutralisée, elle ne peut plus effectuer d’action pendant son tour de jeu. Elle ne peut plus non plus effectuer de réaction.</value>
+  </data>
+  <data name="incapacitated-name" xml:space="preserve">
+    <value>Neutralisé</value>
+  </data>
+  <data name="invisible" xml:space="preserve">
+    <value>invisible</value>
+  </data>
+  <data name="invisible-description" xml:space="preserve">
+    <value>* À moins d’être bruyante ou de laisser des traces de son passage, une créature invisible est parfaitement indétectable à l’oeil nu. Elle bénéficie d’un avantage sur ses tests d’attaque.
+* En termes de règles, l’invisibilité correspond à la visibilité nulle (voir section L'aventure).
+* Les attaques qui ciblent une créature invisible subissent un désavantage.</value>
+  </data>
+  <data name="invisible-name" xml:space="preserve">
+    <value>Invisible</value>
+  </data>
+  <data name="paralyzed" xml:space="preserve">
+    <value>paralyzed</value>
+  </data>
+  <data name="paralyzed-description" xml:space="preserve">
+    <value>* Si une créature est paralysée, elle ne peut plus réussir ses jets de sauvegarde de Force ou de Dextérité. On ne lance même pas le dé.
+* Les attaques de corps à corps qui ciblent une créature paralysée bénéficient d’un avantage et infligent un coup critique.
+* Les attaques à distance qui ciblent une créature paralysée bénéficient d’un avantage.
+* Une créature paralysée est aussi neutralisée. Elle ne peut plus se déplacer ni communiquer.</value>
+  </data>
+  <data name="paralyzed-name" xml:space="preserve">
+    <value>Paralisé</value>
+  </data>
+  <data name="petrified" xml:space="preserve">
+    <value>petrified</value>
+  </data>
+  <data name="petrified-description" xml:space="preserve">
+    <value>* Si une créature est transformée en substance solide inanimée, elle est pétrifiée. Tous ses objets subissent le même sort. Son poids est multiplié par 10. La créature devient immunisée contre le poison et les maladies et ne vieillit plus (néanmoins, tous ces états reprennent lorsque l’état pétrifié disparaît).
+* Si une créature est pétrifiée, elle ne peut plus réussir ses jets de sauvegarde de Force ou de Dextérité. On ne lance même pas le dé.
+* Les attaques qui ciblent une créature pétrifiée bénéficient d’un avantage.
+* Une créature pétrifiée est aussi neutralisée. Elle ne peut plus se déplacer, communiquer ni percevoir.</value>
+  </data>
+  <data name="petrified-name" xml:space="preserve">
+    <value>Pétrifié</value>
+  </data>
+  <data name="poisoned" xml:space="preserve">
+    <value>poisoned</value>
+  </data>
+  <data name="poisoned-description" xml:space="preserve">
+    <value>* Si une créature est empoisonnée, tous ses jets d’attaque et tests de caractéristiques souffrent d’un désavantage.</value>
+  </data>
+  <data name="poisoned-name" xml:space="preserve">
+    <value>Empoisonné</value>
+  </data>
+  <data name="prone" xml:space="preserve">
+    <value>prone</value>
+  </data>
+  <data name="prone-description" xml:space="preserve">
+    <value>* Lorsqu’une créature se met ou se retrouve _à terre_, elle subit un _désavantage_ sur ses jets d’attaque.
+* Les attaques au corps à corps qui ciblent une créature à terre obtiennent un _avantage_.
+* Les attaques à distance qui ciblent une créature à terre obtiennent un _désavantage_.
+* Se relever permet d’annuler cet état.</value>
+  </data>
+  <data name="prone-name" xml:space="preserve">
+    <value>À terre</value>
+  </data>
+  <data name="restrained" xml:space="preserve">
+    <value>restrained</value>
+  </data>
+  <data name="restrained-description" xml:space="preserve">
+    <value>* Si une créature est entravée, sa vitesse passe à 0. Tout bonus ou malus est ignoré.
+* La créature subit également un désavantage sur ses jets d’attaque et de sauvegarde de Dextérité.
+* Les attaques qui ciblent une créature entravée bénéficient d’un avantage.</value>
+  </data>
+  <data name="restrained-name" xml:space="preserve">
+    <value>Entravé</value>
+  </data>
+  <data name="special" xml:space="preserve">
+    <value>special</value>
+  </data>
+  <data name="special-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="special-name" xml:space="preserve">
+    <value>Spécial</value>
+  </data>
+  <data name="stunned" xml:space="preserve">
+    <value>stunned</value>
+  </data>
+  <data name="stunned-description" xml:space="preserve">
+    <value>* Si une créature est étourdie, elle ne peut pas réussir ses jets de sauvegarde de Force ou de Dextérité. On ne lance même pas le dé.
+* Les attaques qui ciblent une créature étourdie bénéficient d’un avantage.
+* Une créature étourdie est aussi neutralisée. Elle ne peut plus se déplacer ni s’exprimer clairement.</value>
+  </data>
+  <data name="stunned-name" xml:space="preserve">
+    <value>Étourdi</value>
+  </data>
+  <data name="unconscious" xml:space="preserve">
+    <value>unconscious</value>
+  </data>
+  <data name="unconscious-description" xml:space="preserve">
+    <value>* Une créature inconsciente rate automatiquement tous ses jets de sauvegarde de Force et de Dextérité.
+* Les attaques de corps à corps qui ciblent une créature inconsciente bénéficient d’un avantage et infligent un coup critique si elles touchent la cible.
+* Les attaques à distance qui ciblent une créature inconsciente bénéficient d’un avantage.
+* Lorsqu’une créature obtient cet état, elle lâche tout ce qu’elle tenait. Elle ne peut plus ni se déplacer, ni agir, ni communiquer, ni percevoir.
+* Une créature inconsciente est également neutralisée.
+* Lorsque cet état prend fin, la créature est à terre.</value>
+  </data>
+  <data name="unconscious-name" xml:space="preserve">
+    <value>Inconscient</value>
+  </data>
+</root>

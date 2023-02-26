@@ -1,0 +1,1127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="acces-aux-sorts-niveau-2" xml:space="preserve">
+    <value>acces-aux-sorts-niveau-2</value>
+  </data>
+  <data name="acces-aux-sorts-niveau-2-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="acces-aux-sorts-niveau-2-name" xml:space="preserve">
+    <value>Accès aux sorts niveau 2</value>
+  </data>
+  <data name="acharnement" xml:space="preserve">
+    <value>acharnement</value>
+  </data>
+  <data name="acharnement-description" xml:space="preserve">
+    <value>Quand vous vous retrouvez à 0 point de vie, mais que vous n’êtes pas tué sur le champ, vous pouvez choisir d’être réduit à 1 point de vie à la place. Vous ne pouvez pas réutiliser cette aptitude tant que vous n’avez pas terminé un repos long.</value>
+  </data>
+  <data name="acharnement-name" xml:space="preserve">
+    <value>Acharnement</value>
+  </data>
+  <data name="agilite-feline" xml:space="preserve">
+    <value>agilite-feline</value>
+  </data>
+  <data name="agilite-feline-description" xml:space="preserve">
+    <value>Vous obtenez un avantage sur vos tests de Force (Athlétisme).</value>
+  </data>
+  <data name="agilite-feline-name" xml:space="preserve">
+    <value>Agilité féline</value>
+  </data>
+  <data name="agilite-halfeline" xml:space="preserve">
+    <value>agilite-halfeline</value>
+  </data>
+  <data name="agilite-halfeline-description" xml:space="preserve">
+    <value>Vous pouvez traverser n’importe quel emplacement occupé par une créature plus grande que vous.</value>
+  </data>
+  <data name="agilite-halfeline-name" xml:space="preserve">
+    <value>Agilité halfeline</value>
+  </data>
+  <data name="amelioration-de-caracteristique" xml:space="preserve">
+    <value>amelioration-de-caracteristique</value>
+  </data>
+  <data name="amelioration-de-caracteristique-charisma" xml:space="preserve">
+    <value>amelioration-de-caracteristique-charisma</value>
+  </data>
+  <data name="amelioration-de-caracteristique-charisma-description" xml:space="preserve">
+    <value>Quand vous atteignez le niveau 4, vous pouvez augmenter de 2 la valeur d'une caractéristique de votre choix ou augmenter de 1 la valeur de deux caractéristiques de votre choix.</value>
+  </data>
+  <data name="amelioration-de-caracteristique-charisma-name" xml:space="preserve">
+    <value>Amélioration de caractéristique : Charisme</value>
+  </data>
+  <data name="amelioration-de-caracteristique-constitution" xml:space="preserve">
+    <value>amelioration-de-caracteristique-constitution</value>
+  </data>
+  <data name="amelioration-de-caracteristique-constitution-description" xml:space="preserve">
+    <value>Quand vous atteignez le niveau 4, vous pouvez augmenter de 2 la valeur d'une caractéristique de votre choix ou augmenter de 1 la valeur de deux caractéristiques de votre choix.</value>
+  </data>
+  <data name="amelioration-de-caracteristique-constitution-name" xml:space="preserve">
+    <value>Amélioration de caractéristique : Constitution</value>
+  </data>
+  <data name="amelioration-de-caracteristique-description" xml:space="preserve">
+    <value>Quand vous atteignez le niveau 4, vous pouvez augmenter de 2 la valeur d'une caractéristique de votre choix ou augmenter de 1 la valeur de deux caractéristiques de votre choix.</value>
+  </data>
+  <data name="amelioration-de-caracteristique-dexterity" xml:space="preserve">
+    <value>amelioration-de-caracteristique-dexterity</value>
+  </data>
+  <data name="amelioration-de-caracteristique-dexterity-description" xml:space="preserve">
+    <value>Quand vous atteignez le niveau 4, vous pouvez augmenter de 2 la valeur d'une caractéristique de votre choix ou augmenter de 1 la valeur de deux caractéristiques de votre choix.</value>
+  </data>
+  <data name="amelioration-de-caracteristique-dexterity-name" xml:space="preserve">
+    <value>Amélioration de caractéristique : Dextérité</value>
+  </data>
+  <data name="amelioration-de-caracteristique-intelligence" xml:space="preserve">
+    <value>amelioration-de-caracteristique-intelligence</value>
+  </data>
+  <data name="amelioration-de-caracteristique-intelligence-description" xml:space="preserve">
+    <value>Quand vous atteignez le niveau 4, vous pouvez augmenter de 2 la valeur d'une caractéristique de votre choix ou augmenter de 1 la valeur de deux caractéristiques de votre choix.</value>
+  </data>
+  <data name="amelioration-de-caracteristique-intelligence-name" xml:space="preserve">
+    <value>Amélioration de caractéristique : Intelligence</value>
+  </data>
+  <data name="amelioration-de-caracteristique-name" xml:space="preserve">
+    <value>Amélioration de caractéristique</value>
+  </data>
+  <data name="amelioration-de-caracteristique-strength" xml:space="preserve">
+    <value>amelioration-de-caracteristique-strength</value>
+  </data>
+  <data name="amelioration-de-caracteristique-strength-description" xml:space="preserve">
+    <value>Quand vous atteignez le niveau 4, vous pouvez augmenter de 2 la valeur d'une caractéristique de votre choix ou augmenter de 1 la valeur de deux caractéristiques de votre choix.</value>
+  </data>
+  <data name="amelioration-de-caracteristique-strength-name" xml:space="preserve">
+    <value>Amélioration de caractéristique : Force</value>
+  </data>
+  <data name="amelioration-de-caracteristique-wisdom" xml:space="preserve">
+    <value>amelioration-de-caracteristique-wisdom</value>
+  </data>
+  <data name="amelioration-de-caracteristique-wisdom-description" xml:space="preserve">
+    <value>Quand vous atteignez le niveau 4, vous pouvez augmenter de 2 la valeur d'une caractéristique de votre choix ou augmenter de 1 la valeur de deux caractéristiques de votre choix.</value>
+  </data>
+  <data name="amelioration-de-caracteristique-wisdom-name" xml:space="preserve">
+    <value>Amélioration de caractéristique : Sagesse</value>
+  </data>
+  <data name="ancetre-fielon" xml:space="preserve">
+    <value>ancetre-fielon</value>
+  </data>
+  <data name="ancetre-fielon-description" xml:space="preserve">
+    <value>À chaque fois que vous faites un test de Charisme alors que vous
+interagissez avec des fiélons, le bonus de maîtrise est doublé s’il s’applique.</value>
+  </data>
+  <data name="ancetre-fielon-name" xml:space="preserve">
+    <value>Ancètre fiélon</value>
+  </data>
+  <data name="archetype-de-rodeur" xml:space="preserve">
+    <value>archetype-de-rodeur</value>
+  </data>
+  <data name="archetype-de-rodeur-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="archetype-de-rodeur-name" xml:space="preserve">
+    <value>Archétype de Rôdeur</value>
+  </data>
+  <data name="archetype-de-roublard" xml:space="preserve">
+    <value>archetype-de-roublard</value>
+  </data>
+  <data name="archetype-de-roublard-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="archetype-de-roublard-name" xml:space="preserve">
+    <value>Archétype de Roublard</value>
+  </data>
+  <data name="argot-des-voleurs" xml:space="preserve">
+    <value>argot-des-voleurs</value>
+  </data>
+  <data name="argot-des-voleurs-description" xml:space="preserve">
+    <value>Au cours de votre formation de roublard, on vous a enseigné un langage singulier, mélange de terminologie et de signes. Grâce à cet argot, vous êtes capable de masquer des informations précises au milieu d'échanges sans intérêt. Ne peuvent comprendre ces informations que les individus formé à cet argot. Faire passer un message de cette façon nécessite une durée quatre fois supérieure à l'expression directe et normale du message.
+
+L'argot des voleurs est également constitué de quelques signes et de symboles, parfois peints ou gravés, dont la présence peut indiquer différentes choses : une zone dangereuse, un territoire détenu par telle organisation, une cible facile, l'emplacement de richesses ou un endroit sûr pour se cacher ou être caché par des alliés.</value>
+  </data>
+  <data name="argot-des-voleurs-name" xml:space="preserve">
+    <value>Argot des voleurs</value>
+  </data>
+  <data name="arme-sacree" xml:space="preserve">
+    <value>arme-sacree</value>
+  </data>
+  <data name="arme-sacree-description" xml:space="preserve">
+    <value>En utilisant une action, l’arme devient magique pendant 1 minute. Vous ajoutez le modificateur de Charisme au jet d’attaque, l'arme se met alors à luire fortement. Cet effet prend fin par une action ou si vous lâchez l’arme ou perdez conscience.</value>
+  </data>
+  <data name="arme-sacree-name" xml:space="preserve">
+    <value>Arme sacrée</value>
+  </data>
+  <data name="ascendance-draconique" xml:space="preserve">
+    <value>ascendance-draconique</value>
+  </data>
+  <data name="ascendance-draconique-description" xml:space="preserve">
+    <value>Vous avez des ancêtres draconiques. Choisissez un type de dragon dans le tableau des ascendances. Votre choix détermine votre souffle et votre résistance aux dégâts, comme indiqué dans le tableau.</value>
+  </data>
+  <data name="ascendance-draconique-name" xml:space="preserve">
+    <value>Ascendance draconique</value>
+  </data>
+  <data name="ascendance-feerique" xml:space="preserve">
+    <value>ascendance-feerique</value>
+  </data>
+  <data name="ascendance-feerique-description" xml:space="preserve">
+    <value>Vous bénéficiez d'un avantage sur les jets de sauvegarde contre l’effet charmé et un effet magique ne peut pas vous plonger dans le sommeil.</value>
+  </data>
+  <data name="ascendance-feerique-name" xml:space="preserve">
+    <value>Ascendance féerique</value>
+  </data>
+  <data name="ascendance-infernale" xml:space="preserve">
+    <value>ascendance-infernale</value>
+  </data>
+  <data name="ascendance-infernale-description" xml:space="preserve">
+    <value>Vous connaissez le tour de magie thaumaturgie. Quand vous atteignez le niveau 3, vous pouvez lancer une fois le sort représailles infernales comme sort de niveau 2 grâce à ce trait. Pour pouvoir lancer de nouveau ce sort, vous devez terminer un repos long. À partir du niveau 5, vous pouvez lancer une fois le sort ténèbres grâce à ce trait. Pour pouvoir lancer de nouveau ce sort, vous devez finir un repos long. Votre caractéristique d’incantation pour lancer ces sorts est le Charisme.</value>
+  </data>
+  <data name="ascendance-infernale-name" xml:space="preserve">
+    <value>Ascendance infernale</value>
+  </data>
+  <data name="attaque-sournoise" xml:space="preserve">
+    <value>attaque-sournoise</value>
+  </data>
+  <data name="attaque-sournoise-description" xml:space="preserve">
+    <value>Vous êtes un maître de l'attaque subtile qui profite des moments d'inattention d'un ennemi. Une fois par tour, quand vous bénéficiez de l'avantage sur votre jet d'attaque ou si la cible se tient à moins de 1,50 mètre d'un de vos allié non neutralisé et que ce dernier ne souffre pas d'un désavantage sur son jet d'attaque, alors, dans ces deux cas de figure, vous infligez 1d6 dégâts supplémentaires. Au niveau 3, les dégâts supplémentaires passent à 2d6.</value>
+  </data>
+  <data name="attaque-sournoise-name" xml:space="preserve">
+    <value>Attaque sournoise</value>
+  </data>
+  <data name="brave" xml:space="preserve">
+    <value>brave</value>
+  </data>
+  <data name="brave-description" xml:space="preserve">
+    <value>Vous bénéficiez d'un avantage sur les jets de sauvegarde contre la terreur.</value>
+  </data>
+  <data name="brave-name" xml:space="preserve">
+    <value>Brave</value>
+  </data>
+  <data name="canalisation-d-energie-divine" xml:space="preserve">
+    <value>canalisation-d-energie-divine</value>
+  </data>
+  <data name="canalisation-d-energie-divine-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="canalisation-d-energie-divine-name" xml:space="preserve">
+    <value>Canalisation d'énergie divine</value>
+  </data>
+  <data name="cercle-druidique" xml:space="preserve">
+    <value>cercle-druidique</value>
+  </data>
+  <data name="cercle-druidique-description" xml:space="preserve">
+    <value>Quand vous atteignez le niveau 2, vous décidez d’adopter les valeurs d’un cercle druidique.</value>
+  </data>
+  <data name="cercle-druidique-name" xml:space="preserve">
+    <value>Cercle druidique</value>
+  </data>
+  <data name="chanceux" xml:space="preserve">
+    <value>chanceux</value>
+  </data>
+  <data name="chanceux-description" xml:space="preserve">
+    <value>Si tu obtiens un 1 sur un d20, que ce soit pour un jet d'attaque, de sauvegarde ou de caractéristique, tu peux relancer le dé. Mais tu dois utiliser le nouveau résultat du jet.</value>
+  </data>
+  <data name="chanceux-name" xml:space="preserve">
+    <value>Chanceux</value>
+  </data>
+  <data name="chatiment-divin" xml:space="preserve">
+    <value>chatiment-divin</value>
+  </data>
+  <data name="chatiment-divin-description" xml:space="preserve">
+    <value>À partir du niveau 2, quand vous touchez une créature à l'aide d'une arme de corps à corps, vous pouvez dépenser un emplacement de sorts pour infliger des dégâts radiants en plus de ceux de votre attaque. Ajoutez 2d8 à ses dégâts. Si la cible est un mort-vivant ou un fiélon, ajoutez 1d8 supplémentaire.</value>
+  </data>
+  <data name="chatiment-divin-name" xml:space="preserve">
+    <value>Châtiment divin</value>
+  </data>
+  <data name="connaissance-de-la-pierre" xml:space="preserve">
+    <value>connaissance-de-la-pierre</value>
+  </data>
+  <data name="connaissance-de-la-pierre-description" xml:space="preserve">
+    <value>Quand vous faites un test d’Intelligence (Histoire) relatif au travail de la pierre, vous considérez que vous possédez la maîtrise de la compétence Histoire et vous ajoutez le double de votre bonus de maîtrise au résultat du test au lieu de votre bonus de maîtrise normal.</value>
+  </data>
+  <data name="connaissance-de-la-pierre-name" xml:space="preserve">
+    <value>Connaissance de la pierre</value>
+  </data>
+  <data name="critique-ameliore" xml:space="preserve">
+    <value>critique-ameliore</value>
+  </data>
+  <data name="critique-ameliore-description" xml:space="preserve">
+    <value>Tu obtiens un coup critique sur un jet d'attaque en faisant 19 ou 20 sur le dé à vingt faces.</value>
+  </data>
+  <data name="critique-ameliore-name" xml:space="preserve">
+    <value>Critique amélioré</value>
+  </data>
+  <data name="defense-sans-armure" xml:space="preserve">
+    <value>defense-sans-armure</value>
+  </data>
+  <data name="defense-sans-armure-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="defense-sans-armure-name" xml:space="preserve">
+    <value>Défense sans armure</value>
+  </data>
+  <data name="difficile-a-croire" xml:space="preserve">
+    <value>difficile-a-croire</value>
+  </data>
+  <data name="difficile-a-croire-description" xml:space="preserve">
+    <value>Personne ne fait confiance à un chat et vous subissez donc un
+désavantage à tous vos tests de Persuasion (Charisme) quand votre interlocuteur n’est pas un félys.</value>
+  </data>
+  <data name="difficile-a-croire-name" xml:space="preserve">
+    <value>Difficile à croire</value>
+  </data>
+  <data name="discretion-naturelle" xml:space="preserve">
+    <value>discretion-naturelle</value>
+  </data>
+  <data name="discretion-naturelle-description" xml:space="preserve">
+    <value>Vous pouvez tenter de vous cacher en toutes circonstances, même si vous êtes uniquement dissimulé par une créature faisant au moins une taille de plus que vous.</value>
+  </data>
+  <data name="discretion-naturelle-name" xml:space="preserve">
+    <value>Discrétion naturelle</value>
+  </data>
+  <data name="domaine-d-influence-vie-soins" xml:space="preserve">
+    <value>domaine-d-influence-vie-soins</value>
+  </data>
+  <data name="domaine-d-influence-vie-soins-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="domaine-d-influence-vie-soins-name" xml:space="preserve">
+    <value>Domaine d'influence : vie, soins</value>
+  </data>
+  <data name="druidique" xml:space="preserve">
+    <value>druidique</value>
+  </data>
+  <data name="druidique-description" xml:space="preserve">
+    <value>Vous connaissez le druidique, la langue secrète des druides. Vous pouvez parler cette langue et l’utiliser pour laisser des messages cachés. Vous, ainsi que toutes les autres personnes qui parlent le druidique, repérez immédiatement de tels messages. D’autres créatures peuvent aussi repérer la présence d’un message en réussissant un test de Sagesse (Perception) DD 15, mais elles doivent faire appel à la magie si elles veulent le déchiffrer.</value>
+  </data>
+  <data name="druidique-name" xml:space="preserve">
+    <value>Druidique</value>
+  </data>
+  <data name="enfant-de-l-ombre" xml:space="preserve">
+    <value>enfant-de-l-ombre</value>
+  </data>
+  <data name="enfant-de-l-ombre-description" xml:space="preserve">
+    <value>À partir du niveau 3, en utilisant une action bonus, vous pouvez désigner une source de lumière non magique à une portée de 18 mètres et réduire de moitié le rayon de lumière vive qu’elle émet, pendant 1 minute. La zone de lumière faible n’est pas affectée. Par exemple, une torche voit sa zone de lumière vive réduite à 3 mètres, mais sa zone de lumière faible reste de 6 mètres.
+
+De plus, vous obtenez un avantage aux tests de Dextérité (Discrétion) que vous effectuez dans une zone de lumière faible.</value>
+  </data>
+  <data name="enfant-de-l-ombre-name" xml:space="preserve">
+    <value>Enfant de l'ombre</value>
+  </data>
+  <data name="enfant-des-tenebres" xml:space="preserve">
+    <value>enfant-des-tenebres</value>
+  </data>
+  <data name="enfant-des-tenebres-description" xml:space="preserve">
+    <value>Au niveau 2, vous êtes capable de parler le commun des profondeurs, une langue exotique. Vous êtes capable également de lancer le tour de magie de lumière. Votre vision dans le noir double sa portée.</value>
+    <comment>errata à remonter sur "portée"</comment>
+  </data>
+  <data name="enfant-des-tenebres-name" xml:space="preserve">
+    <value>Enfant des ténèbres</value>
+  </data>
+  <data name="ennemi-jure" xml:space="preserve">
+    <value>ennemi-jure</value>
+  </data>
+  <data name="ennemi-jure-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ennemi-jure-mort-vivants" xml:space="preserve">
+    <value>ennemi-jure-mort-vivants</value>
+  </data>
+  <data name="ennemi-jure-mort-vivants-description" xml:space="preserve">
+    <value>Vous obtenez un avantage sur les tests de Sagesse (Survie) pour traquer les morts-vivants, ainsi que sur les tests d’Intelligence permettant de se souvenir d’informations les concernant.</value>
+  </data>
+  <data name="ennemi-jure-mort-vivants-name" xml:space="preserve">
+    <value>Ennemi juré, mort-vivants</value>
+  </data>
+  <data name="ennemi-jure-name" xml:space="preserve">
+    <value>Ennemi juré</value>
+  </data>
+  <data name="entrainement-aux-armes-elfiques" xml:space="preserve">
+    <value>entrainement-aux-armes-elfiques</value>
+  </data>
+  <data name="entrainement-aux-armes-elfiques-description" xml:space="preserve">
+    <value>Vous maîtrisez les épées longues, les épées courtes, les arcs longs et les arcs courts.</value>
+  </data>
+  <data name="entrainement-aux-armes-elfiques-name" xml:space="preserve">
+    <value>Entraînement aux armes elfiques</value>
+  </data>
+  <data name="entrainement-aux-armes-naines" xml:space="preserve">
+    <value>entrainement-aux-armes-naines</value>
+  </data>
+  <data name="entrainement-aux-armes-naines-description" xml:space="preserve">
+    <value>Vous maîtrisez les haches de guerre, les hachettes, les marteaux légers et les marteaux de guerre.</value>
+  </data>
+  <data name="entrainement-aux-armes-naines-name" xml:space="preserve">
+    <value>Entraînement aux armes naines</value>
+  </data>
+  <data name="expertise" xml:space="preserve">
+    <value>expertise</value>
+  </data>
+  <data name="expertise-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="expertise-discretion" xml:space="preserve">
+    <value>expertise-discretion</value>
+  </data>
+  <data name="expertise-discretion-description" xml:space="preserve">
+    <value>Vous êtes un expert dans la compétence Discrétion. Vous ajoutez donc votre bonus de maîtrise une fois supplémentaire quand vous faites un jet de Discrétion.</value>
+  </data>
+  <data name="expertise-discretion-name" xml:space="preserve">
+    <value>Expertise : Discrétion</value>
+  </data>
+  <data name="expertise-name" xml:space="preserve">
+    <value>Expertise</value>
+  </data>
+  <data name="expertise-outils-de-voleur" xml:space="preserve">
+    <value>expertise-outils-de-voleur</value>
+  </data>
+  <data name="expertise-outils-de-voleur-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="expertise-outils-de-voleur-name" xml:space="preserve">
+    <value>Expertise : Outils de voleur</value>
+  </data>
+  <data name="expertise-rogue" xml:space="preserve">
+    <value>expertise-rogue</value>
+  </data>
+  <data name="expertise-rogue-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="expertise-rogue-name" xml:space="preserve">
+    <value>Expertise (Roublard)</value>
+  </data>
+  <data name="expertise-supercherie" xml:space="preserve">
+    <value>expertise-supercherie</value>
+  </data>
+  <data name="expertise-supercherie-description" xml:space="preserve">
+    <value>Vous êtes un expert dans la compétence Supercherie. Vous ajoutez donc votre bonus de maîtrise une fois supplémentaire quand vous faites un jet de Supercherie.</value>
+  </data>
+  <data name="expertise-supercherie-name" xml:space="preserve">
+    <value>Expertise : Supercherie</value>
+  </data>
+  <data name="explorateur-ne" xml:space="preserve">
+    <value>explorateur-ne</value>
+  </data>
+  <data name="explorateur-ne-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="explorateur-ne-foret" xml:space="preserve">
+    <value>explorateur-ne-foret</value>
+  </data>
+  <data name="explorateur-ne-foret-description" xml:space="preserve">
+    <value>Quand vous évoluez en forêt, vous obtenez un avantage sur tous vos tests de compétence et de sauvegarde.</value>
+  </data>
+  <data name="explorateur-ne-foret-name" xml:space="preserve">
+    <value>Explorateur né, forêt</value>
+  </data>
+  <data name="explorateur-ne-name" xml:space="preserve">
+    <value>Explorateur né</value>
+  </data>
+  <data name="fleche-arcanique" xml:space="preserve">
+    <value>fleche-arcanique</value>
+  </data>
+  <data name="fleche-arcanique-description" xml:space="preserve">
+    <value>À partir du niveau 3, vous êtes capable d’enchanter une flèche. En utilisant une action bonus et en dépensant un emplacement de sort, vous obtenez l’avantage sur une attaque à distance réalisée dans le même round et vous ajoutez 1d6 dégâts. La flèche est considérée comme magique.</value>
+  </data>
+  <data name="fleche-arcanique-name" xml:space="preserve">
+    <value>Flèche arcanique</value>
+  </data>
+  <data name="forme-monstrueuse" xml:space="preserve">
+    <value>forme-monstrueuse</value>
+  </data>
+  <data name="forme-monstrueuse-description" xml:space="preserve">
+    <value>Vous reconnaissez les créatures étranges comme des enfants de la nature. À partir du niveau 2, vous pouvez sacrifier deux utilisations de «forme sauvage» pour vous transformer en créature monstrueuse.</value>
+  </data>
+  <data name="forme-monstrueuse-harpie" xml:space="preserve">
+    <value>forme-monstrueuse-harpie</value>
+  </data>
+  <data name="forme-monstrueuse-harpie-description" xml:space="preserve">
+    <value>Au niveau 4, vous pouvez adopter la forme d’une harpie (une femme/sorcière/rapace capable de voler).</value>
+  </data>
+  <data name="forme-monstrueuse-harpie-name" xml:space="preserve">
+    <value>Forme monstrueuse, harpie</value>
+  </data>
+  <data name="forme-monstrueuse-name" xml:space="preserve">
+    <value>Forme monstrueuse</value>
+  </data>
+  <data name="forme-monstrueuse-worg" xml:space="preserve">
+    <value>forme-monstrueuse-worg</value>
+  </data>
+  <data name="forme-monstrueuse-worg-description" xml:space="preserve">
+    <value>Au niveau 2, vous pouvez vous transformer en worg, une forme de loup monstrueux. Vous pouvez alors ajouter un bonus de +2 à toutes vos actions et aux dégâts. Au niveau 4, ce bonus passe à +4.</value>
+  </data>
+  <data name="forme-monstrueuse-worg-name" xml:space="preserve">
+    <value>Forme monstrueuse, worg</value>
+  </data>
+  <data name="forme-sauvage" xml:space="preserve">
+    <value>forme-sauvage</value>
+  </data>
+  <data name="forme-sauvage-amelioree" xml:space="preserve">
+    <value>forme-sauvage-amelioree</value>
+  </data>
+  <data name="forme-sauvage-amelioree-description" xml:space="preserve">
+    <value>Au niveau 4, vous êtes capable d’adopter la forme d’un animal aquatique ou d'une puissance supérieure (crocodile, ours brun). Les dégâts d’une attaque peuvent monter à 1d10+5.
+
+Vous pouvez utiliser cette capacité deux fois. Ensuite, vous devez terminer un repos court ou long avant de récupérer les deux utilisations.</value>
+  </data>
+  <data name="forme-sauvage-amelioree-name" xml:space="preserve">
+    <value>Forme sauvage améliorée</value>
+  </data>
+  <data name="forme-sauvage-description" xml:space="preserve">
+    <value>À partir du niveau 2, vous êtes capable d’adopter la forme d’un animal que vous avez déjà vu, d’une puissance limitée (loup, blaireau géant, serpent, etc.) pendant un nombre d’heures équivalent à la moitié de votre niveau de druide (arrondi à l’inférieur). Vous choisissez quelle partie de votre équipement tombe au sol lors de la transformation ou fusionne avec votre nouvelle forme.
+
+Vous ne pouvez toutefois pas adopter la forme d’un animal capable de voler ou aquatique.
+
+Vous conservez votre personnalité, votre alignement, votre valeur d'Intelligence, de Sagesse, de Charisme, ainsi que vos points de vie. Pour toutes les actions physiques, si l’animal dispose de capacités particulièrement adaptées (un chat pour marcher sur un toit, une
+souris pour être discret), vous bénéficiez alors d’un avantage sur le jet, si la meneuse de jeu est d’accord. À l’inverse, vous pouvez également subir un désavantage si l’action ne correspond pas du tout à la forme animale choisie, toujours à la discrétion de la meneuse de jeu.
+
+Pour les attaques, vous effectuez une attaque au corps à corps classique. Les dégâts sont déterminés par la meneuse de jeu selon la forme animale choisie, dans une fourchette comprise entre 1d4-1 et 1d8+2.</value>
+  </data>
+  <data name="forme-sauvage-name" xml:space="preserve">
+    <value>Forme sauvage</value>
+  </data>
+  <data name="griffes-du-fauve" xml:space="preserve">
+    <value>griffes-du-fauve</value>
+  </data>
+  <data name="griffes-du-fauve-description" xml:space="preserve">
+    <value>À mains nues, vous pouvez utiliser vos griffes rétractiles. Normalement, un coup de poing (ou de pied) fait 1 point de dégâts plus le bonus de Force en dommages contondants. Mais vous, si vous utilisez vos petites griffes, provoquez des dégâts perforants. Coup de poing griffu (arme de mêlée, +1 pour toucher, 2 points de dégâts perforants).</value>
+  </data>
+  <data name="griffes-du-fauve-name" xml:space="preserve">
+    <value>Griffes du fauve</value>
+  </data>
+  <data name="grimoire-plus-2-sorts" xml:space="preserve">
+    <value>grimoire-plus-2-sorts</value>
+  </data>
+  <data name="grimoire-plus-2-sorts-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grimoire-plus-2-sorts-name" xml:space="preserve">
+    <value>Grimoire : +2 sorts</value>
+  </data>
+  <data name="imposition-des-mains" xml:space="preserve">
+    <value>imposition-des-mains</value>
+  </data>
+  <data name="imposition-des-mains-description" xml:space="preserve">
+    <value>Vous détenez un pouvoir de guérison. En utilisant une action, vous pouvez restaurer un nombre de PV égal à 5 fois votre niveau à une créature en la touchant. Pour un prix de 5 PV sacrifiés, vous pouvez aussi guérir une maladie ou un poison.
+
+Votre réserve de guérison se régénère après chaque repos long. Cette aptitude ne fonctionne pas sur les morts-vivants ou les créatures artificielles. Elle ne les blesse pas non plus.</value>
+  </data>
+  <data name="imposition-des-mains-name" xml:space="preserve">
+    <value>Imposition des mains</value>
+  </data>
+  <data name="incantations" xml:space="preserve">
+    <value>incantations</value>
+  </data>
+  <data name="incantations-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="incantations-name" xml:space="preserve">
+    <value>Incantations</value>
+  </data>
+  <data name="initie" xml:space="preserve">
+    <value>initie</value>
+  </data>
+  <data name="initie-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="initie-name" xml:space="preserve">
+    <value>Initié</value>
+  </data>
+  <data name="inspiration-bardique-d6" xml:space="preserve">
+    <value>inspiration-bardique-d6</value>
+  </data>
+  <data name="inspiration-bardique-d6-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="inspiration-bardique-d6-name" xml:space="preserve">
+    <value>Inspiration bardique d6</value>
+  </data>
+  <data name="langue-supplementaire" xml:space="preserve">
+    <value>langue-supplementaire</value>
+  </data>
+  <data name="langue-supplementaire-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="langue-supplementaire-name" xml:space="preserve">
+    <value>Langue supplémentaire</value>
+  </data>
+  <data name="mains-lestes" xml:space="preserve">
+    <value>mains-lestes</value>
+  </data>
+  <data name="mains-lestes-description" xml:space="preserve">
+    <value>À partir du niveau 3, vous pouvez utiliser l’action bonus que vous permet l’aptitude de ruse pour entreprendre un test de Dextérité (Escamotage), utiliser vos outils de voleurs pour désamorcer un piège ou crocheter une serrure, ou encore réaliser l’action utiliser un objet.</value>
+  </data>
+  <data name="mains-lestes-name" xml:space="preserve">
+    <value>Mains lestes</value>
+  </data>
+  <data name="maitrise-armures" xml:space="preserve">
+    <value>maitrise-armures</value>
+  </data>
+  <data name="maitrise-armures-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="maitrise-armures-name" xml:space="preserve">
+    <value>Maîtrise : Armures</value>
+  </data>
+  <data name="maitrise-des-elements" xml:space="preserve">
+    <value>maitrise-des-elements</value>
+  </data>
+  <data name="maitrise-des-elements-description" xml:space="preserve">
+    <value>À partir du niveau 2, vous pouvez changer une énergie pour une autre lorsqu’il s’agit d’un sort infligeant des dégâts de feu, de froid ou de foudre.</value>
+  </data>
+  <data name="maitrise-des-elements-name" xml:space="preserve">
+    <value>Maîtrise des éléments</value>
+  </data>
+  <data name="maitrise-des-outils" xml:space="preserve">
+    <value>maitrise-des-outils</value>
+  </data>
+  <data name="maitrise-des-outils-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="maitrise-des-outils-name" xml:space="preserve">
+    <value>Maîtrise des outils</value>
+  </data>
+  <data name="menacant" xml:space="preserve">
+    <value>menacant</value>
+  </data>
+  <data name="menacant-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menacant-name" xml:space="preserve">
+    <value>Menaçant</value>
+  </data>
+  <data name="metamagie" xml:space="preserve">
+    <value>metamagie</value>
+  </data>
+  <data name="metamagie-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="metamagie-name" xml:space="preserve">
+    <value>Métamagie</value>
+  </data>
+  <data name="metamagie-sort-distant" xml:space="preserve">
+    <value>metamagie-sort-distant</value>
+  </data>
+  <data name="metamagie-sort-distant-description" xml:space="preserve">
+    <value>À partir du niveau 3, quand vous décidez de lancer un sort avec une portée de 1,50 m ou plus, vous pouvez dépenser un point de sorcellerie pour que la portée du sort soit doublée. Si le sort a une portée de contact, dépenser 1 point de sorcellerie lui donne une portée de 9 mètres.</value>
+  </data>
+  <data name="metamagie-sort-distant-name" xml:space="preserve">
+    <value>Métamagie, sort distant</value>
+  </data>
+  <data name="metamagie-sort-jumeau" xml:space="preserve">
+    <value>metamagie-sort-jumeau</value>
+  </data>
+  <data name="metamagie-sort-jumeau-description" xml:space="preserve">
+    <value>À partir du niveau 3, quand vous ciblez une seule et unique créature (et non une zone, par exemple) avec un sort, dont la portée n'est pas personnelle, vous pouvez dépenser autant de points de sorcellerie que le niveau du sort (1 point pour un tour de magie) afin que ce sort cible une seconde cible à portée.</value>
+  </data>
+  <data name="metamagie-sort-jumeau-name" xml:space="preserve">
+    <value>Métamagie, sort jumeau</value>
+  </data>
+  <data name="monte-en-l-air" xml:space="preserve">
+    <value>monte-en-l-air</value>
+  </data>
+  <data name="monte-en-l-air-description" xml:space="preserve">
+    <value>À partir du niveau 3, vous obtenez la capacité d’escalader plus vite que la normale. Escalader ne vous coûte plus de déplacement supplémentaire. De plus, quand vous faites un saut avec élan, la distance à laquelle vous pouvez sauter est augmentée de 30 cm x votre modificateur de Dextérité.</value>
+  </data>
+  <data name="monte-en-l-air-name" xml:space="preserve">
+    <value>Monte-en-l'air</value>
+  </data>
+  <data name="ombrelame" xml:space="preserve">
+    <value>ombrelame</value>
+  </data>
+  <data name="ombrelame-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ombrelame-name" xml:space="preserve">
+    <value>Ombrelame</value>
+  </data>
+  <data name="origine-magique" xml:space="preserve">
+    <value>origine-magique</value>
+  </data>
+  <data name="origine-magique-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="origine-magique-name" xml:space="preserve">
+    <value>Origine magique</value>
+  </data>
+  <data name="points-de-sorcellerie" xml:space="preserve">
+    <value>points-de-sorcellerie</value>
+  </data>
+  <data name="points-de-sorcellerie-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="points-de-sorcellerie-name" xml:space="preserve">
+    <value>Points de sorcellerie</value>
+  </data>
+  <data name="polyvalence" xml:space="preserve">
+    <value>polyvalence</value>
+  </data>
+  <data name="polyvalence-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="polyvalence-name" xml:space="preserve">
+    <value>Polyvalence</value>
+  </data>
+  <data name="porte-etendard" xml:space="preserve">
+    <value>porte-etendard</value>
+  </data>
+  <data name="porte-etendard-description" xml:space="preserve">
+    <value>Au prix d’une action, vous provoquez tous les ennemis qui se trouvent dans un rayon de 9 mètres autour de vous. Ceux qui ratent un jet de sauvegarde de Sagesse doivent à leur prochain tour choisir l'action attaquer et vous choisir comme cible si vous êtes à une distance inférieure à leur allonge, ou l'action se précipiter et se rapprocher de vous dans le cas contraire. À votre prochain tour, vous pouvez au prix d’une action attaquer tous les ennemis à votre portée. Si vous n’avez pas subi de dégât pendant le round précédent, vous obtenez un avantage sur ces attaques.</value>
+  </data>
+  <data name="porte-etendard-name" xml:space="preserve">
+    <value>Porte-étandard</value>
+  </data>
+  <data name="projection-spirituelle" xml:space="preserve">
+    <value>projection-spirituelle</value>
+  </data>
+  <data name="projection-spirituelle-description" xml:space="preserve">
+    <value>En dépensant une action, en pleine forêt, après avoir sifflé une étrange mélodie pendant une minute, une créature – moineau ou rongeur – se présente à vous. Vous pouvez alors projeter votre esprit et vos sens en elle, la contrôler et voir et entendre à travers elle, pendant 10 minutes. La créature doit opérer dans un rayon de 500 mètres autour de vous qui ne pouvez alors plus agir ni entendre ni voir avec votre propre corps. Vous pouvez choisir de mettre fin à la projection quand vous le voulez. La capacité s’interrompt également si vous recevez un coup ou des dégâts ou si la créature est tuée. Dans ces cas de figure, vous subissez alors un désavantage à toutes vos actions pendant 1 minute. Il faut terminer un repos long avant de pouvoir réutiliser cette capacité.</value>
+  </data>
+  <data name="projection-spirituelle-name" xml:space="preserve">
+    <value>Projection spirituelle</value>
+  </data>
+  <data name="rage" xml:space="preserve">
+    <value>rage</value>
+  </data>
+  <data name="rage-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rage-name" xml:space="preserve">
+    <value>Rage</value>
+  </data>
+  <data name="renvoi-des-impies" xml:space="preserve">
+    <value>renvoi-des-impies</value>
+  </data>
+  <data name="renvoi-des-impies-description" xml:space="preserve">
+    <value>Vous saisissez votre symbole divin et scandez un chant sacré. Dans un rayon de 9 mètres, chaque fiélon ou mort-vivant en capacité de l'entendre doit réussir un jet de sauvegarde de Sagesse ou être repoussé pendant 1 minute ou jusqu’à ce qu'on lui inflige des dégâts.</value>
+  </data>
+  <data name="renvoi-des-impies-name" xml:space="preserve">
+    <value>Renvoi des impies</value>
+  </data>
+  <data name="renvoi-des-morts-vivants" xml:space="preserve">
+    <value>renvoi-des-morts-vivants</value>
+  </data>
+  <data name="renvoi-des-morts-vivants-description" xml:space="preserve">
+    <value>Vous pouvez utiliser une action pour vous saisir de votre symbole divin et scander un
+chant sacré à l'encontre de morts-vivants. Dans une sphère d'un rayon de 9 mètres, tout mort-vivant en capacité de vous entendre ou de vous voir doit effectuer un jet de sauvegarde de Sagesse. Si une créature échoue à ce jet elle est repoussée pendant 1 minute ou jusqu’à ce qu'on lui inflige des dégâts.</value>
+  </data>
+  <data name="renvoi-des-morts-vivants-name" xml:space="preserve">
+    <value>Renvoi des morts-vivants</value>
+  </data>
+  <data name="resistance-aux-degats" xml:space="preserve">
+    <value>resistance-aux-degats</value>
+  </data>
+  <data name="resistance-aux-degats-de-froid" xml:space="preserve">
+    <value>resistance-aux-degats-de-froid</value>
+  </data>
+  <data name="resistance-aux-degats-de-froid-description" xml:space="preserve">
+    <value>Quand vous subissez des dégâts de froid, vous n’en subissez que la moitié (arrondi à l’inférieur).</value>
+  </data>
+  <data name="resistance-aux-degats-de-froid-name" xml:space="preserve">
+    <value>Résistance aux dégâts de froid</value>
+  </data>
+  <data name="resistance-aux-degats-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resistance-aux-degats-name" xml:space="preserve">
+    <value>Résistance aux dégâts</value>
+  </data>
+  <data name="resistance-des-fielons" xml:space="preserve">
+    <value>resistance-des-fielons</value>
+  </data>
+  <data name="resistance-des-fielons-description" xml:space="preserve">
+    <value>Au niveau 1, vous obtenez la résistance aux dégâts de poison et un avantage à tous les jets de sauvegarde pour résister au poison.
+
+Lorsque vous subissez l’état empoisonné, il dure deux fois moins longtemps.
+
+En dépensant 1 point de sorcellerie et une action bonus, vous obtenez la résistance aux dégâts contondants, perforants et tranchants infligés par des attaques non magiques pendant un nombre de rounds égal à votre bonus de maîtrise.</value>
+  </data>
+  <data name="resistance-des-fielons-name" xml:space="preserve">
+    <value>Résistance des fiélons</value>
+  </data>
+  <data name="resistance-infernale" xml:space="preserve">
+    <value>resistance-infernale</value>
+  </data>
+  <data name="resistance-infernale-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="resistance-infernale-name" xml:space="preserve">
+    <value>Résistance infernale</value>
+  </data>
+  <data name="resistance-naine" xml:space="preserve">
+    <value>resistance-naine</value>
+  </data>
+  <data name="resistance-naine-description" xml:space="preserve">
+    <value>Vous obtenez l’avantage sur vos jets de sauvegarde contre le poison et bénéficiez d’une résistance innée aux dégâts de poison.</value>
+  </data>
+  <data name="resistance-naine-name" xml:space="preserve">
+    <value>Résistance naine</value>
+  </data>
+  <data name="restauration-magique" xml:space="preserve">
+    <value>restauration-magique</value>
+  </data>
+  <data name="restauration-magique-description" xml:space="preserve">
+    <value>Vous savez comment récupérer une partie des énergies magiques en révisant votre grimoire. Une fois par jour, après un repos court, vous pouvez choisir de récupérer des emplacements de sorts déjà utilisés. Le niveau total de ces emplacements de sorts doit être inférieur ou égal à la moitié de votre niveau (arrondi à l’entier supérieur).</value>
+  </data>
+  <data name="restauration-magique-name" xml:space="preserve">
+    <value>Restauration magique</value>
+  </data>
+  <data name="ruse" xml:space="preserve">
+    <value>ruse</value>
+  </data>
+  <data name="ruse-description" xml:space="preserve">
+    <value>Vous êtes si alerte et vif que vous pouvez accomplir une action bonus à chacun de vos tours de combat. En revanche, cette action ne peut être utilisée que pour entreprendre les actions courir, se désengager ou se cacher.</value>
+  </data>
+  <data name="ruse-gnome" xml:space="preserve">
+    <value>ruse-gnome</value>
+  </data>
+  <data name="ruse-gnome-description" xml:space="preserve">
+    <value>Vous bénéficiez d’un avantage pour tous les jets de sauvegarde d’Intelligence, de Sagesse et de Charisme contre la magie.</value>
+  </data>
+  <data name="ruse-gnome-name" xml:space="preserve">
+    <value>Ruse gnome</value>
+  </data>
+  <data name="ruse-name" xml:space="preserve">
+    <value>Ruse</value>
+  </data>
+  <data name="salve-de-guerison" xml:space="preserve">
+    <value>salve-de-guerison</value>
+  </data>
+  <data name="salve-de-guerison-description" xml:space="preserve">
+    <value>Vous et jusqu’à cinq alliés dans votre champ de vision, dans un rayon de 9 mètres autour de vous, récupérez 1d6 points de vie par point de bonus de maîtrise (donc jusqu'à 2d6 jusqu'au niveau 4 inclus).</value>
+  </data>
+  <data name="salve-de-guerison-name" xml:space="preserve">
+    <value>Salve de guérison</value>
+  </data>
+  <data name="sante-divine" xml:space="preserve">
+    <value>sante-divine</value>
+  </data>
+  <data name="sante-divine-description" xml:space="preserve">
+    <value>Vous êtes immunisé contre les maladies.</value>
+  </data>
+  <data name="sante-divine-name" xml:space="preserve">
+    <value>Santé divine</value>
+  </data>
+  <data name="sauvagerie" xml:space="preserve">
+    <value>sauvagerie</value>
+  </data>
+  <data name="sauvagerie-description" xml:space="preserve">
+    <value>Quand vous obtenez un coup critique pour une attaque au corps à corps, vous pouvez lancer un dé de dégâts supplémentaire correspondant à l’arme utilisée et ajouter le
+résultat aux dégâts de l'attaque.</value>
+  </data>
+  <data name="sauvagerie-name" xml:space="preserve">
+    <value>Sauvagerie</value>
+  </data>
+  <data name="second-souffle" xml:space="preserve">
+    <value>second-souffle</value>
+  </data>
+  <data name="second-souffle-description" xml:space="preserve">
+    <value>Vous pouvez regagner immédiatement 1d10+Niveau points de vie. Une fois cette capacité utilisée, il vous faudra prendre un repos court ou long avant de pouvoir la réutiliser.</value>
+  </data>
+  <data name="second-souffle-name" xml:space="preserve">
+    <value>Second souffle</value>
+  </data>
+  <data name="sens-aiguises-elfe" xml:space="preserve">
+    <value>sens-aiguises-elfe</value>
+  </data>
+  <data name="sens-aiguises-elfe-description" xml:space="preserve">
+    <value>Vous maîtrisez la compétence Perception.</value>
+  </data>
+  <data name="sens-aiguises-elfe-name" xml:space="preserve">
+    <value>Sens aiguisés</value>
+  </data>
+  <data name="sens-aiguises-gnome-des-fees" xml:space="preserve">
+    <value>sens-aiguises-gnome-des-fees</value>
+  </data>
+  <data name="sens-aiguises-gnome-des-fees-description" xml:space="preserve">
+    <value>Vos sens supérieurs vous permettent de suivre n’importe quelle piste. Vous bénéficiez d'un avantage à tous vos tests de Sagesse (Survie) effectués afin de pister une créature.</value>
+  </data>
+  <data name="sens-aiguises-gnome-des-fees-name" xml:space="preserve">
+    <value>Sens aiguisés</value>
+  </data>
+  <data name="sens-divin" xml:space="preserve">
+    <value>sens-divin</value>
+  </data>
+  <data name="sens-divin-description" xml:space="preserve">
+    <value>Vous utilisez votre action pour activer vos capacité sensorielles. Jusqu’à la fin de votre prochain tour, vous percevez où se situe toute créature de type fiélon, céleste ou mort-vivant qui n’est pas cachée, dans une sphère d'un rayon de 18 mètres. Vous pouvez aussi ressentir un lieu qui a été profané ou consacré. Vous pouvez avoir recours à cette capacité un nombre de fois égal à 1 + votre modificateur de Charisme entre deux repos longs.</value>
+  </data>
+  <data name="sens-divin-name" xml:space="preserve">
+    <value>Sens divin</value>
+  </data>
+  <data name="serment-sacre" xml:space="preserve">
+    <value>serment-sacre</value>
+  </data>
+  <data name="serment-sacre-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="serment-sacre-name" xml:space="preserve">
+    <value>Serment sacré</value>
+  </data>
+  <data name="sixieme-sens" xml:space="preserve">
+    <value>sixieme-sens</value>
+  </data>
+  <data name="sixieme-sens-description" xml:space="preserve">
+    <value>Vous êtes toujours sur le qui-vive. Même surpris, vous pouvez effectuer, au choix, un déplacement ou une unique action lors du premier tour. Ce 6e sens fait aussi de vous un chasseur expert, vous donnant l’avantage quand vous pistez une créature.</value>
+  </data>
+  <data name="sixieme-sens-name" xml:space="preserve">
+    <value>Sixième sens</value>
+  </data>
+  <data name="sortileges" xml:space="preserve">
+    <value>sortileges</value>
+  </data>
+  <data name="sortileges-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sortileges-name" xml:space="preserve">
+    <value>Sortilèges</value>
+  </data>
+  <data name="sorts" xml:space="preserve">
+    <value>sorts</value>
+  </data>
+  <data name="sorts-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sorts-name" xml:space="preserve">
+    <value>Sorts</value>
+  </data>
+  <data name="souffle" xml:space="preserve">
+    <value>souffle</value>
+  </data>
+  <data name="souffle-argent" xml:space="preserve">
+    <value>souffle-argent</value>
+  </data>
+  <data name="souffle-argent-description" xml:space="preserve">
+    <value>Vous pouvez utiliser une action pour souffler un cône de froid sur 4,5 m de long. Toute créature qui se situe dans le cône doit effectuer un jet de sauvegarde de Dextérité DD12. Une créature qui rate son jet de sauvegarde reçoit 2d6 points dégâts. Une créature qui le réussit n’en reçoit que la moitié. Vous ne pouvez réutiliser cette capacité qu’après un repos court.</value>
+  </data>
+  <data name="souffle-argent-name" xml:space="preserve">
+    <value>Souffle</value>
+  </data>
+  <data name="souffle-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="souffle-name" xml:space="preserve">
+    <value>Souffle</value>
+  </data>
+  <data name="style-de-combat" xml:space="preserve">
+    <value>style-de-combat</value>
+  </data>
+  <data name="style-de-combat-archerie" xml:space="preserve">
+    <value>style-de-combat-archerie</value>
+  </data>
+  <data name="style-de-combat-archerie-description" xml:space="preserve">
+    <value>Vous gagnez un bonus de +2 aux jets d’attaque quand vous attaquez avec des armes de tir.</value>
+  </data>
+  <data name="style-de-combat-archerie-name" xml:space="preserve">
+    <value>Style de combat : archerie</value>
+  </data>
+  <data name="style-de-combat-armes-a-deux-mains" xml:space="preserve">
+    <value>style-de-combat-armes-a-deux-mains</value>
+  </data>
+  <data name="style-de-combat-armes-a-deux-mains-description" xml:space="preserve">
+    <value>Quand vous lancez le dé de dégâts lorsque vous maniez une arme à deux mains, si vous obtenez 1 ou 2 sur le dé, vous pouvez le relancer. Vous devez alors impérativement conserver le résultat du deuxième lancé, même si vous obtenez 1 ou 2.</value>
+  </data>
+  <data name="style-de-combat-armes-a-deux-mains-name" xml:space="preserve">
+    <value>Style de combat : armes à deux mains</value>
+  </data>
+  <data name="style-de-combat-defense" xml:space="preserve">
+    <value>style-de-combat-defense</value>
+  </data>
+  <data name="style-de-combat-defense-description" xml:space="preserve">
+    <value>Entraîné à l’utiliser à la perfection, vous êtes difficile à toucher si vous avez une armure sur le dos. Vous avez un +1 en Classe d’armure tant que vous portez une armure, en plus du bonus fourni par l’armure elle-même.</value>
+  </data>
+  <data name="style-de-combat-defense-name" xml:space="preserve">
+    <value>Style de combat : défense</value>
+  </data>
+  <data name="style-de-combat-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="style-de-combat-name" xml:space="preserve">
+    <value>Style de combat</value>
+  </data>
+  <data name="sursaut-d-activite" xml:space="preserve">
+    <value>sursaut-d-activite</value>
+  </data>
+  <data name="sursaut-d-activite-description" xml:space="preserve">
+    <value>Vous pouvez brièvement pousser vos limites. Une fois par combat, vous pouvez décider d’effectuer une action supplémentaire lorsque c’est votre tour.
+
+Une fois cette capacité utilisée, vous devrez marquer un repos court ou long avant de pouvoir la réutiliser.</value>
+  </data>
+  <data name="sursaut-d-activite-name" xml:space="preserve">
+    <value>Sursaut d'activité</value>
+  </data>
+  <data name="tacticien" xml:space="preserve">
+    <value>tacticien</value>
+  </data>
+  <data name="tacticien-description" xml:space="preserve">
+    <value>Au prix d’une action bonus, vous procurez à tous vos alliés situés dans un rayon de 9 mètres autour de vous ainsi qu'à vous-même, un avantage sur la prochaine attaque réalisée avant le début de votre prochain tour. Toutes les attaques réussies bénéficient d’un bonus aux dégâts égal à votre modificateur de Charisme.</value>
+  </data>
+  <data name="tacticien-name" xml:space="preserve">
+    <value>Tacticien</value>
+  </data>
+  <data name="tenacite-naine" xml:space="preserve">
+    <value>tenacite-naine</value>
+  </data>
+  <data name="tenacite-naine-description" xml:space="preserve">
+    <value>Le nombre maximum de vos points de vie s'améliore de 1. Il s'améliore de nouveau de +1 à chaque niveau que vous gagnez.</value>
+  </data>
+  <data name="tenacite-naine-name" xml:space="preserve">
+    <value>Ténacité naine</value>
+  </data>
+  <data name="toujours-sur-ses-pattes" xml:space="preserve">
+    <value>toujours-sur-ses-pattes</value>
+  </data>
+  <data name="toujours-sur-ses-pattes-description" xml:space="preserve">
+    <value>Quand vous chutez, vous vous réceptionnez toujours sur vos pattes, ou en roulé-boulé. Si vous réussissez un jet de sauvegarde contre une difficulté de 8+la distance de chute (en mètres), vous ne subissez que la moitié des dégats normaux et vous réceptionnez correctement (et ne subissez donc pas la condition à terre).</value>
+  </data>
+  <data name="toujours-sur-ses-pattes-name" xml:space="preserve">
+    <value>Toujours sur ses pattes</value>
+  </data>
+  <data name="tour-de-magie" xml:space="preserve">
+    <value>tour-de-magie</value>
+  </data>
+  <data name="tour-de-magie-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tour-de-magie-name" xml:space="preserve">
+    <value>Tour de magie</value>
+  </data>
+  <data name="transe" xml:space="preserve">
+    <value>transe</value>
+  </data>
+  <data name="transe-description" xml:space="preserve">
+    <value>Les elfes n’ont pas besoin de dormir. 4 heures d’une profonde méditation, en restant semi-conscients, vaut pour eux une bonne nuit de sommeil de 8 heures pour un humain. Toutefois, il leur faut toujours 8 heures pour obtenir les effets d’un repos long.</value>
+  </data>
+  <data name="transe-name" xml:space="preserve">
+    <value>Transe</value>
+  </data>
+  <data name="vigilance-primitive" xml:space="preserve">
+    <value>vigilance-primitive</value>
+  </data>
+  <data name="vigilance-primitive-description" xml:space="preserve">
+    <value>Vous pouvez décupler vos sens, au prix de votre action et d'un emplacement de sort. Pour une durée d'une minute, vous pouvez percevoir si les créatures appartenant aux types suivants se situent dans un rayon de 1,5 kilomètre (9 kilomètres si vous êtes sur votre terrain de prédilection) : aberrations, célestes, dragons, élémentaires, fées, fiélons et morts-vivants. Cette capacité ne donne pas pour autant la localisation ni le nombre précis d'individus.</value>
+  </data>
+  <data name="vigilance-primitive-name" xml:space="preserve">
+    <value>Vigilance primitive</value>
+  </data>
+  <data name="vision-dans-le-noir" xml:space="preserve">
+    <value>vision-dans-le-noir</value>
+  </data>
+  <data name="vision-dans-le-noir-description" xml:space="preserve">
+    <value>Vous avez une vision supérieure dans l'obscurité et dans la lumière faible. Vous êtes capable, dans un rayon de 18 mètres, de voir dans l'obscurité comme à la lumière d'une torche, et dans une lumière faible comme en plein jour. Cependant, vous êtes alors incapable de distinguer les couleurs, uniquement les nuances de gris.</value>
+  </data>
+  <data name="vision-dans-le-noir-name" xml:space="preserve">
+    <value>Vision dans le noir</value>
+  </data>
+</root>

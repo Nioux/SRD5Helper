@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="dragonborn" xml:space="preserve">
+    <value>dragonborn</value>
+  </data>
+  <data name="dragonborn-description" xml:space="preserve">
+    <value>On les nomme aussi Drakh. Ces humanoïdes au corps écailleux sont souvent fiers de leurs origines : on dit qu’ils sont les descendants directs des dragons, même si personne n’en a la preuve formelle. Mais qui remettrait en cause les dires d’une race capable de cracher le feu, le froid, l’électricité, le poison ou plus spectaculaire encore ?</value>
+  </data>
+  <data name="dragonborn-fname" xml:space="preserve">
+    <value>Drakhe</value>
+  </data>
+  <data name="dragonborn-mname" xml:space="preserve">
+    <value>Drakh</value>
+  </data>
+  <data name="dragonborn-name" xml:space="preserve">
+    <value>Drakh</value>
+  </data>
+  <data name="dwarf" xml:space="preserve">
+    <value>dwarf</value>
+  </data>
+  <data name="dwarf-description" xml:space="preserve">
+    <value>Les nains sont petits mais extrêmement robustes. Ils mesurent généralement aux alentours de 1,40 m mais leur carrure fait qu’ils pèsent plus lourds qu’un humain de deux mètres. Le peuple de pierre est endurant. Le temps et les éléments n’ont pas de prise sur eux et ils peuvent vivre jusqu’à trois siècles complets. Ils ont souvent un caractère aussi trempé que l’acier qui sort de leurs forges.</value>
+  </data>
+  <data name="dwarf-fname" xml:space="preserve">
+    <value>Naine</value>
+  </data>
+  <data name="dwarf-mname" xml:space="preserve">
+    <value>Nain</value>
+  </data>
+  <data name="dwarf-name" xml:space="preserve">
+    <value>Nain</value>
+  </data>
+  <data name="elf" xml:space="preserve">
+    <value>elf</value>
+  </data>
+  <data name="elf-description" xml:space="preserve">
+    <value>Les elfes sont plus petits en taille que les humains. Ils ne dépassent que rarement 1,80 mètre. Leur silhouette est svelte et élancée, aussi bien chez les hommes que chez les femmes, leurs traits sont fins, avec des lèvres qui se dessinent délicatement sur un visage androgyne. D’une grande beauté, ils peuvent vivre un millénaire et cela leur confère un recul et une sagesse profonde sur le monde. Les humains leurs apparaissent comme frénétiques et excités.</value>
+  </data>
+  <data name="elf-name" xml:space="preserve">
+    <value>Elfe</value>
+  </data>
+  <data name="felys" xml:space="preserve">
+    <value>felys</value>
+  </data>
+  <data name="felys-description" xml:space="preserve">
+    <value>Petits et légers, les félys sont des créatures à mi-chemin entre le félin et l’humanoïde.</value>
+  </data>
+  <data name="felys-name" xml:space="preserve">
+    <value>Félys</value>
+  </data>
+  <data name="gnome" xml:space="preserve">
+    <value>gnome</value>
+  </data>
+  <data name="gnome-description" xml:space="preserve">
+    <value>Les gnomes d’Eiren sont des êtres qui entretiennent le mystère. Enjoués, joviaux, ils sont pourtant peu enclins à parler de leur peuple ou de leurs traditions. Malins, farceurs, toujours optimistes par nature, ils n’en sont pas moins de redoutables adversaires quand l’on tente de les léser. Et ils ont la rancune souvent tenace.</value>
+  </data>
+  <data name="gnome-name" xml:space="preserve">
+    <value>Gnome</value>
+  </data>
+  <data name="halfelf" xml:space="preserve">
+    <value>halfelf</value>
+  </data>
+  <data name="halfelf-description" xml:space="preserve">
+    <value>Chez eux partout et nulle-part à la fois, les demi-elfes ont bien du mal à se faire accepter, que ce soit par les elfes, qui les considèrent souvent comme inférieurs, ou par les humains, qui leur attribuent un perpétuel complexe de supériorité. Cela fait d’eux des êtres souvent méfiants et en retrait, mais d’une fiabilité sans faille quand l’on gagne leur confiance.</value>
+  </data>
+  <data name="halfelf-name" xml:space="preserve">
+    <value>Demi-elfe</value>
+  </data>
+  <data name="halfling" xml:space="preserve">
+    <value>halfling</value>
+  </data>
+  <data name="halfling-description" xml:space="preserve">
+    <value>Les halfelins ont à peu près la carrure d’un enfant humain. Ils mesurent en moyenne un mètre de haut. Ils aiment se balader nu-pieds, sont extrêmement agiles et, surtout, très bons vivants. Ils aiment chanter, danser, faire la fête et bien manger. D’ordinaire très casaniers, il arrive que l’appel de l’aventure les emporte. Pour les individus concernés, l’aventure et la curiosité deviennent alors une seconde peau.</value>
+  </data>
+  <data name="halfling-fname" xml:space="preserve">
+    <value>Halfeline</value>
+  </data>
+  <data name="halfling-mname" xml:space="preserve">
+    <value>Halfelin</value>
+  </data>
+  <data name="halfling-name" xml:space="preserve">
+    <value>Halfelin</value>
+  </data>
+  <data name="halforc" xml:space="preserve">
+    <value>halforc</value>
+  </data>
+  <data name="halforc-description" xml:space="preserve">
+    <value>Il est difficile d’être demi-orc lorsque l’on vit sur les terres des autres races civilisées. Rejetés par les orcs qui les considèrent trop faibles, détestés par les humains qui voient en eux des êtres sauvages et violents, les demi-orcs ne constituent pas un peuple à proprement parler. Mais ils ont tous en commun leur côté taciturne, dur et taiseux qui ne font, auprès des autres races, que renforcer les préjugés à leur encontre.</value>
+  </data>
+  <data name="halforc-name" xml:space="preserve">
+    <value>Demi-orc</value>
+  </data>
+  <data name="human" xml:space="preserve">
+    <value>human</value>
+  </data>
+  <data name="human-description" xml:space="preserve">
+    <value>Les humains forment une race civilisée, comme les elfes, les nains et les halfelins.
+
+Un humain est capable du pire comme du meilleur et, quand il s’entête, il est capable d’exceller dans n’importe quel domaine. Il y a des humains partout dans le monde, des régions les plus chaudes aux montagnes les plus froides, de toutes les cultures et couleurs de peau imaginables.</value>
+  </data>
+  <data name="human-fname" xml:space="preserve">
+    <value>Humaine</value>
+  </data>
+  <data name="human-mname" xml:space="preserve">
+    <value>Humain</value>
+  </data>
+  <data name="human-name" xml:space="preserve">
+    <value>Humain</value>
+  </data>
+  <data name="tiefling" xml:space="preserve">
+    <value>tiefling</value>
+  </data>
+  <data name="tiefling-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tiefling-fname" xml:space="preserve">
+    <value>Tieffeline</value>
+  </data>
+  <data name="tiefling-mname" xml:space="preserve">
+    <value>Tieffelin</value>
+  </data>
+  <data name="tiefling-name" xml:space="preserve">
+    <value>Tieffelin</value>
+  </data>
+</root>

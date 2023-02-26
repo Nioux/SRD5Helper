@@ -1,0 +1,1973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abacus" xml:space="preserve">
+    <value>abacus</value>
+  </data>
+  <data name="acid-vial" xml:space="preserve">
+    <value>acid-vial</value>
+  </data>
+  <data name="alchemist-s-fire-flask" xml:space="preserve">
+    <value>alchemist-s-fire-flask</value>
+  </data>
+  <data name="amulet" xml:space="preserve">
+    <value>amulet</value>
+  </data>
+  <data name="amulette" xml:space="preserve">
+    <value>amulette</value>
+  </data>
+  <data name="amulette-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="amulette-name" xml:space="preserve">
+    <value>Amulette</value>
+  </data>
+  <data name="antitoxin-vial" xml:space="preserve">
+    <value>antitoxin-vial</value>
+  </data>
+  <data name="arbalete-de-poing" xml:space="preserve">
+    <value>arbalete-de-poing</value>
+  </data>
+  <data name="arbalete-de-poing-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="arbalete-de-poing-name" xml:space="preserve">
+    <value>Arbalète de poing</value>
+  </data>
+  <data name="arbalete-legere" xml:space="preserve">
+    <value>arbalete-legere</value>
+  </data>
+  <data name="arbalete-legere-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="arbalete-legere-name" xml:space="preserve">
+    <value>Arbalète légère</value>
+  </data>
+  <data name="arbalete-legere-picture" xml:space="preserve">
+    <value>arbalete_legere.png</value>
+  </data>
+  <data name="arbalete-lourde" xml:space="preserve">
+    <value>arbalete-lourde</value>
+  </data>
+  <data name="arbalete-lourde-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="arbalete-lourde-name" xml:space="preserve">
+    <value>Arbalète lourde</value>
+  </data>
+  <data name="arc-court" xml:space="preserve">
+    <value>arc-court</value>
+  </data>
+  <data name="arc-court-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="arc-court-name" xml:space="preserve">
+    <value>Arc court</value>
+  </data>
+  <data name="arc-long" xml:space="preserve">
+    <value>arc-long</value>
+  </data>
+  <data name="arc-long-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="arc-long-name" xml:space="preserve">
+    <value>Arc long</value>
+  </data>
+  <data name="arc-long-picture" xml:space="preserve">
+    <value>arc_long.png</value>
+  </data>
+  <data name="armure-d-ecailles" xml:space="preserve">
+    <value>armure-d-ecailles</value>
+  </data>
+  <data name="armure-d-ecailles-description" xml:space="preserve">
+    <value>Cette armure est constituée de deux couches superposées : une tenue de cuir souple et, par-dessus, des plaques de métal superposées. Leur structure évoque les écailles des poissons.</value>
+  </data>
+  <data name="armure-d-ecailles-name" xml:space="preserve">
+    <value>Armure d’écailles</value>
+  </data>
+  <data name="armure-de-cuir" xml:space="preserve">
+    <value>armure-de-cuir</value>
+  </data>
+  <data name="armure-de-cuir-cloute" xml:space="preserve">
+    <value>armure-de-cuir-cloute</value>
+  </data>
+  <data name="armure-de-cuir-cloute-description" xml:space="preserve">
+    <value>Cette armure est entièrement faite dans un cuir souple. Des plaques d’acier sont rivetées à l’intérieur, la rendant résistante. Les rivets apparaissent à l’extérieur, à la surface de l’armure.</value>
+  </data>
+  <data name="armure-de-cuir-cloute-name" xml:space="preserve">
+    <value>Armure de cuir clouté</value>
+  </data>
+  <data name="armure-de-cuir-description" xml:space="preserve">
+    <value>Cette armure est faite en plusieurs pièces de cuir. La cuirasse et les spalières sont faites de cuir durci, tandis que les autres parties de l’armure sont plus flexibles pour permettre plus de liberté de mouvement.</value>
+  </data>
+  <data name="armure-de-cuir-name" xml:space="preserve">
+    <value>Armure de cuir</value>
+  </data>
+  <data name="armure-de-demi-plate" xml:space="preserve">
+    <value>armure-de-demi-plate</value>
+  </data>
+  <data name="armure-de-demi-plate-description" xml:space="preserve">
+    <value>Cette armure est similaire à une armure de plaques, mais ne couvre que le haut du corps.</value>
+  </data>
+  <data name="armure-de-demi-plate-name" xml:space="preserve">
+    <value>Armure de demi-plate</value>
+  </data>
+  <data name="armure-de-peau" xml:space="preserve">
+    <value>armure-de-peau</value>
+  </data>
+  <data name="armure-de-peau-description" xml:space="preserve">
+    <value>Fabriquée à partir de peaux de bêtes et de fourrures, cette armure est particulièrement impressionnante. Les tribus barbares et les humanoïdes maléfiques portent souvent ce genre de protections.</value>
+  </data>
+  <data name="armure-de-peau-name" xml:space="preserve">
+    <value>Armure de peau</value>
+  </data>
+  <data name="armure-de-peau-picture" xml:space="preserve">
+    <value>armure_de_peau.png</value>
+  </data>
+  <data name="armure-lourde" xml:space="preserve">
+    <value>armure-lourde</value>
+  </data>
+  <data name="armure-lourde-description" xml:space="preserve">
+    <value>Ces armures sont plus résistantes, mais elles ralentissent leur porteur et sont particulièrement bruyantes. Il faut un score de Force minimum pour être capable de se déplacer en les portant. Dans le tableau, les mentions « For 13 » et « For 15 » indiquent qu’il faut au moins posséder ce score de Force pour ne pas être ralenti. Le ralentissement réduit la vitesse du porteur de 3 mètres.</value>
+  </data>
+  <data name="armure-lourde-name" xml:space="preserve">
+    <value>Armure lourde</value>
+  </data>
+  <data name="armure-matelassee" xml:space="preserve">
+    <value>armure-matelassee</value>
+  </data>
+  <data name="armure-matelassee-description" xml:space="preserve">
+    <value>Comme un jaque, cette armure est constituée d’épaisses couches de tissu presque impossibles à trancher.</value>
+  </data>
+  <data name="armure-matelassee-name" xml:space="preserve">
+    <value>Armure matelassée</value>
+  </data>
+  <data name="arrows" xml:space="preserve">
+    <value>arrows</value>
+  </data>
+  <data name="backpack" xml:space="preserve">
+    <value>backpack</value>
+  </data>
+  <data name="balance-de-marchand" xml:space="preserve">
+    <value>balance-de-marchand</value>
+  </data>
+  <data name="balance-de-marchand-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="balance-de-marchand-name" xml:space="preserve">
+    <value>Balance de marchand</value>
+  </data>
+  <data name="balance-de-marchand-picture" xml:space="preserve">
+    <value>balance_de_marchand.png</value>
+  </data>
+  <data name="ball-bearings" xml:space="preserve">
+    <value>ball-bearings</value>
+  </data>
+  <data name="barrel" xml:space="preserve">
+    <value>barrel</value>
+  </data>
+  <data name="basic-poison-vial" xml:space="preserve">
+    <value>basic-poison-vial</value>
+  </data>
+  <data name="basket" xml:space="preserve">
+    <value>basket</value>
+  </data>
+  <data name="baton" xml:space="preserve">
+    <value>baton</value>
+  </data>
+  <data name="baton-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="baton-name" xml:space="preserve">
+    <value>Bâton</value>
+  </data>
+  <data name="baton-picture" xml:space="preserve">
+    <value>baton.png</value>
+  </data>
+  <data name="battleaxe" xml:space="preserve">
+    <value>battleaxe</value>
+  </data>
+  <data name="bedroll" xml:space="preserve">
+    <value>bedroll</value>
+  </data>
+  <data name="belier-portatif" xml:space="preserve">
+    <value>belier-portatif</value>
+  </data>
+  <data name="belier-portatif-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="belier-portatif-name" xml:space="preserve">
+    <value>Bélier portatif</value>
+  </data>
+  <data name="belier-portatif-picture" xml:space="preserve">
+    <value>belier_portatif.png</value>
+  </data>
+  <data name="bell" xml:space="preserve">
+    <value>bell</value>
+  </data>
+  <data name="billes-de-fronde" xml:space="preserve">
+    <value>billes-de-fronde</value>
+  </data>
+  <data name="billes-de-fronde-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="billes-de-fronde-name" xml:space="preserve">
+    <value>Billes de fronde (20)</value>
+  </data>
+  <data name="blanket" xml:space="preserve">
+    <value>blanket</value>
+  </data>
+  <data name="block-and-tackle" xml:space="preserve">
+    <value>block-and-tackle</value>
+  </data>
+  <data name="blowgun" xml:space="preserve">
+    <value>blowgun</value>
+  </data>
+  <data name="blowgun-needles" xml:space="preserve">
+    <value>blowgun-needles</value>
+  </data>
+  <data name="book" xml:space="preserve">
+    <value>book</value>
+  </data>
+  <data name="bottle-glass" xml:space="preserve">
+    <value>bottle-glass</value>
+  </data>
+  <data name="bouclier" xml:space="preserve">
+    <value>bouclier</value>
+  </data>
+  <data name="bouclier-description" xml:space="preserve">
+    <value>Les boucliers augmentent la Classe d'armure de 2.
+
+Ils peuvent être constitués de différentes matières, mais cela ne change pas la nature de la protection offerte. Un seul bouclier peut être porté à la fois.</value>
+  </data>
+  <data name="bouclier-name" xml:space="preserve">
+    <value>Bouclier</value>
+  </data>
+  <data name="bougie" xml:space="preserve">
+    <value>bougie</value>
+  </data>
+  <data name="bougie-description" xml:space="preserve">
+    <value>Une bougie peut diffuser de la lumière si elle est allumée. Elle crée une zone de lumière vive dans 1,50 mètre autour d’elle et une zone de lumière faible dans un rayon de 1,50 mètre supplémentaires. Une bougie dure 1 heure.</value>
+  </data>
+  <data name="bougie-name" xml:space="preserve">
+    <value>Bougie</value>
+  </data>
+  <data name="bougie-picture" xml:space="preserve">
+    <value>bougie.png</value>
+  </data>
+  <data name="boulier" xml:space="preserve">
+    <value>boulier</value>
+  </data>
+  <data name="boulier-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="boulier-name" xml:space="preserve">
+    <value>Boulier</value>
+  </data>
+  <data name="bouteille-d-encre" xml:space="preserve">
+    <value>bouteille-d-encre</value>
+  </data>
+  <data name="bouteille-d-encre-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bouteille-d-encre-name" xml:space="preserve">
+    <value>Encre (bouteille de 30 grammes)</value>
+  </data>
+  <data name="bouteille-en-verre" xml:space="preserve">
+    <value>bouteille-en-verre</value>
+  </data>
+  <data name="bouteille-en-verre-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bouteille-en-verre-name" xml:space="preserve">
+    <value>Bouteille en verre</value>
+  </data>
+  <data name="breastplate" xml:space="preserve">
+    <value>breastplate</value>
+  </data>
+  <data name="briquet-a-amadou" xml:space="preserve">
+    <value>briquet-a-amadou</value>
+  </data>
+  <data name="briquet-a-amadou-description" xml:space="preserve">
+    <value>Une boîte de petite taille qui permet d’allumer un feu. Elle contient un silex, un briquet métallique et de l’amadou (des morceaux de tissu imbibés d’huile). Elle peut être consommée pour allumer un feu de petite taille (comme une torche) en 1 round ou un feu plus important (comme un feu de camp) en 1 minute.</value>
+  </data>
+  <data name="briquet-a-amadou-name" xml:space="preserve">
+    <value>Briquet à amadou</value>
+  </data>
+  <data name="broigne" xml:space="preserve">
+    <value>broigne</value>
+  </data>
+  <data name="broigne-description" xml:space="preserve">
+    <value>C’est une armure complète de cuir solide. À sa surface sont cousus des anneaux métalliques épais, protégeant le corps de l’impact des armes de contact.</value>
+  </data>
+  <data name="broigne-name" xml:space="preserve">
+    <value>Broigne</value>
+  </data>
+  <data name="broigne-picture" xml:space="preserve">
+    <value>broigne.png</value>
+  </data>
+  <data name="bucket" xml:space="preserve">
+    <value>bucket</value>
+  </data>
+  <data name="bullseye-lantern" xml:space="preserve">
+    <value>bullseye-lantern</value>
+  </data>
+  <data name="cadenas" xml:space="preserve">
+    <value>cadenas</value>
+  </data>
+  <data name="cadenas-description" xml:space="preserve">
+    <value>Un cadenas demande un test de Dextérité DD 15 pour être crocheté. Il existe de meilleurs cadenas à prix élevé (dont décide la MJ).</value>
+  </data>
+  <data name="cadenas-name" xml:space="preserve">
+    <value>Cadenas</value>
+  </data>
+  <data name="cadenas-picture" xml:space="preserve">
+    <value>cadenas.png</value>
+  </data>
+  <data name="caltrops" xml:space="preserve">
+    <value>caltrops</value>
+  </data>
+  <data name="candle" xml:space="preserve">
+    <value>candle</value>
+  </data>
+  <data name="carquois" xml:space="preserve">
+    <value>carquois</value>
+  </data>
+  <data name="carquois-description" xml:space="preserve">
+    <value>Un carquois permet de rendre des flèches facilement accessibles. Jusqu’à 20 flèches peuvent y être stockées.</value>
+  </data>
+  <data name="carquois-name" xml:space="preserve">
+    <value>Carquois</value>
+  </data>
+  <data name="carreaux-d-arbalete" xml:space="preserve">
+    <value>carreaux-d-arbalete</value>
+  </data>
+  <data name="carreaux-d-arbalete-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="carreaux-d-arbalete-name" xml:space="preserve">
+    <value>Carreaux d’arbalète (20)</value>
+  </data>
+  <data name="chain" xml:space="preserve">
+    <value>chain</value>
+  </data>
+  <data name="chain-mail" xml:space="preserve">
+    <value>chain-mail</value>
+  </data>
+  <data name="chain-shirt" xml:space="preserve">
+    <value>chain-shirt</value>
+  </data>
+  <data name="chaine" xml:space="preserve">
+    <value>chaine</value>
+  </data>
+  <data name="chaine-description" xml:space="preserve">
+    <value>Une banale chaîne de métal nécessite un test de Force DD 20 pour être brisée à mains nues. Elle a 10 points de vie.</value>
+  </data>
+  <data name="chaine-name" xml:space="preserve">
+    <value>Chaîne (3 mètres)</value>
+  </data>
+  <data name="chalk" xml:space="preserve">
+    <value>chalk</value>
+  </data>
+  <data name="chausse-trappes" xml:space="preserve">
+    <value>chausse-trappes</value>
+  </data>
+  <data name="chausse-trappes-description" xml:space="preserve">
+    <value>Il s’agit de pièges métalliques constitués de pointes perforantes. Le temps d’une action, un personnage peut les répandre au sol. Ils vont occuper une surface plane de 1,50 mètre de côté. Pour ne pas risquer d’être blessé, il faut se déplacer sur cette surface à la moitié de sa vitesse. Si l’on s’y déplace à pleine vitesse, il faut réussir un jet de sauvegarde de Dextérité DD 15. Un échec implique 1 point de dégât. La vitesse de la victime diminue alors de 3 mètres et son déplacement est stoppé jusqu’au tour suivant. Le malus de vitesse ne disparaît que si au moins 1 point de vie est soigné.</value>
+  </data>
+  <data name="chausse-trappes-name" xml:space="preserve">
+    <value>Chausse-trappes (sac de 20)</value>
+  </data>
+  <data name="chemise-de-mailles" xml:space="preserve">
+    <value>chemise-de-mailles</value>
+  </data>
+  <data name="chemise-de-mailles-description" xml:space="preserve">
+    <value>Des mailles d’acier entrelacées forment un gilet, porté entre deux couches de vêtements.
+</value>
+  </data>
+  <data name="chemise-de-mailles-name" xml:space="preserve">
+    <value>Chemise de mailles</value>
+  </data>
+  <data name="chemise-de-mailles-picture" xml:space="preserve">
+    <value>chemise_de_mailles.png</value>
+  </data>
+  <data name="chest" xml:space="preserve">
+    <value>chest</value>
+  </data>
+  <data name="chevaliere" xml:space="preserve">
+    <value>chevaliere</value>
+  </data>
+  <data name="chevaliere-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chevaliere-name" xml:space="preserve">
+    <value>Chevalière</value>
+  </data>
+  <data name="cimeterre" xml:space="preserve">
+    <value>cimeterre</value>
+  </data>
+  <data name="cimeterre-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cimeterre-name" xml:space="preserve">
+    <value>Cimeterre</value>
+  </data>
+  <data name="cimeterre-picture" xml:space="preserve">
+    <value>cimeterre.png</value>
+  </data>
+  <data name="cire-a-cacheter" xml:space="preserve">
+    <value>cire-a-cacheter</value>
+  </data>
+  <data name="cire-a-cacheter-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cire-a-cacheter-name" xml:space="preserve">
+    <value>Cire à cacheter</value>
+  </data>
+  <data name="clibanion" xml:space="preserve">
+    <value>clibanion</value>
+  </data>
+  <data name="clibanion-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="clibanion-name" xml:space="preserve">
+    <value>Clibanion</value>
+  </data>
+  <data name="climber-s-kit" xml:space="preserve">
+    <value>climber-s-kit</value>
+  </data>
+  <data name="cloche" xml:space="preserve">
+    <value>cloche</value>
+  </data>
+  <data name="cloche-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cloche-name" xml:space="preserve">
+    <value>Cloche</value>
+  </data>
+  <data name="club" xml:space="preserve">
+    <value>club</value>
+  </data>
+  <data name="coffre" xml:space="preserve">
+    <value>coffre</value>
+  </data>
+  <data name="coffre-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coffre-name" xml:space="preserve">
+    <value>Coffre</value>
+  </data>
+  <data name="common-clothes" xml:space="preserve">
+    <value>common-clothes</value>
+  </data>
+  <data name="component-pouch" xml:space="preserve">
+    <value>component-pouch</value>
+  </data>
+  <data name="corde-en-chanvre" xml:space="preserve">
+    <value>corde-en-chanvre</value>
+  </data>
+  <data name="corde-en-chanvre-description" xml:space="preserve">
+    <value>Une corde banale nécessite un test de Force DD 17 pour être rompue. Elle a 2 points de vie.</value>
+  </data>
+  <data name="corde-en-chanvre-name" xml:space="preserve">
+    <value>Corde en chanvre (15 mètres)</value>
+  </data>
+  <data name="corde-en-soie" xml:space="preserve">
+    <value>corde-en-soie</value>
+  </data>
+  <data name="corde-en-soie-description" xml:space="preserve">
+    <value>Une corde banale nécessite un test de Force DD 17 pour être rompue. Elle a 2 points de vie.</value>
+  </data>
+  <data name="corde-en-soie-name" xml:space="preserve">
+    <value>Corde en soie (15 mètres)</value>
+  </data>
+  <data name="costume" xml:space="preserve">
+    <value>costume</value>
+  </data>
+  <data name="costume-clothes" xml:space="preserve">
+    <value>costume-clothes</value>
+  </data>
+  <data name="costume-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="costume-name" xml:space="preserve">
+    <value>Costume</value>
+  </data>
+  <data name="cotte-de-mailles" xml:space="preserve">
+    <value>cotte-de-mailles</value>
+  </data>
+  <data name="cotte-de-mailles-description" xml:space="preserve">
+    <value>La cotte est constituée d’anneaux d’acier entrecroisés, formant un gilet protégeant le corps. Les extrémités sont protégées par un heaume, des bottes et des gantelets.</value>
+  </data>
+  <data name="cotte-de-mailles-name" xml:space="preserve">
+    <value>Cotte de mailles</value>
+  </data>
+  <data name="cotte-de-mailles-picture" xml:space="preserve">
+    <value>cotte_de_mailles.png</value>
+  </data>
+  <data name="coutille" xml:space="preserve">
+    <value>coutille</value>
+  </data>
+  <data name="coutille-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coutille-name" xml:space="preserve">
+    <value>Coutille</value>
+  </data>
+  <data name="couverture" xml:space="preserve">
+    <value>couverture</value>
+  </data>
+  <data name="couverture-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="couverture-name" xml:space="preserve">
+    <value>Couverture</value>
+  </data>
+  <data name="craie" xml:space="preserve">
+    <value>craie</value>
+  </data>
+  <data name="craie-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="craie-name" xml:space="preserve">
+    <value>Craie (1 morceau)</value>
+  </data>
+  <data name="crossbow-bolt-case" xml:space="preserve">
+    <value>crossbow-bolt-case</value>
+  </data>
+  <data name="crossbow-bolts" xml:space="preserve">
+    <value>crossbow-bolts</value>
+  </data>
+  <data name="crowbar" xml:space="preserve">
+    <value>crowbar</value>
+  </data>
+  <data name="cruche-ou-pichet" xml:space="preserve">
+    <value>cruche-ou-pichet</value>
+  </data>
+  <data name="cruche-ou-pichet-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cruche-ou-pichet-name" xml:space="preserve">
+    <value>Cruche ou pichet</value>
+  </data>
+  <data name="crystal" xml:space="preserve">
+    <value>crystal</value>
+  </data>
+  <data name="cuirasse" xml:space="preserve">
+    <value>cuirasse</value>
+  </data>
+  <data name="cuirasse-description" xml:space="preserve">
+    <value>Cette armure est entièrement faite de métal mais ne protège que les organes vitaux. Il s’agit d’une plaque d’acier qui ne couvre que le buste, associée à du cuir. Elle réduit ainsi assez peu la liberté de mouvement.</value>
+  </data>
+  <data name="cuirasse-name" xml:space="preserve">
+    <value>Cuirasse</value>
+  </data>
+  <data name="cuirasse-picture" xml:space="preserve">
+    <value>cuirasse.png</value>
+  </data>
+  <data name="dagger" xml:space="preserve">
+    <value>dagger</value>
+  </data>
+  <data name="dague" xml:space="preserve">
+    <value>dague</value>
+  </data>
+  <data name="dague-description" xml:space="preserve">
+    <value>avant ![](fonts:FontAwesome6FreeRegular?text=&amp;#61529;&amp;color=ff0000&amp;size=30) après ![Dague](dague.png)</value>
+  </data>
+  <data name="dague-name" xml:space="preserve">
+    <value>Dague</value>
+  </data>
+  <data name="dague-picture" xml:space="preserve">
+    <value>dague.png</value>
+  </data>
+  <data name="dards-de-sarbacane" xml:space="preserve">
+    <value>dards-de-sarbacane</value>
+  </data>
+  <data name="dards-de-sarbacane-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dards-de-sarbacane-name" xml:space="preserve">
+    <value>Dards de sarbacane (50)</value>
+  </data>
+  <data name="dart" xml:space="preserve">
+    <value>dart</value>
+  </data>
+  <data name="echelle" xml:space="preserve">
+    <value>echelle</value>
+  </data>
+  <data name="echelle-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="echelle-name" xml:space="preserve">
+    <value>Échelle (3 mètres)</value>
+  </data>
+  <data name="emblem" xml:space="preserve">
+    <value>emblem</value>
+  </data>
+  <data name="embleme" xml:space="preserve">
+    <value>embleme</value>
+  </data>
+  <data name="embleme-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="embleme-name" xml:space="preserve">
+    <value>Emblème</value>
+  </data>
+  <data name="epee-a-deux-mains" xml:space="preserve">
+    <value>epee-a-deux-mains</value>
+  </data>
+  <data name="epee-a-deux-mains-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="epee-a-deux-mains-name" xml:space="preserve">
+    <value>Épée à deux mains</value>
+  </data>
+  <data name="epee-a-deux-mains-picture" xml:space="preserve">
+    <value>epee_a_deux_mains.png</value>
+  </data>
+  <data name="epee-ardente1" xml:space="preserve">
+    <value>epee-ardente1</value>
+  </data>
+  <data name="epee-ardente1-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="epee-ardente1-name" xml:space="preserve">
+    <value>Épée ardente +1</value>
+  </data>
+  <data name="epee-courte" xml:space="preserve">
+    <value>epee-courte</value>
+  </data>
+  <data name="epee-courte-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="epee-courte-name" xml:space="preserve">
+    <value>Épée courte</value>
+  </data>
+  <data name="epee-longue" xml:space="preserve">
+    <value>epee-longue</value>
+  </data>
+  <data name="epee-longue-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="epee-longue-name" xml:space="preserve">
+    <value>Épée longue</value>
+  </data>
+  <data name="epee-longue-picture" xml:space="preserve">
+    <value>epee_longue.png</value>
+  </data>
+  <data name="equipement-d-escalade" xml:space="preserve">
+    <value>equipement-d-escalade</value>
+  </data>
+  <data name="equipement-d-escalade-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="equipement-d-escalade-name" xml:space="preserve">
+    <value>Équipement d’escalade</value>
+  </data>
+  <data name="etui-a-cartes-ou-parchemins" xml:space="preserve">
+    <value>etui-a-cartes-ou-parchemins</value>
+  </data>
+  <data name="etui-a-cartes-ou-parchemins-description" xml:space="preserve">
+    <value>Afin de transporter du papier, les personnages peuvent utiliser un étui cylindrique, généralement fabriqué en cuir. Il peut contenir jusqu’à 10 feuilles de papier ou 5 feuilles de parchemin.</value>
+  </data>
+  <data name="etui-a-cartes-ou-parchemins-name" xml:space="preserve">
+    <value>Étui à cartes ou parchemins</value>
+  </data>
+  <data name="etui-pour-carreaux" xml:space="preserve">
+    <value>etui-pour-carreaux</value>
+  </data>
+  <data name="etui-pour-carreaux-description" xml:space="preserve">
+    <value>Un étui pour carreaux permet de rendre des carreaux d’arbalète facilement accessibles. Jusqu’à 20 carreaux peuvent y être stockés.</value>
+  </data>
+  <data name="etui-pour-carreaux-name" xml:space="preserve">
+    <value>Étui pour carreaux</value>
+  </data>
+  <data name="ficelle" xml:space="preserve">
+    <value>ficelle</value>
+  </data>
+  <data name="ficelle-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ficelle-name" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fine-clothes" xml:space="preserve">
+    <value>fine-clothes</value>
+  </data>
+  <data name="fiole" xml:space="preserve">
+    <value>fiole</value>
+  </data>
+  <data name="fiole-acide" xml:space="preserve">
+    <value>fiole-acide</value>
+  </data>
+  <data name="fiole-acide-description" xml:space="preserve">
+    <value>Une fiole d’acide peut être utilisée comme arme. Elle peut être utilisée au corps à corps ou à distance. Au corps à corps, il faut une action pour asperger son contenu (avec une portée de 1,50 mètre). À distance, la fiole doit être lancée. Elle fonctionne alors comme une arme improvisée (voir section précédente). L’acide inflige 2d6 dégâts d'acide.</value>
+  </data>
+  <data name="fiole-acide-name" xml:space="preserve">
+    <value>Acide (fiole)</value>
+  </data>
+  <data name="fiole-acide-picture" xml:space="preserve">
+    <value>fiole_acide.png</value>
+  </data>
+  <data name="fiole-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fiole-name" xml:space="preserve">
+    <value>Fiole</value>
+  </data>
+  <data name="fishing-tackle" xml:space="preserve">
+    <value>fishing-tackle</value>
+  </data>
+  <data name="flail" xml:space="preserve">
+    <value>flail</value>
+  </data>
+  <data name="flask-or-tankard" xml:space="preserve">
+    <value>flask-or-tankard</value>
+  </data>
+  <data name="flasque-d-eau-benite" xml:space="preserve">
+    <value>flasque-d-eau-benite</value>
+  </data>
+  <data name="flasque-d-eau-benite-description" xml:space="preserve">
+    <value>Une flasque d’eau bénite peut être utilisée comme arme face aux morts-vivants. Elle peut être utilisée au corps à corps ou à distance. Au corps à corps, il faut une action pour asperger son contenu (avec une portée de 1,50 mètre). À distance, la fiole doit être lancée. Elle fonctionne alors comme une arme improvisée (voir section précédente). L’eau bénite inflige 2d6 dégâts radiants si la cible est un mort-vivant.
+
+Un rituel permet de créer de l’eau bénite et les clercs le maîtrisent. Afin de l’accomplir, il faut utiliser un emplacement de sort de niveau 1 ainsi que 25 po de poudre d’argent. Le rituel dure 1 heure et permet de créer 1 flasque.</value>
+  </data>
+  <data name="flasque-d-eau-benite-name" xml:space="preserve">
+    <value>Eau bénite (flasque)</value>
+  </data>
+  <data name="flasque-d-huile" xml:space="preserve">
+    <value>flasque-d-huile</value>
+  </data>
+  <data name="flasque-d-huile-description" xml:space="preserve">
+    <value>Une flasque d’huile qui peut être utilisée comme combustible. Elle peut être utilisée au corps à corps ou à distance. Au corps à corps, il faut une action pour asperger son contenu (avec une portée de 1,50 mètre). À distance, la fiole doit être lancée. Elle fonctionne alors comme une arme improvisée (voir section précédente).
+
+Si une cible est touchée, elle est couverte d’huile pendant 1 minute. Pendant ce temps, si elle subit au moins 1 dégât de feu, elle subit 5 points de dégâts de feu supplémentaires.
+
+Le contenu de la flasque peut aussi être répandu sur une surface de 1,50 mètre de côté. Si elle prend feu, cela dure 2 rounds. Toute créature qui traverse cette surface pendant ce temps subit 5 points de dégâts de feu (une fois par round).</value>
+  </data>
+  <data name="flasque-d-huile-name" xml:space="preserve">
+    <value>Huile (flasque)</value>
+  </data>
+  <data name="flasque-ou-chope" xml:space="preserve">
+    <value>flasque-ou-chope</value>
+  </data>
+  <data name="flasque-ou-chope-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flasque-ou-chope-name" xml:space="preserve">
+    <value>Flasque ou chope</value>
+  </data>
+  <data name="fleau" xml:space="preserve">
+    <value>fleau</value>
+  </data>
+  <data name="fleau-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fleau-name" xml:space="preserve">
+    <value>Fléau</value>
+  </data>
+  <data name="fleches" xml:space="preserve">
+    <value>fleches</value>
+  </data>
+  <data name="fleches-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fleches-name" xml:space="preserve">
+    <value>Flèches (20)</value>
+  </data>
+  <data name="flechette" xml:space="preserve">
+    <value>flechette</value>
+  </data>
+  <data name="flechette-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flechette-name" xml:space="preserve">
+    <value>Fléchette</value>
+  </data>
+  <data name="flechette-picture" xml:space="preserve">
+    <value>flechette.png</value>
+  </data>
+  <data name="fouet" xml:space="preserve">
+    <value>fouet</value>
+  </data>
+  <data name="fouet-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fouet-name" xml:space="preserve">
+    <value>Fouet</value>
+  </data>
+  <data name="fouet-picture" xml:space="preserve">
+    <value>fouet.png</value>
+  </data>
+  <data name="fronde" xml:space="preserve">
+    <value>fronde</value>
+  </data>
+  <data name="fronde-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fronde-name" xml:space="preserve">
+    <value>Fronde</value>
+  </data>
+  <data name="fronde-picture" xml:space="preserve">
+    <value>fronde.png</value>
+  </data>
+  <data name="gamelle" xml:space="preserve">
+    <value>gamelle</value>
+  </data>
+  <data name="gamelle-description" xml:space="preserve">
+    <value>Outil indispensable des repas en bivouac. Il s’agit d’une boîte métallique creuse qui contient des couverts. Grâce à sa forme, elle peut être utilisée de deux façons : dans un sens, on peut y placer de la nourriture, dans l’autre, on peut s’en servir comme d’un socle pour la faire cuire.</value>
+  </data>
+  <data name="gamelle-name" xml:space="preserve">
+    <value>Gamelle</value>
+  </data>
+  <data name="glaive" xml:space="preserve">
+    <value>glaive</value>
+  </data>
+  <data name="gourdin" xml:space="preserve">
+    <value>gourdin</value>
+  </data>
+  <data name="gourdin-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gourdin-name" xml:space="preserve">
+    <value>Gourdin</value>
+  </data>
+  <data name="gourdin-picture" xml:space="preserve">
+    <value>gourdin.png</value>
+  </data>
+  <data name="grappin" xml:space="preserve">
+    <value>grappin</value>
+  </data>
+  <data name="grappin-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grappin-name" xml:space="preserve">
+    <value>Grappin</value>
+  </data>
+  <data name="grappling-hook" xml:space="preserve">
+    <value>grappling-hook</value>
+  </data>
+  <data name="greataxe" xml:space="preserve">
+    <value>greataxe</value>
+  </data>
+  <data name="greatclub" xml:space="preserve">
+    <value>greatclub</value>
+  </data>
+  <data name="greatsword" xml:space="preserve">
+    <value>greatsword</value>
+  </data>
+  <data name="grimoire" xml:space="preserve">
+    <value>grimoire</value>
+  </data>
+  <data name="grimoire-description" xml:space="preserve">
+    <value>Un ouvrage généralement utilisé par les magiciens pour noter leurs sorts. Il s’agit d’un livre vierge, souvent relié de cuir et composé de 100 pages de vélin.</value>
+  </data>
+  <data name="grimoire-name" xml:space="preserve">
+    <value>Grimoire</value>
+  </data>
+  <data name="grimoire-picture" xml:space="preserve">
+    <value>grimoire.png</value>
+  </data>
+  <data name="habits-courants" xml:space="preserve">
+    <value>habits-courants</value>
+  </data>
+  <data name="habits-courants-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="habits-courants-name" xml:space="preserve">
+    <value />
+  </data>
+  <data name="habits-de-bonne-qualite" xml:space="preserve">
+    <value>habits-de-bonne-qualite</value>
+  </data>
+  <data name="habits-de-bonne-qualite-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="habits-de-bonne-qualite-name" xml:space="preserve">
+    <value>Habits de bonne qualité</value>
+  </data>
+  <data name="hache-a-deux-mains" xml:space="preserve">
+    <value>hache-a-deux-mains</value>
+  </data>
+  <data name="hache-a-deux-mains-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hache-a-deux-mains-name" xml:space="preserve">
+    <value>Hache à deux mains</value>
+  </data>
+  <data name="hache-d-armes" xml:space="preserve">
+    <value>hache-d-armes</value>
+  </data>
+  <data name="hache-d-armes-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hache-d-armes-name" xml:space="preserve">
+    <value>Hache d’armes</value>
+  </data>
+  <data name="hachette" xml:space="preserve">
+    <value>hachette</value>
+  </data>
+  <data name="hachette-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hachette-name" xml:space="preserve">
+    <value>Hachette</value>
+  </data>
+  <data name="hachette-picture" xml:space="preserve">
+    <value>hachette.png</value>
+  </data>
+  <data name="halberd" xml:space="preserve">
+    <value>halberd</value>
+  </data>
+  <data name="half-plate" xml:space="preserve">
+    <value>half-plate</value>
+  </data>
+  <data name="hallebarde" xml:space="preserve">
+    <value>hallebarde</value>
+  </data>
+  <data name="hallebarde-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hallebarde-name" xml:space="preserve">
+    <value>Hallebarde</value>
+  </data>
+  <data name="hallebarde-picture" xml:space="preserve">
+    <value>hallebarde.png</value>
+  </data>
+  <data name="hammer" xml:space="preserve">
+    <value>hammer</value>
+  </data>
+  <data name="hand-crossbow" xml:space="preserve">
+    <value>hand-crossbow</value>
+  </data>
+  <data name="handaxe" xml:space="preserve">
+    <value>handaxe</value>
+  </data>
+  <data name="harnois" xml:space="preserve">
+    <value>harnois</value>
+  </data>
+  <data name="harnois-description" xml:space="preserve">
+    <value>Il s’agit de la plus lourde des armures. Le harnois est un ensemble de plaques de métal qui recouvrent le corps. Des gantelets d’acier, des bottes de cuir et un casque à visière protègent les extrémités.</value>
+  </data>
+  <data name="harnois-nain" xml:space="preserve">
+    <value>harnois-nain</value>
+  </data>
+  <data name="harnois-nain-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="harnois-nain-name" xml:space="preserve">
+    <value>Harnois nain</value>
+  </data>
+  <data name="harnois-nain-picture" xml:space="preserve">
+    <value>harnois.png</value>
+  </data>
+  <data name="harnois-name" xml:space="preserve">
+    <value>Harnois</value>
+  </data>
+  <data name="harnois-picture" xml:space="preserve">
+    <value>harnois.png</value>
+  </data>
+  <data name="healer-s-kit" xml:space="preserve">
+    <value>healer-s-kit</value>
+  </data>
+  <data name="heavy-crossbow" xml:space="preserve">
+    <value>heavy-crossbow</value>
+  </data>
+  <data name="hempen-rope" xml:space="preserve">
+    <value>hempen-rope</value>
+  </data>
+  <data name="hide-armor" xml:space="preserve">
+    <value>hide-armor</value>
+  </data>
+  <data name="hide-armor-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hide-armor-name" xml:space="preserve">
+    <value>Hide armor</value>
+  </data>
+  <data name="holy-water-flask" xml:space="preserve">
+    <value>holy-water-flask</value>
+  </data>
+  <data name="hooded-lantern" xml:space="preserve">
+    <value>hooded-lantern</value>
+  </data>
+  <data name="hourglass" xml:space="preserve">
+    <value>hourglass</value>
+  </data>
+  <data name="hunting-trap" xml:space="preserve">
+    <value>hunting-trap</value>
+  </data>
+  <data name="ink" xml:space="preserve">
+    <value>ink</value>
+  </data>
+  <data name="ink-pen" xml:space="preserve">
+    <value>ink-pen</value>
+  </data>
+  <data name="iron-pot" xml:space="preserve">
+    <value>iron-pot</value>
+  </data>
+  <data name="iron-spikes" xml:space="preserve">
+    <value>iron-spikes</value>
+  </data>
+  <data name="javelin" xml:space="preserve">
+    <value>javelin</value>
+  </data>
+  <data name="javeline" xml:space="preserve">
+    <value>javeline</value>
+  </data>
+  <data name="javeline-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="javeline-name" xml:space="preserve">
+    <value>Javeline</value>
+  </data>
+  <data name="jug-or-pitcher" xml:space="preserve">
+    <value>jug-or-pitcher</value>
+  </data>
+  <data name="ladder" xml:space="preserve">
+    <value>ladder</value>
+  </data>
+  <data name="lamp" xml:space="preserve">
+    <value>lamp</value>
+  </data>
+  <data name="lampe" xml:space="preserve">
+    <value>lampe</value>
+  </data>
+  <data name="lampe-description" xml:space="preserve">
+    <value>En consommant une flasque (0,5 litre) d’huile, une lampe peut être allumée. Elle crée une zone de lumière vive dans 4,50 mètres autour d’elle et une zone de lumière faible dans un rayon de 9 mètres supplémentaires. Une lampe reste allumée 6 heures avant de devoir être rechargée.</value>
+  </data>
+  <data name="lampe-name" xml:space="preserve">
+    <value>Lampe</value>
+  </data>
+  <data name="lampe-picture" xml:space="preserve">
+    <value>lampe.png</value>
+  </data>
+  <data name="lance" xml:space="preserve">
+    <value>lance</value>
+  </data>
+  <data name="lance-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lance-name" xml:space="preserve">
+    <value>Lance</value>
+  </data>
+  <data name="lance-picture" xml:space="preserve">
+    <value>lance.png</value>
+  </data>
+  <data name="lanterne-a-capote" xml:space="preserve">
+    <value>lanterne-a-capote</value>
+  </data>
+  <data name="lanterne-a-capote-description" xml:space="preserve">
+    <value>En consommant une flasque (0,5 litre) d’huile, une lanterne à capote peut être allumée. Elle crée une zone de lumière vive dans 9 mètres autour d’elle et une zone de lumière faible dans un rayon de 9 mètres supplémentaires. Une lanterne à capote reste allumée 6 heures avant de devoir être rechargée. Pour une action, un personnage peut abaisser la capote de la lanterne. Elle ne dégage alors plus de lumière vive et le rayon de sa lumière faible passe à 1,50 mètre.</value>
+  </data>
+  <data name="lanterne-a-capote-name" xml:space="preserve">
+    <value>Lanterne à capote</value>
+  </data>
+  <data name="lanterne-sourde" xml:space="preserve">
+    <value>lanterne-sourde</value>
+  </data>
+  <data name="lanterne-sourde-description" xml:space="preserve">
+    <value>En consommant une flasque (0,5 litre) d’huile, une lanterne sourde peut être allumée. Elle crée une zone de lumière vive dans 18 mètres autour d’elle et une zone de lumière faible dans un rayon de 18 mètres supplémentaires. Une lanterne sourde reste allumée 6 heures avant de devoir être rechargée.</value>
+  </data>
+  <data name="lanterne-sourde-name" xml:space="preserve">
+    <value>Lanterne sourde</value>
+  </data>
+  <data name="leather-armor" xml:space="preserve">
+    <value>leather-armor</value>
+  </data>
+  <data name="leather-armor-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="leather-armor-name" xml:space="preserve">
+    <value>Leather armor</value>
+  </data>
+  <data name="light-crossbow" xml:space="preserve">
+    <value>light-crossbow</value>
+  </data>
+  <data name="light-hammer" xml:space="preserve">
+    <value>light-hammer</value>
+  </data>
+  <data name="livre" xml:space="preserve">
+    <value>livre</value>
+  </data>
+  <data name="livre-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="livre-name" xml:space="preserve">
+    <value>Livre</value>
+  </data>
+  <data name="lock" xml:space="preserve">
+    <value>lock</value>
+  </data>
+  <data name="longbow" xml:space="preserve">
+    <value>longbow</value>
+  </data>
+  <data name="longsword" xml:space="preserve">
+    <value>longsword</value>
+  </data>
+  <data name="longue-vue" xml:space="preserve">
+    <value>longue-vue</value>
+  </data>
+  <data name="longue-vue-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="longue-vue-name" xml:space="preserve">
+    <value>Longue-vue</value>
+  </data>
+  <data name="longue-vue-picture" xml:space="preserve">
+    <value>longue_vue.png</value>
+  </data>
+  <data name="loupe" xml:space="preserve">
+    <value>loupe</value>
+  </data>
+  <data name="loupe-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="loupe-name" xml:space="preserve">
+    <value>Loupe</value>
+  </data>
+  <data name="mace" xml:space="preserve">
+    <value>mace</value>
+  </data>
+  <data name="magnifying-glass" xml:space="preserve">
+    <value>magnifying-glass</value>
+  </data>
+  <data name="manacles" xml:space="preserve">
+    <value>manacles</value>
+  </data>
+  <data name="map-or-scroll-case" xml:space="preserve">
+    <value>map-or-scroll-case</value>
+  </data>
+  <data name="marteau" xml:space="preserve">
+    <value>marteau</value>
+  </data>
+  <data name="marteau-de-guerre" xml:space="preserve">
+    <value>marteau-de-guerre</value>
+  </data>
+  <data name="marteau-de-guerre-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="marteau-de-guerre-name" xml:space="preserve">
+    <value>Marteau de guerre</value>
+  </data>
+  <data name="marteau-de-guerre-picture" xml:space="preserve">
+    <value>marteau_de_guerre.png</value>
+  </data>
+  <data name="marteau-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="marteau-leger" xml:space="preserve">
+    <value>marteau-leger</value>
+  </data>
+  <data name="marteau-leger-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="marteau-leger-name" xml:space="preserve">
+    <value>Marteau léger</value>
+  </data>
+  <data name="marteau-name" xml:space="preserve">
+    <value>Marteau</value>
+  </data>
+  <data name="masse" xml:space="preserve">
+    <value>masse</value>
+  </data>
+  <data name="masse-d-arme-picture" xml:space="preserve">
+    <value>masse_d_arme.png</value>
+  </data>
+  <data name="masse-d-armes" xml:space="preserve">
+    <value>masse-d-armes</value>
+  </data>
+  <data name="masse-d-armes-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="masse-d-armes-name" xml:space="preserve">
+    <value>Masse d’armes</value>
+  </data>
+  <data name="masse-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="masse-name" xml:space="preserve">
+    <value>Masse</value>
+  </data>
+  <data name="massue" xml:space="preserve">
+    <value>massue</value>
+  </data>
+  <data name="massue-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="massue-name" xml:space="preserve">
+    <value>Massue</value>
+  </data>
+  <data name="materiel-de-peche" xml:space="preserve">
+    <value>materiel-de-peche</value>
+  </data>
+  <data name="materiel-de-peche-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="materiel-de-peche-name" xml:space="preserve">
+    <value>Matériel de pêche</value>
+  </data>
+  <data name="materiel-dherboriste" xml:space="preserve">
+    <value>materiel-dherboriste</value>
+  </data>
+  <data name="materiel-dherboriste-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="materiel-dherboriste-name" xml:space="preserve">
+    <value>Matériel d'herboriste</value>
+  </data>
+  <data name="maul" xml:space="preserve">
+    <value>maul</value>
+  </data>
+  <data name="menottes" xml:space="preserve">
+    <value>menottes</value>
+  </data>
+  <data name="menottes-description" xml:space="preserve">
+    <value>Une paire de menottes, toujours accompagnée d’une clef, permet d’immobiliser les mains d’une créature de taille Petite ou Moyenne. Si celle-ci cherche à s’en défaire, elle doit réussir un test de Dextérité DD 20. Si elle cherche à les briser par sa seule force, elle doit réussir un test de Force DD 20. Enfin, pour crocheter des menottes, il faut réussir un test de Dextérité DD 15. Une paire de menottes banale a 15 points de vie.</value>
+  </data>
+  <data name="menottes-name" xml:space="preserve">
+    <value>Menottes</value>
+  </data>
+  <data name="merchant-s-scale" xml:space="preserve">
+    <value>merchant-s-scale</value>
+  </data>
+  <data name="merlin" xml:space="preserve">
+    <value>merlin</value>
+  </data>
+  <data name="merlin-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="merlin-name" xml:space="preserve">
+    <value>Merlin</value>
+  </data>
+  <data name="mess-kit" xml:space="preserve">
+    <value>mess-kit</value>
+  </data>
+  <data name="miner-s-pick" xml:space="preserve">
+    <value>miner-s-pick</value>
+  </data>
+  <data name="miroir-en-acier" xml:space="preserve">
+    <value>miroir-en-acier</value>
+  </data>
+  <data name="miroir-en-acier-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="miroir-en-acier-name" xml:space="preserve">
+    <value>Miroir en acier</value>
+  </data>
+  <data name="morgenstern" xml:space="preserve">
+    <value>morgenstern</value>
+  </data>
+  <data name="morgenstern-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="morgenstern-name" xml:space="preserve">
+    <value>Morgenstern</value>
+  </data>
+  <data name="morgenstern-picture" xml:space="preserve">
+    <value>morgenstern.png</value>
+  </data>
+  <data name="morningstar" xml:space="preserve">
+    <value>morningstar</value>
+  </data>
+  <data name="net" xml:space="preserve">
+    <value>net</value>
+  </data>
+  <data name="oil-flask" xml:space="preserve">
+    <value>oil-flask</value>
+  </data>
+  <data name="orb" xml:space="preserve">
+    <value>orb</value>
+  </data>
+  <data name="outils-de-voleur" xml:space="preserve">
+    <value>outils-de-voleur</value>
+  </data>
+  <data name="outils-de-voleur-description" xml:space="preserve">
+    <value>Cet objet regroupe une collection de petits outils essentiels au crochetage : une petite lime, des crochets, un petit miroir monté sur une poignée de métal, une paire de ciseaux fins et des pinces. Un personnage peut maîtriser les outils de voleur et ainsi ajouter son bonus de maîtrise à un test où ces outils sont employés.</value>
+  </data>
+  <data name="outils-de-voleur-name" xml:space="preserve">
+    <value>Outils de voleur</value>
+  </data>
+  <data name="outre" xml:space="preserve">
+    <value>outre</value>
+  </data>
+  <data name="outre-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="outre-name" xml:space="preserve">
+    <value>Outre</value>
+  </data>
+  <data name="padded-armor" xml:space="preserve">
+    <value>padded-armor</value>
+  </data>
+  <data name="padded-armor-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="padded-armor-name" xml:space="preserve">
+    <value>Padded armor</value>
+  </data>
+  <data name="palan" xml:space="preserve">
+    <value>palan</value>
+  </data>
+  <data name="palan-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="palan-name" xml:space="preserve">
+    <value>Palan</value>
+  </data>
+  <data name="palan-picture" xml:space="preserve">
+    <value>palan.png</value>
+  </data>
+  <data name="panier" xml:space="preserve">
+    <value>panier</value>
+  </data>
+  <data name="panier-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panier-name" xml:space="preserve">
+    <value>Panier</value>
+  </data>
+  <data name="paper" xml:space="preserve">
+    <value>paper</value>
+  </data>
+  <data name="papier" xml:space="preserve">
+    <value>papier</value>
+  </data>
+  <data name="papier-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="papier-name" xml:space="preserve">
+    <value>Papier (1 feuille)</value>
+  </data>
+  <data name="parchemin" xml:space="preserve">
+    <value>parchemin</value>
+  </data>
+  <data name="parchemin-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="parchemin-name" xml:space="preserve">
+    <value>Parchemin (1 feuille)</value>
+  </data>
+  <data name="parchment" xml:space="preserve">
+    <value>parchment</value>
+  </data>
+  <data name="parfum" xml:space="preserve">
+    <value>parfum</value>
+  </data>
+  <data name="parfum-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="parfum-name" xml:space="preserve">
+    <value>Parfum (fiole)</value>
+  </data>
+  <data name="pelle" xml:space="preserve">
+    <value>pelle</value>
+  </data>
+  <data name="pelle-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pelle-name" xml:space="preserve">
+    <value>Pelle</value>
+  </data>
+  <data name="perche" xml:space="preserve">
+    <value>perche</value>
+  </data>
+  <data name="perche-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="perche-name" xml:space="preserve">
+    <value>Perche (3 mètres)</value>
+  </data>
+  <data name="perfume-vial" xml:space="preserve">
+    <value>perfume-vial</value>
+  </data>
+  <data name="pic-de-guerre" xml:space="preserve">
+    <value>pic-de-guerre</value>
+  </data>
+  <data name="pic-de-guerre-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pic-de-guerre-name" xml:space="preserve">
+    <value>Pic de guerre</value>
+  </data>
+  <data name="pics-en-fer" xml:space="preserve">
+    <value>pics-en-fer</value>
+  </data>
+  <data name="pics-en-fer-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pics-en-fer-name" xml:space="preserve">
+    <value>Pics en fer (10)</value>
+  </data>
+  <data name="pied-de-biche" xml:space="preserve">
+    <value>pied-de-biche</value>
+  </data>
+  <data name="pied-de-biche-description" xml:space="preserve">
+    <value>Une solide barre de métal qui peut être utilisée comme levier. Lorsque c’est le cas, son utilisateur bénéficie de l’avantage sur ses tests de Force.</value>
+  </data>
+  <data name="pied-de-biche-name" xml:space="preserve">
+    <value>Pied-de-biche</value>
+  </data>
+  <data name="pied-de-biche-picture" xml:space="preserve">
+    <value>pied_de_biche.png</value>
+  </data>
+  <data name="piege-a-machoires" xml:space="preserve">
+    <value>piege-a-machoires</value>
+  </data>
+  <data name="piege-a-machoires-description" xml:space="preserve">
+    <value>Ce piège se présente sous la forme d’une mâchoire d’acier qui se referme lorsque le piège est déclenché, c’est-à-dire lorsqu’une créature marche sur une plaque de pression située au centre de la mâchoire. Cette créature doit réussir un test de Dextérité DD 13 pour éviter la mâchoire qui se referme sur elle. Si elle échoue, elle est immobilisée pour le tour et subit 1d4 dégâts perforants.
+
+Le piège à mâchoires est relié par une chaîne à un objet lourd, comme un arbre ou un rocher. Cette chaîne mesure généralement 1 mètre. Ainsi, tant que la créature est captive, elle ne peut pas s’éloigner à plus d’1 mètre de cet objet.
+
+La créature piégée peut tenter de forcer l’ouverture de la mâchoire. Elle doit réussir un test de Force DD 13. Si elle échoue, elle subit 1 point de dégât perforant.
+
+Ce piège demande 1 round pour être installé.</value>
+  </data>
+  <data name="piege-a-machoires-name" xml:space="preserve">
+    <value>Piège à mâchoires</value>
+  </data>
+  <data name="pierre-a-affuter" xml:space="preserve">
+    <value>pierre-a-affuter</value>
+  </data>
+  <data name="pierre-a-affuter-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pierre-a-affuter-name" xml:space="preserve">
+    <value>Pierre à affûter</value>
+  </data>
+  <data name="pike" xml:space="preserve">
+    <value>pike</value>
+  </data>
+  <data name="pioche-de-mineur" xml:space="preserve">
+    <value>pioche-de-mineur</value>
+  </data>
+  <data name="pioche-de-mineur-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pioche-de-mineur-name" xml:space="preserve">
+    <value>Pioche de mineur</value>
+  </data>
+  <data name="pique" xml:space="preserve">
+    <value>pique</value>
+  </data>
+  <data name="pique-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pique-name" xml:space="preserve">
+    <value>Pique</value>
+  </data>
+  <data name="piton" xml:space="preserve">
+    <value>piton</value>
+  </data>
+  <data name="piton-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="piton-name" xml:space="preserve">
+    <value>Piton</value>
+  </data>
+  <data name="plate" xml:space="preserve">
+    <value>plate</value>
+  </data>
+  <data name="pole" xml:space="preserve">
+    <value>pole</value>
+  </data>
+  <data name="portable-ram" xml:space="preserve">
+    <value>portable-ram</value>
+  </data>
+  <data name="porte-plume" xml:space="preserve">
+    <value>porte-plume</value>
+  </data>
+  <data name="porte-plume-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="porte-plume-name" xml:space="preserve">
+    <value>Porte-plume</value>
+  </data>
+  <data name="pot-en-fer" xml:space="preserve">
+    <value>pot-en-fer</value>
+  </data>
+  <data name="pot-en-fer-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pot-en-fer-name" xml:space="preserve">
+    <value>Pot en fer</value>
+  </data>
+  <data name="potion-de-soins" xml:space="preserve">
+    <value>potion-de-soins</value>
+  </data>
+  <data name="potion-de-soins-description" xml:space="preserve">
+    <value>Une fiole qui contient un liquide rouge magique. Un personnage peut prendre une action pour la boire (ou la faire boire à une créature). Boire le contenu de la fiole permet de récupérer 2d4+2 points de vie.</value>
+  </data>
+  <data name="potion-de-soins-name" xml:space="preserve">
+    <value>Potion de soins</value>
+  </data>
+  <data name="potion-of-healing" xml:space="preserve">
+    <value>potion-of-healing</value>
+  </data>
+  <data name="pouch" xml:space="preserve">
+    <value>pouch</value>
+  </data>
+  <data name="quarterstaff" xml:space="preserve">
+    <value>quarterstaff</value>
+  </data>
+  <data name="quiver" xml:space="preserve">
+    <value>quiver</value>
+  </data>
+  <data name="rapier" xml:space="preserve">
+    <value>rapier</value>
+  </data>
+  <data name="rapiere" xml:space="preserve">
+    <value>rapiere</value>
+  </data>
+  <data name="rapiere-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rapiere-name" xml:space="preserve">
+    <value>Rapière</value>
+  </data>
+  <data name="rapiere-picture" xml:space="preserve">
+    <value>rapiere.png</value>
+  </data>
+  <data name="rations" xml:space="preserve">
+    <value>rations</value>
+  </data>
+  <data name="rations-description" xml:space="preserve">
+    <value>Les personnages ayant besoin de se nourrir pendant les voyages, ils doivent transporter avec eux des rations. Elles sont généralement constituées d’aliment secs facile à conserver, comme de la viande séchée, des biscuits ou des noix.</value>
+  </data>
+  <data name="rations-name" xml:space="preserve">
+    <value>Rations (1 jour)</value>
+  </data>
+  <data name="reliquaire" xml:space="preserve">
+    <value>reliquaire</value>
+  </data>
+  <data name="reliquaire-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="reliquaire-name" xml:space="preserve">
+    <value>Reliquaire</value>
+  </data>
+  <data name="reliquary" xml:space="preserve">
+    <value>reliquary</value>
+  </data>
+  <data name="ring-mail" xml:space="preserve">
+    <value>ring-mail</value>
+  </data>
+  <data name="robes" xml:space="preserve">
+    <value>robes</value>
+  </data>
+  <data name="robes-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="robes-name" xml:space="preserve">
+    <value>Robes</value>
+  </data>
+  <data name="rod" xml:space="preserve">
+    <value>rod</value>
+  </data>
+  <data name="sablier" xml:space="preserve">
+    <value>sablier</value>
+  </data>
+  <data name="sablier-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sablier-name" xml:space="preserve">
+    <value>Sablier</value>
+  </data>
+  <data name="sac" xml:space="preserve">
+    <value>sac</value>
+  </data>
+  <data name="sac-a-dos" xml:space="preserve">
+    <value>sac-a-dos</value>
+  </data>
+  <data name="sac-a-dos-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sac-a-dos-name" xml:space="preserve">
+    <value>Sac à dos</value>
+  </data>
+  <data name="sac-de-billes" xml:space="preserve">
+    <value>sac-de-billes</value>
+  </data>
+  <data name="sac-de-billes-description" xml:space="preserve">
+    <value>Des billes de métal peuvent être utilisées pour ralentir les adversaires. Le temps d’une action, un personnage peut les répandre au sol. Elles vont occuper une surface plane de 3 mètres de côté. Pour ne pas risquer de tomber, il faut se déplacer sur cette surface à la moitié de sa vitesse. Si l’on s’y déplace à pleine vitesse, il faut réussir un jet de sauvegarde de Dextérité DD 10 pour ne pas tomber au sol.</value>
+  </data>
+  <data name="sac-de-billes-name" xml:space="preserve">
+    <value>Billes (sac de 1 000)</value>
+  </data>
+  <data name="sac-de-billes-picture" xml:space="preserve">
+    <value>sac_de_billes.png</value>
+  </data>
+  <data name="sac-de-couchage" xml:space="preserve">
+    <value>sac-de-couchage</value>
+  </data>
+  <data name="sac-de-couchage-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sac-de-couchage-name" xml:space="preserve">
+    <value>Sac de couchage</value>
+  </data>
+  <data name="sac-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sac-name" xml:space="preserve">
+    <value>Sac</value>
+  </data>
+  <data name="sack" xml:space="preserve">
+    <value>sack</value>
+  </data>
+  <data name="sacoche" xml:space="preserve">
+    <value>sacoche</value>
+  </data>
+  <data name="sacoche-description" xml:space="preserve">
+    <value>Une petite bourse qui peut être faite de tissu, de cuir, ou d’autres matières souples. Elle peut contenir toutes sortes d’objets. Une sacoche banale peut contenir jusqu’à 20 billes de fronde.</value>
+  </data>
+  <data name="sacoche-name" xml:space="preserve">
+    <value>Sacoche</value>
+  </data>
+  <data name="sarbacane" xml:space="preserve">
+    <value>sarbacane</value>
+  </data>
+  <data name="sarbacane-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sarbacane-name" xml:space="preserve">
+    <value>Sarbacane</value>
+  </data>
+  <data name="savon" xml:space="preserve">
+    <value>savon</value>
+  </data>
+  <data name="savon-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="savon-name" xml:space="preserve">
+    <value>Savon</value>
+  </data>
+  <data name="scale-mail" xml:space="preserve">
+    <value>scale-mail</value>
+  </data>
+  <data name="scimitar" xml:space="preserve">
+    <value>scimitar</value>
+  </data>
+  <data name="sealing-wax" xml:space="preserve">
+    <value>sealing-wax</value>
+  </data>
+  <data name="seau" xml:space="preserve">
+    <value>seau</value>
+  </data>
+  <data name="seau-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="seau-name" xml:space="preserve">
+    <value>Seau</value>
+  </data>
+  <data name="serpe" xml:space="preserve">
+    <value>serpe</value>
+  </data>
+  <data name="serpe-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="serpe-name" xml:space="preserve">
+    <value>Serpe</value>
+  </data>
+  <data name="shield" xml:space="preserve">
+    <value>shield</value>
+  </data>
+  <data name="shortbow" xml:space="preserve">
+    <value>shortbow</value>
+  </data>
+  <data name="shortsword" xml:space="preserve">
+    <value>shortsword</value>
+  </data>
+  <data name="shovel" xml:space="preserve">
+    <value>shovel</value>
+  </data>
+  <data name="sickle" xml:space="preserve">
+    <value>sickle</value>
+  </data>
+  <data name="sifflet" xml:space="preserve">
+    <value>sifflet</value>
+  </data>
+  <data name="sifflet-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sifflet-name" xml:space="preserve">
+    <value>Sifflet</value>
+  </data>
+  <data name="signal-whistle" xml:space="preserve">
+    <value>signal-whistle</value>
+  </data>
+  <data name="signet-ring" xml:space="preserve">
+    <value>signet-ring</value>
+  </data>
+  <data name="silk-rope" xml:space="preserve">
+    <value>silk-rope</value>
+  </data>
+  <data name="sledge-hammer" xml:space="preserve">
+    <value>sledge-hammer</value>
+  </data>
+  <data name="sling" xml:space="preserve">
+    <value>sling</value>
+  </data>
+  <data name="sling-bullets" xml:space="preserve">
+    <value>sling-bullets</value>
+  </data>
+  <data name="soap" xml:space="preserve">
+    <value>soap</value>
+  </data>
+  <data name="spear" xml:space="preserve">
+    <value>spear</value>
+  </data>
+  <data name="spellbook" xml:space="preserve">
+    <value>spellbook</value>
+  </data>
+  <data name="splint" xml:space="preserve">
+    <value>splint</value>
+  </data>
+  <data name="sprig-of-mistletoe" xml:space="preserve">
+    <value>sprig-of-mistletoe</value>
+  </data>
+  <data name="spyglass" xml:space="preserve">
+    <value>spyglass</value>
+  </data>
+  <data name="staff" xml:space="preserve">
+    <value>staff</value>
+  </data>
+  <data name="steel-mirror" xml:space="preserve">
+    <value>steel-mirror</value>
+  </data>
+  <data name="studded-leather-armor" xml:space="preserve">
+    <value>studded-leather-armor</value>
+  </data>
+  <data name="studded-leather-armor-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="studded-leather-armor-name" xml:space="preserve">
+    <value>Studded leather armor</value>
+  </data>
+  <data name="symbole-sacre" xml:space="preserve">
+    <value>symbole-sacre</value>
+  </data>
+  <data name="symbole-sacre-description" xml:space="preserve">
+    <value>Un personnage peut porter avec lui une représentation d’un dieu (ou d’un panthéon), sous la forme d’un symbole sacré. Celui-ci peut avoir été gravé sur une amulette, incrusté sur un bouclier, etc.</value>
+  </data>
+  <data name="symbole-sacre-name" xml:space="preserve">
+    <value>Symbole sacré</value>
+  </data>
+  <data name="tent-two-person" xml:space="preserve">
+    <value>tent-two-person</value>
+  </data>
+  <data name="tente-deux-personnes" xml:space="preserve">
+    <value>tente-deux-personnes</value>
+  </data>
+  <data name="tente-deux-personnes-description" xml:space="preserve">
+    <value>Pendant les voyages, les personnages peuvent s’y abriter. Elle est simple mais peut être transportée. Une tente banale peut accueillir jusqu’à 2 personnes.</value>
+  </data>
+  <data name="tente-deux-personnes-name" xml:space="preserve">
+    <value>Tente, deux personnes</value>
+  </data>
+  <data name="tenue-de-voyageur" xml:space="preserve">
+    <value>tenue-de-voyageur</value>
+  </data>
+  <data name="tenue-de-voyageur-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tenue-de-voyageur-name" xml:space="preserve">
+    <value>Tenue de voyageur</value>
+  </data>
+  <data name="tinderbox" xml:space="preserve">
+    <value>tinderbox</value>
+  </data>
+  <data name="tonneau" xml:space="preserve">
+    <value>tonneau</value>
+  </data>
+  <data name="tonneau-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tonneau-name" xml:space="preserve">
+    <value>Tonneau</value>
+  </data>
+  <data name="torch" xml:space="preserve">
+    <value>torch</value>
+  </data>
+  <data name="torche" xml:space="preserve">
+    <value>torche</value>
+  </data>
+  <data name="torche-description" xml:space="preserve">
+    <value>Une torche peut diffuser de la lumière si elle est allumée. Elle crée une zone de lumière vive dans 6 mètres autour d’elle et une zone de lumière faible dans un rayon de 6 mètres supplémentaires. Une torche dure 1 heure.
+
+Une torche peut être utilisée comme arme improvisée. Si elle porte une attaque au corps à corps, elle inflige 1 dégât de feu à la cible.</value>
+  </data>
+  <data name="torche-name" xml:space="preserve">
+    <value>Torche</value>
+  </data>
+  <data name="totem" xml:space="preserve">
+    <value>totem</value>
+  </data>
+  <data name="traveller-s-clothes" xml:space="preserve">
+    <value>traveller-s-clothes</value>
+  </data>
+  <data name="trident" xml:space="preserve">
+    <value>trident</value>
+  </data>
+  <data name="trident-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="trident-name" xml:space="preserve">
+    <value>Trident</value>
+  </data>
+  <data name="trident-picture" xml:space="preserve">
+    <value>trident.png</value>
+  </data>
+  <data name="trousse-de-soins" xml:space="preserve">
+    <value>trousse-de-soins</value>
+  </data>
+  <data name="trousse-de-soins-description" xml:space="preserve">
+    <value>Cette trousse contient un ensemble d’outils de médecine. Elle permet 10 utilisations. Chaque utilisation permet de stabiliser une créature à 0 point de vie (aucun test n’est nécessaire). Utiliser une trousse de soin demande une action.</value>
+  </data>
+  <data name="trousse-de-soins-name" xml:space="preserve">
+    <value>Trousse de soins</value>
+  </data>
+  <data name="vial" xml:space="preserve">
+    <value>vial</value>
+  </data>
+  <data name="wand" xml:space="preserve">
+    <value>wand</value>
+  </data>
+  <data name="war-pick" xml:space="preserve">
+    <value>war-pick</value>
+  </data>
+  <data name="warhammer" xml:space="preserve">
+    <value>warhammer</value>
+  </data>
+  <data name="waterskin" xml:space="preserve">
+    <value>waterskin</value>
+  </data>
+  <data name="whetstone" xml:space="preserve">
+    <value>whetstone</value>
+  </data>
+  <data name="whip" xml:space="preserve">
+    <value>whip</value>
+  </data>
+  <data name="wooden-staff" xml:space="preserve">
+    <value>wooden-staff</value>
+  </data>
+  <data name="yew-wand" xml:space="preserve">
+    <value>yew-wand</value>
+  </data>
+</root>

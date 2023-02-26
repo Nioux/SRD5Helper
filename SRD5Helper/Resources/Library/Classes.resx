@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="barbarian" xml:space="preserve">
+    <value>barbarian</value>
+  </data>
+  <data name="barbarian-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="barbarian-name" xml:space="preserve">
+    <value>Barbare</value>
+  </data>
+  <data name="bard" xml:space="preserve">
+    <value>bard</value>
+  </data>
+  <data name="bard-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="bard-name" xml:space="preserve">
+    <value>Barde</value>
+  </data>
+  <data name="cleric" xml:space="preserve">
+    <value>cleric</value>
+  </data>
+  <data name="cleric-description" xml:space="preserve">
+    <value>Les clercs vouent leur existence au service des dieux. Les clercs dédient leur vie au service exclusif d’un seul dieu, mettant toutes leurs compétences au service du domaine de ce dieu précis. En échange, ils reçoivent une part de pouvoir divin pour accomplir leurs tâches, sous la forme de sortilèges et d’aptitudes divines.</value>
+  </data>
+  <data name="cleric-name" xml:space="preserve">
+    <value>Clerc</value>
+  </data>
+  <data name="druid" xml:space="preserve">
+    <value>druid</value>
+  </data>
+  <data name="druid-description" xml:space="preserve">
+    <value>Si la nature était une religion, le druide en serait le prêtre. Un prêtre qui vit au contact de la faune et la flore de sa région, respecte et comprend les cycles naturels et surtout l’équilibre fragile qui régit les écosystèmes. Un druide se considère toujours comme le gardien et le défenseur des espaces dans lesquels il choisit de vivre ou de voyager. Il tire de la nature une magie primitive et des capacités hors normes qui en font un personnage unique.</value>
+  </data>
+  <data name="druid-name" xml:space="preserve">
+    <value>Druide</value>
+  </data>
+  <data name="fighter" xml:space="preserve">
+    <value>fighter</value>
+  </data>
+  <data name="fighter-description" xml:space="preserve">
+    <value>Il y a ceux qui savent manier une arme, et puis il y a les guerriers. Ces derniers vouent leur vie à la maîtrise martiale, à l’excellence dans le métier de combattant, que ce soit en tant que soldat, en tant que gladiateur ou en tant que garde du corps.</value>
+  </data>
+  <data name="fighter-fname" xml:space="preserve">
+    <value>Guerrière</value>
+  </data>
+  <data name="fighter-iname" xml:space="preserve">
+    <value>Guerri·er·ère</value>
+  </data>
+  <data name="fighter-mname" xml:space="preserve">
+    <value>Guerrier</value>
+  </data>
+  <data name="fighter-name" xml:space="preserve">
+    <value>Guerrier</value>
+  </data>
+  <data name="monk" xml:space="preserve">
+    <value>monk</value>
+  </data>
+  <data name="monk-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="monk-fname" xml:space="preserve">
+    <value>Moniale</value>
+  </data>
+  <data name="monk-mname" xml:space="preserve">
+    <value>Moine</value>
+  </data>
+  <data name="monk-name" xml:space="preserve">
+    <value>Moine</value>
+  </data>
+  <data name="paladin" xml:space="preserve">
+    <value>paladin</value>
+  </data>
+  <data name="paladin-description" xml:space="preserve">
+    <value>Pour certains, leurs principes de bonté et d’honnêteté sont si importants et si inviolables, qu’ils tirent de cette force de conviction et de leurs idéaux une puissance insoupçonnée. Elle leur permet par exemple de châtier les ennemis du Bien et de maîtriser une magie sans pareille.</value>
+  </data>
+  <data name="paladin-name" xml:space="preserve">
+    <value>Paladin</value>
+  </data>
+  <data name="ranger" xml:space="preserve">
+    <value>ranger</value>
+  </data>
+  <data name="ranger-description" xml:space="preserve">
+    <value>Les rôdeurs sont des êtres solitaires et habitués à survivre en pleine nature. Mais loin de n’être que de simples guerriers, les rôdeurs ont appris à maîtriser une magie étrange et oubliée liée à la faune et à la flore, leur permettant de devenir des pisteurs et des chasseurs hors pair, ainsi que des spécialistes de la survie.</value>
+  </data>
+  <data name="ranger-fname" xml:space="preserve">
+    <value>Rôdeuse</value>
+  </data>
+  <data name="ranger-mname" xml:space="preserve">
+    <value>Rôdeur</value>
+  </data>
+  <data name="ranger-name" xml:space="preserve">
+    <value>Rôdeur</value>
+  </data>
+  <data name="rogue" xml:space="preserve">
+    <value>rogue</value>
+  </data>
+  <data name="rogue-description" xml:space="preserve">
+    <value>Les roublards sont des professionnels du cambriolage et de la tromperie. Certains sont spécialisés dans les larcins, le désamorçage de pièges ou l’ouverture de serrures, l’embuscade particulièrement mortelle ou dans la recherche de trésors.</value>
+  </data>
+  <data name="rogue-fname" xml:space="preserve">
+    <value>Roublarde</value>
+  </data>
+  <data name="rogue-mname" xml:space="preserve">
+    <value>Roublard</value>
+  </data>
+  <data name="rogue-name" xml:space="preserve">
+    <value>Roublard</value>
+  </data>
+  <data name="sorcerer" xml:space="preserve">
+    <value>sorcerer</value>
+  </data>
+  <data name="sorcerer-description" xml:space="preserve">
+    <value>Certains étudient longtemps la magie avant d’apprendre à en maîtriser les arcanes. Mais pour l’ensorceleur, la magie coule dans un sang hérité d’un ancêtre souvent très particulier. Et ils en maîtrise instinctivement les secrets.</value>
+  </data>
+  <data name="sorcerer-fname" xml:space="preserve">
+    <value>Ensorceleuse</value>
+  </data>
+  <data name="sorcerer-iname" xml:space="preserve">
+    <value>Ensorceleu·r·se</value>
+  </data>
+  <data name="sorcerer-mname" xml:space="preserve">
+    <value>Ensorceleur</value>
+  </data>
+  <data name="sorcerer-name" xml:space="preserve">
+    <value>Ensorceleur</value>
+  </data>
+  <data name="sorcerer-nname" xml:space="preserve">
+    <value>Ensorceleux</value>
+  </data>
+  <data name="warlock" xml:space="preserve">
+    <value>warlock</value>
+  </data>
+  <data name="warlock-fname" xml:space="preserve">
+    <value>Sorcière</value>
+  </data>
+  <data name="warlock-mname" xml:space="preserve">
+    <value>Sorcier</value>
+  </data>
+  <data name="warlock-name" xml:space="preserve">
+    <value>Sorcier</value>
+  </data>
+  <data name="wizard" xml:space="preserve">
+    <value>wizard</value>
+  </data>
+  <data name="wizard-description" xml:space="preserve">
+    <value>Un magicien est capable de modeler les énergies magiques qui parcourent le monde pour leur donner des formes très diverses. Attaques foudroyantes, illusions subtiles, invocations mystérieuses, ouverture de fenêtres sur des mondes inconnus, il n’existe en théorie aucune limite au pouvoir des magiciens qui, à haut niveau, sont capables de véritables prodiges.</value>
+  </data>
+  <data name="wizard-fname" xml:space="preserve">
+    <value>Magicienne</value>
+  </data>
+  <data name="wizard-iname" xml:space="preserve">
+    <value>Magicien·ne</value>
+  </data>
+  <data name="wizard-mname" xml:space="preserve">
+    <value>Magicien</value>
+  </data>
+  <data name="wizard-name" xml:space="preserve">
+    <value>Magicien</value>
+  </data>
+</root>

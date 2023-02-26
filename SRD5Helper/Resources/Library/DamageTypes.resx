@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="acid" xml:space="preserve">
+    <value>acid</value>
+  </data>
+  <data name="acid-description" xml:space="preserve">
+    <value>Le souffle corrosif d’un dragon noir et les enzymes dissolvants d’un pouding noir infligent des dégâts d’acide.</value>
+  </data>
+  <data name="acid-name" xml:space="preserve">
+    <value>Acide</value>
+  </data>
+  <data name="bludgeoning" xml:space="preserve">
+    <value>bludgeoning</value>
+  </data>
+  <data name="bludgeoning-description" xml:space="preserve">
+    <value>Les attaques de force brute – coup de marteau, chute, constriction, etc. – infligent des dégâts contondants.</value>
+  </data>
+  <data name="bludgeoning-name" xml:space="preserve">
+    <value>Contondant</value>
+  </data>
+  <data name="cold" xml:space="preserve">
+    <value>cold</value>
+  </data>
+  <data name="cold-description" xml:space="preserve">
+    <value>Le froid infernal qui irradie de la lance d’un diable gelé et le souffle glacé d’un dragon blanc infligent des dégâts de froid.</value>
+  </data>
+  <data name="cold-name" xml:space="preserve">
+    <value>Froid</value>
+  </data>
+  <data name="fire" xml:space="preserve">
+    <value>fire</value>
+  </data>
+  <data name="fire-description" xml:space="preserve">
+    <value>Les dragons rouges crachent du feu et de nombreux sorts permettent d’invoquer des flammes et d’infliger des dégâts de feu.</value>
+  </data>
+  <data name="fire-name" xml:space="preserve">
+    <value>Feu</value>
+  </data>
+  <data name="force" xml:space="preserve">
+    <value>force</value>
+  </data>
+  <data name="force-description" xml:space="preserve">
+    <value>La force est le résultat de l’énergie magique pure, concentrée pour infliger des dégâts. La plupart des effets qui infligent des dégâts de force sont des sorts, notamment _projectile magique_ et _arme spirituelle_.</value>
+  </data>
+  <data name="force-name" xml:space="preserve">
+    <value>Force</value>
+  </data>
+  <data name="lightning" xml:space="preserve">
+    <value>lightning</value>
+  </data>
+  <data name="lightning-description" xml:space="preserve">
+    <value>Un sort d’éclair inflige des dégâts de foudre, tout comme le souffle d’un dragon bleu.</value>
+  </data>
+  <data name="lightning-name" xml:space="preserve">
+    <value>Foudre</value>
+  </data>
+  <data name="necrotic" xml:space="preserve">
+    <value>necrotic</value>
+  </data>
+  <data name="necrotic-description" xml:space="preserve">
+    <value>Les dégâts nécrotiques infligés par certains morts-vivants et des sorts comme _contact glacial_ font se flétrir la matière et même l’âme.</value>
+  </data>
+  <data name="necrotic-name" xml:space="preserve">
+    <value>Nécrotique</value>
+  </data>
+  <data name="piercing" xml:space="preserve">
+    <value>piercing</value>
+  </data>
+  <data name="piercing-description" xml:space="preserve">
+    <value>Les attaques portées dans le but de percer ou d’empaler, notamment celles portées avec des lances ou par des morsures de monstres, infligent des dégâts perforants.</value>
+  </data>
+  <data name="piercing-name" xml:space="preserve">
+    <value>Perforant</value>
+  </data>
+  <data name="poison" xml:space="preserve">
+    <value>poison</value>
+  </data>
+  <data name="poison-description" xml:space="preserve">
+    <value>Les piqûres venimeuses et les gaz toxiques dégagés par le souffle d’un dragon vert, par exemple, infligent des dégâts de poison.</value>
+  </data>
+  <data name="poison-name" xml:space="preserve">
+    <value>Poison</value>
+  </data>
+  <data name="psychic" xml:space="preserve">
+    <value>psychic</value>
+  </data>
+  <data name="psychic-description" xml:space="preserve">
+    <value>Les capacités mentales de certains monstres infligent des dégâts psychiques.</value>
+  </data>
+  <data name="psychic-name" xml:space="preserve">
+    <value>Psychique</value>
+  </data>
+  <data name="radiant" xml:space="preserve">
+    <value>radiant</value>
+  </data>
+  <data name="radiant-description" xml:space="preserve">
+    <value>Les dégâts radiants infligés par le sort _colonne de flammes_ d’un clerc ou les armes brandies par les anges brûlent les chairs comme le feu et submergent l’esprit de pouvoir.</value>
+  </data>
+  <data name="radiant-name" xml:space="preserve">
+    <value>Radiant</value>
+  </data>
+  <data name="slashing" xml:space="preserve">
+    <value>slashing</value>
+  </data>
+  <data name="slashing-description" xml:space="preserve">
+    <value>Les épées, les haches et les griffes des monstres infligent des dégâts tranchants.</value>
+  </data>
+  <data name="slashing-name" xml:space="preserve">
+    <value>Tranchant</value>
+  </data>
+  <data name="thunder" xml:space="preserve">
+    <value>thunder</value>
+  </data>
+  <data name="thunder-description" xml:space="preserve">
+    <value>Un bruit commotionnant, comme l’effet du sort _vague tonnante_, inflige des dégâts de tonnerre.</value>
+  </data>
+  <data name="thunder-name" xml:space="preserve">
+    <value>Tonnerre</value>
+  </data>
+</root>

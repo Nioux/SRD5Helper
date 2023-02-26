@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="aide"><value>aide</value></data>
+  <data name="aide-name"><value>Aide</value></data>
+  <data name="aide-description"><value>Votre pouvoir divin rend force et courage à vos compagnons.</value></data>
+  <data name="amitie-avec-les-animaux"><value>amitie-avec-les-animaux</value></data>
+  <data name="amitie-avec-les-animaux-name"><value>Amitié avec les animaux</value></data>
+  <data name="amitie-avec-les-animaux-description"><value>L’animal ciblé semble soudainement beaucoup vous apprécier.</value></data>
+  <data name="arme-spirituelle"><value>arme-spirituelle</value></data>
+  <data name="arme-spirituelle-name"><value>Arme spirituelle</value></data>
+  <data name="arme-spirituelle-description"><value>Une arme spectrale harcèle vos ennemis de ses attaques répétées.</value></data>
+  <data name="armure-du-mage"><value>armure-du-mage</value></data>
+  <data name="armure-du-mage-name"><value>Armure du mage</value></data>
+  <data name="armure-du-mage-description"><value>Une aura magique invisible protège la cible et dévie les attaques, qui semblent glisser sur elle.</value></data>
+  <data name="assistance"><value>assistance</value></data>
+  <data name="assistance-name"><value>Assistance</value></data>
+  <data name="assistance-description"><value>Une courte vision vous permet de guider la cible dans sa prochaine action.</value></data>
+  <data name="augure"><value>augure</value></data>
+  <data name="augure-name"><value>Augure</value></data>
+  <data name="augure-description"><value>Vous utilisez une méthode divinatoire pour recevoir un présage venu d’un autre monde.</value></data>
+  <data name="aura-du-heros"><value>aura-du-heros</value></data>
+  <data name="aura-du-heros-name"><value>Aura du héros</value></data>
+  <data name="aura-du-heros-description"><value>Une aura captivante émane de vous et rend vos interlocuteurs plus enclins à vous écouter, à vous croire, à accepter vos idées ou à avaler vos mensonges.</value></data>
+  <data name="baies-nourricieres"><value>baies-nourricieres</value></data>
+  <data name="baies-nourricieres-name"><value>Baies nourricières</value></data>
+  <data name="baies-nourricieres-description"><value>Vous créez des baies magiques qui soignent et nourrissent.</value></data>
+  <data name="benediction"><value>benediction</value></data>
+  <data name="benediction-name"><value>Bénédiction</value></data>
+  <data name="benediction-description"><value>Votre force divine rend vos compagnons plus forts et plus résistants.</value></data>
+  <data name="blessure"><value>blessure</value></data>
+  <data name="blessure-name"><value>Blessure</value></data>
+  <data name="blessure-description"><value>Votre contact, chargé d’énergie nécrotique, inflige une terrible blessure.</value></data>
+  <data name="bouclier-de-la-foi"><value>bouclier-de-la-foi</value></data>
+  <data name="bouclier-de-la-foi-name"><value>Bouclier de la foi</value></data>
+  <data name="bouclier-de-la-foi-description"><value>Une aura scintillante protège la cible des attaques.</value></data>
+  <data name="bouffee-de-poison"><value>bouffee-de-poison</value></data>
+  <data name="bouffee-de-poison-name"><value>Bouffée de poison</value></data>
+  <data name="bouffee-de-poison-description"><value>Du gaz toxique est projeté de votre main.</value></data>
+  <data name="bourrasque"><value>bourrasque</value></data>
+  <data name="bourrasque-name"><value>Bourrasque</value></data>
+  <data name="bourrasque-description"><value>Un vent violent émane de vous et repousse vos adversaires.</value></data>
+  <data name="brulure-du-juste"><value>brulure-du-juste</value></data>
+  <data name="brulure-du-juste-name"><value>Brûlure du juste</value></data>
+  <data name="brulure-du-juste-description"><value>Votre arme devient lumineuse et inflige de terribles dégâts.</value></data>
+  <data name="cecite-surdite"><value>cecite-surdite</value></data>
+  <data name="cecite-surdite-name"><value>Cécité/Surdité</value></data>
+  <data name="cecite-surdite-description"><value>Votre ennemi devient sourd ou aveugle.</value></data>
+  <data name="charme-personne"><value>charme-personne</value></data>
+  <data name="charme-personne-name"><value>Charme-personne</value></data>
+  <data name="charme-personne-description"><value>La cible vous considère comme un ami de longue date.</value></data>
+  <data name="choc-des-titans"><value>choc-des-titans</value></data>
+  <data name="choc-des-titans-name"><value>Choc des titans</value></data>
+  <data name="choc-des-titans-description"><value>Vous désignez un adversaire comme votre cible prioritaire. Dès cet instant, vous le frappez avec une précision redoublée.</value></data>
+  <data name="comprehension-des-langues"><value>comprehension-des-langues</value></data>
+  <data name="comprehension-des-langues-name"><value>Compréhension des langues</value></data>
+  <data name="comprehension-des-langues-description"><value>Vous comprenez les langues que vous entendez ou lisez.</value></data>
+  <data name="couleurs-dansantes"><value>couleurs-dansantes</value></data>
+  <data name="couleurs-dansantes-name"><value>Couleurs dansantes</value></data>
+  <data name="couleurs-dansantes-description"><value>Des lumières colorées surgissent de votre main et aveuglent les cibles.</value></data>
+  <data name="detection-de-la-magie"><value>detection-de-la-magie</value></data>
+  <data name="detection-de-la-magie-name"><value>Détection de la magie</value></data>
+  <data name="detection-de-la-magie-description"><value>Vous percevez les auras magiques.</value></data>
+  <data name="detection-du-poison-et-des-maladies"><value>detection-du-poison-et-des-maladies</value></data>
+  <data name="detection-du-poison-et-des-maladies-name"><value>Détection du poison et des maladies</value></data>
+  <data name="detection-du-poison-et-des-maladies-description"><value>Soudain, vous savez si du poison, des créatures venimeuses ou des maladies se trouvent autour de vous.</value></data>
+  <data name="enchevetrement"><value>enchevetrement</value></data>
+  <data name="enchevetrement-name"><value>Enchevêtrement</value></data>
+  <data name="enchevetrement-description"><value>La végétation emprisonne vos ennemis.</value></data>
+  <data name="faveur-divine"><value>faveur-divine</value></data>
+  <data name="faveur-divine-name"><value>Faveur divine</value></data>
+  <data name="faveur-divine-description"><value>Vos prières rendent vos attaques plus meurtrières.</value></data>
+  <data name="flamme-sacree"><value>flamme-sacree</value></data>
+  <data name="flamme-sacree-name"><value>Flamme sacrée</value></data>
+  <data name="flamme-sacree-description"><value>Une lumière flamboyante s’abat sur votre adversaire.</value></data>
+  <data name="fleau"><value>fleau</value></data>
+  <data name="fleau-name"><value>Fléau</value></data>
+  <data name="fleau-description"><value>Vos ennemis deviennent maladroits ou malchanceux. Ou les deux.</value></data>
+  <data name="fleche-acide"><value>fleche-acide</value></data>
+  <data name="fleche-acide-name"><value>Flèche acide</value></data>
+  <data name="fleche-acide-description"><value>Vous projetez une flèche d’un vert chatoyant qui explose en une gerbe corrosive.</value></data>
+  <data name="flou"><value>flou</value></data>
+  <data name="flou-name"><value>Flou</value></data>
+  <data name="flou-description"><value>Vous devenez flou, difficile à discerner, ce qui vous protège des attaques de vos ennemis.</value></data>
+  <data name="geyser-d-energie"><value>geyser-d-energie</value></data>
+  <data name="geyser-d-energie-name"><value>Geyser d'énergie</value></data>
+  <data name="geyser-d-energie-description"><value>Un geyser d’énergie jaillit du sol et frappe vos ennemis.</value></data>
+  <data name="gourdin-magique"><value>gourdin-magique</value></data>
+  <data name="gourdin-magique-name"><value>Gourdin magique</value></data>
+  <data name="gourdin-magique-description"><value>Vous transformez un simple bâton en arme.</value></data>
+  <data name="graisse"><value>graisse</value></data>
+  <data name="graisse-name"><value>Graisse</value></data>
+  <data name="graisse-description"><value>Une couche de graisse glissante recouvre le sol, provoquant la chute de ceux qui y posent le pied.</value></data>
+  <data name="grande-foulee"><value>grande-foulee</value></data>
+  <data name="grande-foulee-name"><value>Grande foulée</value></data>
+  <data name="grande-foulee-description"><value>La cible se déplace soudain plus rapidement.</value></data>
+  <data name="heroisme"><value>heroisme</value></data>
+  <data name="heroisme-name"><value>Héroïsme</value></data>
+  <data name="heroisme-description"><value>La cible est imprégnée de courage. Rien ne pourra la faire trembler.</value></data>
+  <data name="identification"><value>identification</value></data>
+  <data name="identification-name"><value>Identification</value></data>
+  <data name="identification-description"><value>Vous découvrez les propriétés d’un objet magique.</value></data>
+  <data name="illusion-mineure"><value>illusion-mineure</value></data>
+  <data name="illusion-mineure-name"><value>Illusion mineure</value></data>
+  <data name="illusion-mineure-description"><value>Vous créez une image ou un son imaginaire.</value></data>
+  <data name="image-miroir"><value>image-miroir</value></data>
+  <data name="image-miroir-name"><value>Image miroir</value></data>
+  <data name="image-miroir-description"><value>Trois répliques illusoires de votre corps apparaissent près de vous. Comment savoir laquelle frapper ?</value></data>
+  <data name="immobiliser-un-humanoide"><value>immobiliser-un-humanoide</value></data>
+  <data name="immobiliser-un-humanoide-name"><value>Immobiliser un humanoïde</value></data>
+  <data name="immobiliser-un-humanoide-description"><value>Votre cible se fige instantanément.</value></data>
+  <data name="injonction"><value>injonction</value></data>
+  <data name="injonction-name"><value>Injonction</value></data>
+  <data name="injonction-description"><value>Votre cible obéit à votre ordre sans sourciller.</value></data>
+  <data name="invisibilite"><value>invisibilite</value></data>
+  <data name="invisibilite-name"><value>Invisibilité</value></data>
+  <data name="invisibilite-description"><value>La créature ciblée disparaît du monde visible.</value></data>
+  <data name="lame-de-feu"><value>lame-de-feu</value></data>
+  <data name="lame-de-feu-name"><value>Lame de feu</value></data>
+  <data name="lame-de-feu-description"><value>Un cimeterre de feu apparaît dans votre main.</value></data>
+  <data name="levitation"><value>levitation</value></data>
+  <data name="levitation-name"><value>Lévitation</value></data>
+  <data name="levitation-description"><value>La cible s’élève verticalement dans les airs.</value></data>
+  <data name="lumiere"><value>lumiere</value></data>
+  <data name="lumiere-name"><value>Lumière</value></data>
+  <data name="lumiere-description"><value>L’objet ciblé émet une lumière vive.</value></data>
+  <data name="lumieres-dansantes"><value>lumieres-dansantes</value></data>
+  <data name="lumieres-dansantes-name"><value>Lumières dansantes</value></data>
+  <data name="lumieres-dansantes-description"><value>Quatre lumières, sous forme de torches, de lanternes ou d’orbes luisants apparaissent.</value></data>
+  <data name="main-du-mage"><value>main-du-mage</value></data>
+  <data name="main-du-mage-name"><value>Main du mage</value></data>
+  <data name="main-du-mage-description"><value>Vous faites apparaître une main spectrale dont vous vous servez pour manipuler des objets.</value></data>
+  <data name="mains-brulantes"><value>mains-brulantes</value></data>
+  <data name="mains-brulantes-name"><value>Mains brûlantes</value></data>
+  <data name="mains-brulantes-description"><value>Vous tendez les mains devant vous et propulsez des flammes.</value></data>
+  <data name="marque-du-chasseur"><value>marque-du-chasseur</value></data>
+  <data name="marque-du-chasseur-name"><value>Marque du chasseur</value></data>
+  <data name="marque-du-chasseur-description"><value>Une marque mystique désigne la cible comme votre proie.</value></data>
+  <data name="messager-animal"><value>messager-animal</value></data>
+  <data name="messager-animal-name"><value>Messager animal</value></data>
+  <data name="messager-animal-description"><value>Vous chargez un petit animal de délivrer un message.</value></data>
+  <data name="mot-de-guerison"><value>mot-de-guerison</value></data>
+  <data name="mot-de-guerison-name"><value>Mot de guérison</value></data>
+  <data name="mot-de-guerison-description"><value>En une fraction de seconde, les plaies de votre compagnon se referment.</value></data>
+  <data name="nappe-de-brouillard"><value>nappe-de-brouillard</value></data>
+  <data name="nappe-de-brouillard-name"><value>Nappe de brouillard</value></data>
+  <data name="nappe-de-brouillard-description"><value>Un brouillard épais se lève dans la zone.</value></data>
+  <data name="passage-sans-traces"><value>passage-sans-traces</value></data>
+  <data name="passage-sans-traces-name"><value>Passage sans traces</value></data>
+  <data name="passage-sans-traces-description"><value>Les sons que vous produisez sont étouffés et les ombres vous dissimulent.</value></data>
+  <data name="pattes-d-araignee"><value>pattes-d-araignee</value></data>
+  <data name="pattes-d-araignee-name"><value>Pattes d'araignée</value></data>
+  <data name="pattes-d-araignee-description"><value>La cible, telle une araignée, peut maintenant grimper aux murs et aux plafonds.</value></data>
+  <data name="peau-d-ecorce"><value>peau-d-ecorce</value></data>
+  <data name="peau-d-ecorce-name"><value>Peau d'écorce</value></data>
+  <data name="peau-d-ecorce-description"><value>La peau de la cible prend l’apparence et la dureté de l’écorce.</value></data>
+  <data name="poigne-electrique"><value>poigne-electrique</value></data>
+  <data name="poigne-electrique-name"><value>Poigne électrique</value></data>
+  <data name="poigne-electrique-description"><value>Un court arc électrique jaillit de votre main et frappe votre cible.</value></data>
+  <data name="poison-naturel"><value>poison-naturel</value></data>
+  <data name="poison-naturel-name"><value>Poison naturel</value></data>
+  <data name="poison-naturel-description"><value>Votre arme exsude un poison qui la rend très dangereuse.</value></data>
+  <data name="porte-bonheur"><value>porte-bonheur</value></data>
+  <data name="porte-bonheur-name"><value>Porte-bonheur</value></data>
+  <data name="porte-bonheur-description"><value>Vous agrippez votre porte-bonheur en espérant éviter une grave blessure.</value></data>
+  <data name="prestidigitation"><value>prestidigitation</value></data>
+  <data name="prestidigitation-name"><value>Prestidigitation</value></data>
+  <data name="prestidigitation-description"><value>Vous créez un effet magique mineur.</value></data>
+  <data name="priere-de-soins"><value>priere-de-soins</value></data>
+  <data name="priere-de-soins-name"><value>Prière de soins</value></data>
+  <data name="priere-de-soins-description"><value>Vos prières soignent lentement les blessures de vos compagnons.</value></data>
+  <data name="produire-une-flamme"><value>produire-une-flamme</value></data>
+  <data name="produire-une-flamme-name"><value>Produire une flamme</value></data>
+  <data name="produire-une-flamme-description"><value>Une flamme apparaît dans votre main. Elle peut vous servir de torche ou de projectile.</value></data>
+  <data name="projectile-magique"><value>projectile-magique</value></data>
+  <data name="projectile-magique-name"><value>Projectile magique</value></data>
+  <data name="projectile-magique-description"><value>Vous projetez trois fléchettes de force magique qui trouvent leur cible sans faillir.</value></data>
+  <data name="protection-contre-le-poison"><value>protection-contre-le-poison</value></data>
+  <data name="protection-contre-le-poison-name"><value>Protection contre le poison</value></data>
+  <data name="protection-contre-le-poison-description"><value>Vous protégez votre cible contre les poisons.</value></data>
+  <data name="purification-de-la-nourriture-et-de-l-eau"><value>purification-de-la-nourriture-et-de-l-eau</value></data>
+  <data name="purification-de-la-nourriture-et-de-l-eau-name"><value>Purification de la nourriture et de l'eau</value></data>
+  <data name="purification-de-la-nourriture-et-de-l-eau-description"><value>Vous vous assurez que l’eau et la nourriture soient saines.</value></data>
+  <data name="rayon-affaiblissant"><value>rayon-affaiblissant</value></data>
+  <data name="rayon-affaiblissant-name"><value>Rayon affaiblissant</value></data>
+  <data name="rayon-affaiblissant-description"><value>Un rayon noir frappe votre cible, qui sent soudain ses forces la quitter.</value></data>
+  <data name="rayon-ardent"><value>rayon-ardent</value></data>
+  <data name="rayon-ardent-name"><value>Rayon ardent</value></data>
+  <data name="rayon-ardent-description"><value>Vous projetez trois terribles rayons de feu.</value></data>
+  <data name="rayon-de-givre"><value>rayon-de-givre</value></data>
+  <data name="rayon-de-givre-name"><value>Rayon de givre</value></data>
+  <data name="rayon-de-givre-description"><value>Vous projetez un rayon bleu qui ralentit cible.</value></data>
+  <data name="rayon-de-lune"><value>rayon-de-lune</value></data>
+  <data name="rayon-de-lune-name"><value>Rayon de lune</value></data>
+  <data name="rayon-de-lune-description"><value>Vous invoquez la lumière de la lune afin de blesser vos ennemis et forcer les métamorphes à reprendre leur forme originale.</value></data>
+  <data name="reparation"><value>reparation</value></data>
+  <data name="reparation-name"><value>Réparation</value></data>
+  <data name="reparation-description"><value>L’objet cassé se répare soudainement.</value></data>
+  <data name="restauration-inferieure"><value>restauration-inferieure</value></data>
+  <data name="restauration-inferieure-name"><value>Restauration inférieure</value></data>
+  <data name="restauration-inferieure-description"><value>Un petit miracle soigne un état préjudiciable.</value></data>
+  <data name="sanctuaire"><value>sanctuaire</value></data>
+  <data name="sanctuaire-name"><value>Sanctuaire</value></data>
+  <data name="sanctuaire-description"><value>Votre cible traverse le champ de bataille sans être attaquée.</value></data>
+  <data name="saut"><value>saut</value></data>
+  <data name="saut-name"><value>Saut</value></data>
+  <data name="saut-description"><value>La cible de votre sort bondit plus haut et plus loin.</value></data>
+  <data name="silence"><value>silence</value></data>
+  <data name="silence-name"><value>Silence</value></data>
+  <data name="silence-description"><value>Vous créez une zone où aucun son ne circule.</value></data>
+  <data name="soin-des-blessures"><value>soin-des-blessures</value></data>
+  <data name="soin-des-blessures-name"><value>Soin des blessures</value></data>
+  <data name="soin-des-blessures-description"><value>Votre magie referme les blessures et redonne courage.</value></data>
+  <data name="sommeil"><value>sommeil</value></data>
+  <data name="sommeil-name"><value>Sommeil</value></data>
+  <data name="sommeil-description"><value>Vos ennemis les plus faibles s’effondrent, endormis.</value></data>
+  <data name="sphere-de-feu"><value>sphere-de-feu</value></data>
+  <data name="sphere-de-feu-name"><value>Sphère de feu</value></data>
+  <data name="sphere-de-feu-description"><value>Vous créez une sphère enflammée que vous déplacez aux quatre coins du champ de bataille.</value></data>
+  <data name="stalagmites-fulgurantes"><value>stalagmites-fulgurantes</value></data>
+  <data name="stalagmites-fulgurantes-name"><value>Stalagmites fulgurantes</value></data>
+  <data name="stalagmites-fulgurantes-description"><value>Des stalagmites surgissent du sol et bloquent le passage.</value></data>
+  <data name="suggestion"><value>suggestion</value></data>
+  <data name="suggestion-name"><value>Suggestion</value></data>
+  <data name="suggestion-description"><value>Votre cible suit vos ordres sans sourciller.</value></data>
+  <data name="tenebres"><value>tenebres</value></data>
+  <data name="tenebres-name"><value>Ténèbres</value></data>
+  <data name="tenebres-description"><value>Vous créez une zone de pures ténèbres.</value></data>
+  <data name="toile-d-araignee"><value>toile-d-araignee</value></data>
+  <data name="toile-d-araignee-name"><value>Toile d'araignée</value></data>
+  <data name="toile-d-araignee-description"><value>Vous invoquez des toiles d’araignée épaisses et collantes.</value></data>
+  <data name="trait-de-feu"><value>trait-de-feu</value></data>
+  <data name="trait-de-feu-name"><value>Trait de feu</value></data>
+  <data name="trait-de-feu-description"><value>Vous projetez un projectile de feu sur votre cible.</value></data>
+  <data name="vague-tonnante"><value>vague-tonnante</value></data>
+  <data name="vague-tonnante-name"><value>Vague tonnante</value></data>
+  <data name="vague-tonnante-description"><value>Vous invoquez la force du tonnerre pour blesser et repousser vos ennemis.</value></data>
+  </root>

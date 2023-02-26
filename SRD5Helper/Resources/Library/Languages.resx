@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abyssal" xml:space="preserve">
+    <value>abyssal</value>
+  </data>
+  <data name="abyssal-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="abyssal-name" xml:space="preserve">
+    <value>Abyssal</value>
+  </data>
+  <data name="celeste" xml:space="preserve">
+    <value>celeste</value>
+  </data>
+  <data name="celeste-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="celeste-name" xml:space="preserve">
+    <value>Céleste</value>
+  </data>
+  <data name="commun" xml:space="preserve">
+    <value>commun</value>
+  </data>
+  <data name="commun-des-profondeurs" xml:space="preserve">
+    <value>commun-des-profondeurs</value>
+  </data>
+  <data name="commun-des-profondeurs-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="commun-des-profondeurs-name" xml:space="preserve">
+    <value>Commun des profondeurs</value>
+  </data>
+  <data name="commun-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="commun-name" xml:space="preserve">
+    <value>Commun</value>
+  </data>
+  <data name="draconique" xml:space="preserve">
+    <value>draconique</value>
+  </data>
+  <data name="draconique-description" xml:space="preserve">
+    <value>Le draconique est considéré comme une des langues les plus anciennes et est souvent utilisé pour étudier la magie. C’est une langue composée de consonnes dures et de sifflement, qui semble rude à la plupart des autres créatures.</value>
+  </data>
+  <data name="draconique-name" xml:space="preserve">
+    <value>Draconique</value>
+  </data>
+  <data name="elfe" xml:space="preserve">
+    <value>elfe</value>
+  </data>
+  <data name="elfe-description" xml:space="preserve">
+    <value>Le langage des elfes est fluide, avec des intonations subtiles et une grammaire élaborée. La littérature elfique est riche et variée, et leurs chansons et poèmes sont populaires parmi les autres races. De nombreux bardes apprennent à parler elfe afin de pouvoir ajouter des ballades elfiques à leur répertoire.</value>
+  </data>
+  <data name="elfe-name" xml:space="preserve">
+    <value>Elfe</value>
+  </data>
+  <data name="geant" xml:space="preserve">
+    <value>geant</value>
+  </data>
+  <data name="geant-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="geant-name" xml:space="preserve">
+    <value>Géant</value>
+  </data>
+  <data name="gnome" xml:space="preserve">
+    <value>gnome</value>
+  </data>
+  <data name="gnome-description" xml:space="preserve">
+    <value>La langue gnome utilise le même alphabet que les nains(le Runique). Les gnomes sont renommés pour leurs traités techniques et leurs catalogues de connaissances sur la nature.</value>
+  </data>
+  <data name="gnome-name" xml:space="preserve">
+    <value>Gnome</value>
+  </data>
+  <data name="gobelin" xml:space="preserve">
+    <value>gobelin</value>
+  </data>
+  <data name="gobelin-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gobelin-name" xml:space="preserve">
+    <value>Gobelin</value>
+  </data>
+  <data name="halfelin" xml:space="preserve">
+    <value>halfelin</value>
+  </data>
+  <data name="halfelin-description" xml:space="preserve">
+    <value>Bien que la langue des halfelins n’ait rien d’un secret, ils n’aiment pas l’apprendre aux autres. Ils écrivent très peu et n’ont donc pas énormément de livres. Leur tradition orale est par contre très riche. Presque tous les halfelins parlent le commun, une langue dont ils partagent l’alphabet, ce qui leur permet de converser avec les gens qui habitent sur les mêmes territoires qu’eux ou dont ils traversent les terres.</value>
+  </data>
+  <data name="halfelin-name" xml:space="preserve">
+    <value>Halfelin</value>
+  </data>
+  <data name="infernal" xml:space="preserve">
+    <value>infernal</value>
+  </data>
+  <data name="infernal-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infernal-name" xml:space="preserve">
+    <value>Infernal</value>
+  </data>
+  <data name="nain" xml:space="preserve">
+    <value>nain</value>
+  </data>
+  <data name="nain-description" xml:space="preserve">
+    <value>Le nain est une langue aux consonnes dures et aux sons gutturaux, des spécificités qui se retrouvent dans l’accent qu’ont les nains en parlant un autre langage.</value>
+  </data>
+  <data name="nain-name" xml:space="preserve">
+    <value>Nain</value>
+  </data>
+  <data name="noir-parler" xml:space="preserve">
+    <value>noir-parler</value>
+  </data>
+  <data name="noir-parler-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="noir-parler-name" xml:space="preserve">
+    <value>Noir parler</value>
+  </data>
+  <data name="orc" xml:space="preserve">
+    <value>orc</value>
+  </data>
+  <data name="orc-description" xml:space="preserve">
+    <value>La langue orc a une sonorité dure et certains sons évoquent des grincements. Les orcs n’ont pas d’alphabet propre et utilisent donc le même alphabet que les nains : le Runique.</value>
+  </data>
+  <data name="orc-name" xml:space="preserve">
+    <value>Orc</value>
+  </data>
+  <data name="primordial" xml:space="preserve">
+    <value>primordial</value>
+  </data>
+  <data name="primordial-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="primordial-name" xml:space="preserve">
+    <value>Primordial</value>
+  </data>
+  <data name="sseslish" xml:space="preserve">
+    <value>sseslish</value>
+  </data>
+  <data name="sseslish-description" xml:space="preserve">
+    <value>Vous parlez le Sseslish, le dialecte homme serpent qui n’a pas de forme écrite.</value>
+  </data>
+  <data name="sseslish-name" xml:space="preserve">
+    <value>Sseslish</value>
+  </data>
+  <data name="sylvestre" xml:space="preserve">
+    <value>sylvestre</value>
+  </data>
+  <data name="sylvestre-description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sylvestre-name" xml:space="preserve">
+    <value>Sylvestre</value>
+  </data>
+</root>
