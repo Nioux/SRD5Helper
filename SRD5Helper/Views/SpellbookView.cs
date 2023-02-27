@@ -230,8 +230,8 @@ public class SpellView : ContentView
                     .Bind(SheetCheckbox.CommandParameterProperty, source: this, path: NameOf(() => Spell))
                     ,
                     //.Bind(SheetCheckbox.IsCheckedProperty, source: this, path: JoinPath(nameof(Spell), nameof(Spell.IsPrepared)), convert: (bool isPrepared) => isPrepared),
-                new SheetButton { Content = new Label { Text = "Cast", TextColor = Colors.Black, }, }
-                    .Column(3)
+                /*new SheetButton { Content = new Label { Text = "Cast", TextColor = Colors.Black, }, }
+                    .Column(3),*/
             }
         };
 

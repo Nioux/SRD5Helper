@@ -85,7 +85,8 @@ public static class SRD
 
         using (var spellsStream = File.CreateText(@"SpellsData.cs"))
         {
-            spellsStream.Write($@"using Library = SRD5Helper.Resources.Library;
+            spellsStream.Write($@"using SRD5Helper.DataModels;
+using Library = SRD5Helper.Resources.Library;
 namespace SRD5Helper.Data;
 public partial class DataService
 {{
