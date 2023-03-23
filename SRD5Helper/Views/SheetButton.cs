@@ -65,7 +65,7 @@ public class SheetCheckbox : SheetButton
     public SheetCheckbox()
     {
         //Command = new RelayCommand(() => IsChecked = !IsChecked );
-        Content = new Grid { }.Bind(BackgroundColorProperty, source: this, path: nameof(IsChecked), convert: (bool check) => check ? Colors.Red : Colors.Green);
+        Content = new BoxView /*Grid*/ { }.Bind(BoxView.ColorProperty, source: this, path: nameof(IsChecked), convert: (bool check) => check ? Colors.Red : Colors.Green);
     }
 }
 

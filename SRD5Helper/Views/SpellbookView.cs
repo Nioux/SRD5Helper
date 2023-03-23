@@ -204,9 +204,10 @@ public class SpellView : ContentView
             ColumnDefinitions = new ColumnDefinitionCollection
             {
                 new ColumnDefinition(new GridLength(1, GridUnitType.Star)),
-                new ColumnDefinition(new GridLength(1, GridUnitType.Auto)),
-                new ColumnDefinition(new GridLength(1, GridUnitType.Auto)),
-                new ColumnDefinition(new GridLength(1, GridUnitType.Auto)),
+                new ColumnDefinition(new GridLength(30)),
+                new ColumnDefinition(new GridLength(30)),
+                new ColumnDefinition(new GridLength(30)),
+                //new ColumnDefinition(new GridLength(1, GridUnitType.Auto)),
             },
             //Style = style,
             Children = 
@@ -230,7 +231,7 @@ public class SpellView : ContentView
                     .Bind(SheetCheckbox.CommandParameterProperty, source: this, path: NameOf(() => Spell))
                     ,
                     //.Bind(SheetCheckbox.IsCheckedProperty, source: this, path: JoinPath(nameof(Spell), nameof(Spell.IsPrepared)), convert: (bool isPrepared) => isPrepared),
-                /*new SheetButton { Content = new Label { Text = "Cast", TextColor = Colors.Black, }, }
+                /*new SheetButton { WidthRequest = 20, HeightRequest = 20, Content = new Label { Text = "Cast", TextColor = Colors.Black, }, }
                     .Column(3),*/
             }
         };
