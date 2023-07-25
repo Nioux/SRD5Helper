@@ -120,9 +120,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Maui" Version="5.0.0" />
-		<PackageReference Include="CommunityToolkit.Maui.Markup" Version="3.1.0" />
-		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0-preview1" />
+		<PackageReference Include="CommunityToolkit.Maui" Version="5.2.0" />
+		<PackageReference Include="CommunityToolkit.Maui.Markup" Version="3.2.0" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
 		<PackageReference Include="EverCodo.ChangesMonitoring" Version="1.0.0" />
 		<PackageReference Include="Macross.Json.Extensions" Version="3.0.0" />
 		<PackageReference Include="Markdig" Version="0.31.0" />
@@ -131,7 +131,7 @@
 		<PackageReference Include="Plugin.Maui.Audio" Version="1.0.0" />
 		<PackageReference Include="Vapolia.MauiGesture" Version="1.0.0-ci2501125632" />
 		<PackageReference Include="XamiTextSharpLGPLv2" Version="1.0.0" />
-		<PackageReference Include="YamlDotNet" Version="13.0.2" />
+		<PackageReference Include="YamlDotNet" Version="13.1.1" />
 	</ItemGroup>
 
 	<ItemGroup>
